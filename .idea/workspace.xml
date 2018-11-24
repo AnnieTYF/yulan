@@ -7,313 +7,51 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e49d8f3b-fac9-412c-952d-2f996440b542" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yulan/controller/Web_userController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yulan/dao/Web_userDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yulan/pojo/Web_user.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yulan/service/Web_userService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yulan/service/impl/Web_userServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yulan/utils/MD5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resource/mappers/Web_userMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/address-add.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/address-edit.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/address-list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/admin-add.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/admin-edit.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/admin-list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/article-add.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/article-edit.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/article-list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/article-show.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/articleType-add.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/articleType-edit.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/articleType-list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/banner-add.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/banner-edit.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/banner-list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/banner-pc-add.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/banner-pc-list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/banner-show.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/class-add.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/class-edit.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/class-list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/consult-add.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/consult-college-list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/consult-edit.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/consult-first-list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/consult-guangzhou-residence-ask-list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/consult-guangzhou-residence-simple-list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/consult-list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/consult-residence-list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/consult-statistics.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/consult-work-list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/consult-work-simple-list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/css/component.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/css/demo.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/css/normalize.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/css/x-admin.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/images/banner.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/images/icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/images/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/img/demo-1-bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/img/login_ico.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/js/EasePack.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/js/TweenLite.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/js/demo-1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/js/echarts.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/js/function.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/js/html5.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/js/jquery-3.1.1.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/js/jquery.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/js/rAF.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/js/url.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/js/x-admin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/js/x-layui.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/layui/css/layui.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/layui/css/layui.mobile.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/layui/css/modules/code.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/layui/css/modules/laydate/default/laydate.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/layui/css/modules/layer/default/icon-ext.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/layui/css/modules/layer/default/icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/layui/css/modules/layer/default/layer.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/layui/css/modules/layer/default/loading-0.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/layui/css/modules/layer/default/loading-1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/layui/css/modules/layer/default/loading-2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/layui/font/iconfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/layui/font/iconfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/layui/font/iconfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/layui/font/iconfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/layui/images/face/0.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/layui/images/face/1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/layui/images/face/10.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/layui/images/face/11.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/layui/images/face/12.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/layui/images/face/13.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/layui/images/face/14.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/layui/images/face/15.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/layui/images/face/16.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/layui/images/face/17.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/layui/images/face/18.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/layui/images/face/19.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/layui/images/face/2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/layui/images/face/20.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/layui/images/face/21.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/layui/images/face/22.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/layui/images/face/23.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/layui/images/face/24.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/layui/images/face/25.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/layui/images/face/26.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/layui/images/face/27.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/layui/images/face/28.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/layui/images/face/29.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/layui/images/face/3.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/layui/images/face/30.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/layui/images/face/31.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/layui/images/face/32.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/layui/images/face/33.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/layui/images/face/34.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/layui/images/face/35.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/layui/images/face/36.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/layui/images/face/37.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/layui/images/face/38.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/layui/images/face/39.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/layui/images/face/4.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/layui/images/face/40.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/layui/images/face/41.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/layui/images/face/42.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/layui/images/face/43.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/layui/images/face/44.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/layui/images/face/45.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/layui/images/face/46.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/layui/images/face/47.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/layui/images/face/48.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/layui/images/face/49.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/layui/images/face/5.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/layui/images/face/50.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/layui/images/face/51.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/layui/images/face/52.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/layui/images/face/53.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/layui/images/face/54.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/layui/images/face/55.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/layui/images/face/56.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/layui/images/face/57.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/layui/images/face/58.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/layui/images/face/59.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/layui/images/face/6.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/layui/images/face/60.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/layui/images/face/61.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/layui/images/face/62.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/layui/images/face/63.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/layui/images/face/64.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/layui/images/face/65.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/layui/images/face/66.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/layui/images/face/67.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/layui/images/face/68.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/layui/images/face/69.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/layui/images/face/7.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/layui/images/face/70.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/layui/images/face/71.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/layui/images/face/8.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/layui/images/face/9.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/layui/lay/modules/carousel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/layui/lay/modules/code.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/layui/lay/modules/element.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/layui/lay/modules/flow.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/layui/lay/modules/form.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/layui/lay/modules/jquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/layui/lay/modules/laydate.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/layui/lay/modules/layedit.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/layui/lay/modules/layer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/layui/lay/modules/laypage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/layui/lay/modules/laytpl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/layui/lay/modules/mobile.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/layui/lay/modules/rate.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/layui/lay/modules/table.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/layui/lay/modules/tree.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/layui/lay/modules/upload.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/layui/lay/modules/util.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/layui/layui.all.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/layui/layui.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/layui/小笔记.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/lib/bootstrap/css/bootstrap-theme.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/lib/bootstrap/css/bootstrap-theme.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/lib/bootstrap/css/bootstrap-theme.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/lib/bootstrap/css/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/lib/bootstrap/css/bootstrap.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/lib/bootstrap/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/lib/bootstrap/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/lib/bootstrap/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/lib/bootstrap/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/lib/bootstrap/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/lib/bootstrap/js/bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/lib/bootstrap/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/lib/bootstrap/js/npm.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/lib/layui/css/layui.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/lib/layui/css/modules/code.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/lib/layui/css/modules/laydate/icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/lib/layui/css/modules/laydate/laydate.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/lib/layui/css/modules/layer/default/icon-ext.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/lib/layui/css/modules/layer/default/icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/lib/layui/css/modules/layer/default/layer.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/lib/layui/css/modules/layer/default/loading-0.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/lib/layui/css/modules/layer/default/loading-1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/lib/layui/css/modules/layer/default/loading-2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/lib/layui/font/iconfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/lib/layui/font/iconfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/lib/layui/font/iconfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/lib/layui/font/iconfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/lib/layui/images/face/0.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/lib/layui/images/face/1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/lib/layui/images/face/10.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/lib/layui/images/face/11.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/lib/layui/images/face/12.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/lib/layui/images/face/13.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/lib/layui/images/face/14.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/lib/layui/images/face/15.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/lib/layui/images/face/16.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/lib/layui/images/face/17.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/lib/layui/images/face/18.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/lib/layui/images/face/19.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/lib/layui/images/face/2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/lib/layui/images/face/20.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/lib/layui/images/face/21.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/lib/layui/images/face/22.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/lib/layui/images/face/23.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/lib/layui/images/face/24.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/lib/layui/images/face/25.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/lib/layui/images/face/26.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/lib/layui/images/face/27.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/lib/layui/images/face/28.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/lib/layui/images/face/29.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/lib/layui/images/face/3.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/lib/layui/images/face/30.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/lib/layui/images/face/31.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/lib/layui/images/face/32.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/lib/layui/images/face/33.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/lib/layui/images/face/34.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/lib/layui/images/face/35.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/lib/layui/images/face/36.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/lib/layui/images/face/37.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/lib/layui/images/face/38.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/lib/layui/images/face/39.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/lib/layui/images/face/4.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/lib/layui/images/face/40.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/lib/layui/images/face/41.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/lib/layui/images/face/42.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/lib/layui/images/face/43.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/lib/layui/images/face/44.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/lib/layui/images/face/45.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/lib/layui/images/face/46.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/lib/layui/images/face/47.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/lib/layui/images/face/48.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/lib/layui/images/face/49.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/lib/layui/images/face/5.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/lib/layui/images/face/50.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/lib/layui/images/face/51.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/lib/layui/images/face/52.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/lib/layui/images/face/53.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/lib/layui/images/face/54.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/lib/layui/images/face/55.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/lib/layui/images/face/56.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/lib/layui/images/face/57.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/lib/layui/images/face/58.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/lib/layui/images/face/59.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/lib/layui/images/face/6.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/lib/layui/images/face/60.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/lib/layui/images/face/61.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/lib/layui/images/face/62.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/lib/layui/images/face/63.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/lib/layui/images/face/64.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/lib/layui/images/face/65.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/lib/layui/images/face/66.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/lib/layui/images/face/67.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/lib/layui/images/face/68.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/lib/layui/images/face/69.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/lib/layui/images/face/7.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/lib/layui/images/face/70.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/lib/layui/images/face/71.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/lib/layui/images/face/8.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/lib/layui/images/face/9.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/lib/layui/lay/dest/layui.all.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/lib/layui/lay/lib/jquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/lib/layui/lay/modules/code.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/lib/layui/lay/modules/element.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/lib/layui/lay/modules/flow.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/lib/layui/lay/modules/form.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/lib/layui/lay/modules/laydate.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/lib/layui/lay/modules/layedit.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/lib/layui/lay/modules/layer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/lib/layui/lay/modules/laypage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/lib/layui/lay/modules/laytpl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/lib/layui/lay/modules/tree.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/lib/layui/lay/modules/upload.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/lib/layui/lay/modules/util.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/lib/layui/layui.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/manager.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/sys-data.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/sys-link.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/sys-log.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/sys-qq.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/sys-set.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/sys-shield.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/teacher-add.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/teacher-edit.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/teacher-list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/upimg.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/upload.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/welcome.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/Web_userTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Java_EE_6_Java_EE_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yulan/controller/WebcontractwfmemberController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yulan/dao/WebcontractwfmemberDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yulan/filter/AccessFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yulan/pojo/Webcontractwfmember.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yulan/service/WebcontractwfmemberService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yulan/service/impl/webcontractwfmemberServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yulan/utils/Response.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yulan/utils/Token.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resource/mappers/WebcontractwfmemberMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/test.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/WebcontractwfmemberTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/yulan/pojo/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yulan/pojo/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/UserTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/UserTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yulan/pojo/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yulan/pojo/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/UserTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/UserTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yulan/controller/Web_userController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yulan/controller/Web_userController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yulan/dao/Web_userDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yulan/dao/Web_userDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yulan/pojo/Web_user.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yulan/pojo/Web_user.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yulan/service/Web_userService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yulan/service/Web_userService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yulan/service/impl/Web_userServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yulan/service/impl/Web_userServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resource/mappers/Web_userMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resource/mappers/Web_userMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/page/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/page/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/page/js/url.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/page/js/url.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/page/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/page/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/page/welcome.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/page/welcome.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/Web_userTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/Web_userTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yulan/controller/Web_userController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yulan/controller/Web_userController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yulan/dao/Web_userDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yulan/dao/Web_userDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yulan/pojo/Web_user.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yulan/pojo/Web_user.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yulan/service/Web_userService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yulan/service/Web_userService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yulan/service/impl/Web_userServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yulan/service/impl/Web_userServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mappers/Web_userMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mappers/Web_userMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Web_userTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Web_userTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/yulan/WEB-INF/classes/com/yulan/controller/Web_userController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/yulan/WEB-INF/classes/com/yulan/controller/Web_userController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/yulan/WEB-INF/classes/com/yulan/dao/Web_userDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/yulan/WEB-INF/classes/com/yulan/dao/Web_userDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/yulan/WEB-INF/classes/com/yulan/pojo/Web_user.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/yulan/WEB-INF/classes/com/yulan/pojo/Web_user.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/yulan/WEB-INF/classes/com/yulan/service/Web_userService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/yulan/WEB-INF/classes/com/yulan/service/Web_userService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/yulan/WEB-INF/classes/com/yulan/service/impl/Web_userServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/yulan/WEB-INF/classes/com/yulan/service/impl/Web_userServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/yulan/WEB-INF/classes/mappers/Web_userMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/yulan/WEB-INF/classes/mappers/Web_userMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/yulan/WEB-INF/lib/json-20160212.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/yulan/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/yulan/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/yulan/page/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/yulan/page/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/yulan/page/js/url.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/yulan/page/js/url.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/yulan/page/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/yulan/page/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/yulan/page/welcome.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/yulan/page/welcome.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -322,6 +60,9 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -384,51 +125,56 @@
     <session id="1085578736">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="8" />
+          <entry key="project.closed" value="12" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="3" />
           <entry key="project.open.time.13" value="1" />
-          <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.2" value="3" />
           <entry key="project.open.time.24" value="1" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.4" value="1" />
-          <entry key="project.opened" value="9" />
+          <entry key="project.open.time.5" value="1" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.opened" value="13" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="html" value="177" />
-          <entry key="java" value="660" />
-          <entry key="xml" value="145" />
+          <entry key="html" value="317" />
+          <entry key="java" value="1548" />
+          <entry key="js" value="5" />
+          <entry key="xml" value="334" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="177" />
-          <entry key="JAVA" value="660" />
-          <entry key="XML" value="145" />
+          <entry key="HTML" value="317" />
+          <entry key="JAVA" value="1548" />
+          <entry key="JavaScript" value="5" />
+          <entry key="SQL" value="14" />
+          <entry key="XML" value="320" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="1" />
-          <entry key="html" value="3" />
-          <entry key="java" value="14" />
-          <entry key="js" value="2" />
-          <entry key="properties" value="1" />
+          <entry key="html" value="14" />
+          <entry key="java" value="40" />
+          <entry key="js" value="3" />
+          <entry key="properties" value="3" />
           <entry key="sql" value="1" />
-          <entry key="xml" value="4" />
+          <entry key="xml" value="15" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="1" />
-          <entry key="HTML" value="3" />
-          <entry key="JAVA" value="14" />
-          <entry key="JavaScript" value="2" />
-          <entry key="Properties" value="1" />
+          <entry key="HTML" value="14" />
+          <entry key="JAVA" value="40" />
+          <entry key="JavaScript" value="3" />
+          <entry key="Properties" value="3" />
           <entry key="Scratch" value="1" />
-          <entry key="XML" value="4" />
+          <entry key="XML" value="15" />
         </counts>
       </usages-collector>
     </session>
@@ -436,13 +182,119 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/Web_userTest.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/yulan/service/impl/Web_userServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="19" column="66" selection-start-line="19" selection-start-column="66" selection-end-line="19" selection-end-column="66" />
+            <state relative-caret-position="288">
+              <caret line="16" column="53" selection-start-line="16" selection-start-column="53" selection-end-line="16" selection-end-column="53" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/yulan/pojo/Webcontractwfmember.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="126">
+              <caret line="7" column="24" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="24" />
+              <folding>
+                <element signature="e#515#516#0" expanded="true" />
+                <element signature="e#544#545#0" expanded="true" />
+                <element signature="e#588#589#0" expanded="true" />
+                <element signature="e#624#625#0" expanded="true" />
+                <element signature="e#653#654#0" expanded="true" />
+                <element signature="e#681#682#0" expanded="true" />
+                <element signature="e#720#721#0" expanded="true" />
+                <element signature="e#754#755#0" expanded="true" />
+                <element signature="e#789#790#0" expanded="true" />
+                <element signature="e#820#821#0" expanded="true" />
+                <element signature="e#868#869#0" expanded="true" />
+                <element signature="e#908#909#0" expanded="true" />
+                <element signature="e#947#948#0" expanded="true" />
+                <element signature="e#982#983#0" expanded="true" />
+                <element signature="e#1038#1039#0" expanded="true" />
+                <element signature="e#1086#1087#0" expanded="true" />
+                <element signature="e#1118#1119#0" expanded="true" />
+                <element signature="e#1149#1150#0" expanded="true" />
+                <element signature="e#1194#1195#0" expanded="true" />
+                <element signature="e#1234#1235#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/yulan/dao/WebcontractwfmemberDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="11" column="40" selection-start-line="11" selection-start-column="40" selection-end-line="11" selection-end-column="40" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resource/mappers/WebcontractwfmemberMapper.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="15" column="31" lean-forward="true" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/yulan/service/WebcontractwfmemberService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="108">
+              <caret line="6" column="76" selection-start-line="6" selection-start-column="76" selection-end-line="6" selection-end-column="76" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/yulan/service/impl/webcontractwfmemberServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="324">
+              <caret line="18" column="60" lean-forward="true" selection-start-line="18" selection-start-column="60" selection-end-line="18" selection-end-column="60" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/WebcontractwfmemberTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="20" column="11" lean-forward="true" selection-start-line="15" selection-start-column="10" selection-end-line="20" selection-end-column="11" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/yulan/controller/WebcontractwfmemberController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="432">
+              <caret line="31" column="26" lean-forward="true" selection-start-line="31" selection-start-column="26" selection-end-line="31" selection-end-column="26" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/UserTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="234">
+              <caret line="19" column="5" lean-forward="true" selection-start-line="15" selection-start-column="4" selection-end-line="19" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -450,124 +302,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/yulan/dao/Web_userDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="9" column="88" selection-start-line="9" selection-start-column="88" selection-end-line="9" selection-end-column="88" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/yulan/pojo/Web_user.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1135">
-              <caret line="60" column="23" selection-start-line="60" selection-start-column="23" selection-end-line="60" selection-end-column="23" />
-              <folding>
-                <element signature="e#488#489#0" expanded="true" />
-                <element signature="e#518#519#0" expanded="true" />
-                <element signature="e#564#565#0" expanded="true" />
-                <element signature="e#602#603#0" expanded="true" />
-                <element signature="e#632#633#0" expanded="true" />
-                <element signature="e#658#659#0" expanded="true" />
-                <element signature="e#696#697#0" expanded="true" />
-                <element signature="e#726#727#0" expanded="true" />
-                <element signature="e#758#759#0" expanded="true" />
-                <element signature="e#786#787#0" expanded="true" />
-                <element signature="e#828#829#0" expanded="true" />
-                <element signature="e#862#863#0" expanded="true" />
-                <element signature="e#893#894#0" expanded="true" />
-                <element signature="e#920#921#0" expanded="true" />
-                <element signature="e#960#961#0" expanded="true" />
-                <element signature="e#992#993#0" expanded="true" />
-                <element signature="e#1019#1020#0" expanded="true" />
-                <element signature="e#1044#1045#0" expanded="true" />
-                <element signature="e#1078#1079#0" expanded="true" />
-                <element signature="e#1106#1107#0" expanded="true" />
-                <element signature="e#1139#1140#0" expanded="true" />
-                <element signature="e#1168#1169#0" expanded="true" />
-                <element signature="e#1212#1213#0" expanded="true" />
-                <element signature="e#1248#1249#0" expanded="true" />
-                <element signature="e#1283#1284#0" expanded="true" />
-                <element signature="e#1316#1317#0" expanded="true" />
-                <element signature="e#1366#1367#0" expanded="true" />
-                <element signature="e#1410#1411#0" expanded="true" />
-                <element signature="e#1447#1448#0" expanded="true" />
-                <element signature="e#1480#1481#0" expanded="true" />
-                <element signature="e#1532#1533#0" expanded="true" />
-                <element signature="e#1576#1577#0" expanded="true" />
-                <element signature="e#1608#1609#0" expanded="true" />
-                <element signature="e#1636#1637#0" expanded="true" />
-                <element signature="e#1678#1679#0" expanded="true" />
-                <element signature="e#1712#1713#0" expanded="true" />
-                <element signature="e#1748#1749#0" expanded="true" />
-                <element signature="e#1780#1781#0" expanded="true" />
-                <element signature="e#1830#1831#0" expanded="true" />
-                <element signature="e#1872#1873#0" expanded="true" />
-                <element signature="e#1907#1908#0" expanded="true" />
-                <element signature="e#1937#1938#0" expanded="true" />
-                <element signature="e#1984#1985#0" expanded="true" />
-                <element signature="e#2022#2023#0" expanded="true" />
-                <element signature="e#2059#2060#0" expanded="true" />
-                <element signature="e#2092#2093#0" expanded="true" />
-                <element signature="e#2144#2145#0" expanded="true" />
-                <element signature="e#2188#2189#0" expanded="true" />
-                <element signature="e#171#172#0" expanded="true" />
-                <element signature="e#203#204#0" expanded="true" />
-                <element signature="e#238#239#0" expanded="true" />
-                <element signature="e#269#270#0" expanded="true" />
-                <element signature="e#304#305#0" expanded="true" />
-                <element signature="e#335#336#0" expanded="true" />
-                <element signature="e#385#386#0" expanded="true" />
-                <element signature="e#427#428#0" expanded="true" />
-                <element signature="e#475#476#0" expanded="true" />
-                <element signature="e#515#516#0" expanded="true" />
-                <element signature="e#563#564#0" expanded="true" />
-                <element signature="e#603#604#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/resource/mappers/Web_userMapper.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="12" column="9" lean-forward="true" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/yulan/controller/Web_userController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="6" column="25" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/yulan/service/impl/Web_userServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="8" selection-start-line="8" selection-end-line="8" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/yulan/service/Web_userService.java">
-          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="72">
-              <caret line="4" selection-start-line="4" selection-end-line="4" />
+              <caret line="4" column="16" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="16" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -591,22 +330,36 @@
         <option value="$PROJECT_DIR$/src/main/resource/jdbc.properties" />
         <option value="$PROJECT_DIR$/src/main/resource/spring-mvc.xml" />
         <option value="$PROJECT_DIR$/src/main/resource/mybatis-config.xml" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/src/main/resource/applicationContext.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/yulan/dao/UserDao.java" />
         <option value="$PROJECT_DIR$/src/main/resource/mappers/AddressMapper.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/yulan/pojo/User.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/webapp/page/index.html" />
         <option value="$PROJECT_DIR$/src/main/java/com/yulan/utils/MD5.java" />
         <option value="$PROJECT_DIR$/src/test/UserTest.java" />
-        <option value="$PROJECT_DIR$/src/test/Web_userTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/yulan/pojo/Web_user.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/yulan/service/impl/Web_userServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/yulan/dao/Web_userDao.java" />
-        <option value="$PROJECT_DIR$/src/main/resource/mappers/Web_userMapper.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/yulan/controller/Web_userController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/yulan/service/Web_userService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/yulan/service/impl/Web_userServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/yulan/utils/Response.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/yulan/pojo/Web_user.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/page/js/url.js" />
+        <option value="$PROJECT_DIR$/src/main/webapp/page/index.html" />
+        <option value="$PROJECT_DIR$/src/test/Web_userTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/yulan/filter/AccessFilter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/yulan/controller/Web_userController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/page/login.html" />
+        <option value="$PROJECT_DIR$/src/main/java/com/yulan/utils/Token.java" />
+        <option value="$PROJECT_DIR$/src/main/resource/mappers/Web_userMapper.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/page/test.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/page/welcome.html" />
+        <option value="$PROJECT_DIR$/src/main/java/com/yulan/pojo/Webcontractwfmember.java" />
+        <option value="$PROJECT_DIR$/src/main/resource/mappers/WebcontractwfmemberMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/yulan/service/WebcontractwfmemberService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/yulan/service/impl/webcontractwfmemberServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/yulan/dao/WebcontractwfmemberDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/yulan/controller/WebcontractwfmemberController.java" />
+        <option value="$PROJECT_DIR$/src/test/WebcontractwfmemberTest.java" />
       </list>
     </option>
   </component>
@@ -700,6 +453,15 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="yulan" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yulan" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yulan" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="yulan" type="462c0819:PsiDirectoryNode" />
               <item name="dao" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -709,7 +471,44 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="yulan" type="462c0819:PsiDirectoryNode" />
+              <item name="filter" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yulan" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yulan" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="yulan" type="462c0819:PsiDirectoryNode" />
+              <item name="pojo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yulan" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yulan" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="yulan" type="462c0819:PsiDirectoryNode" />
               <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yulan" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yulan" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="yulan" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yulan" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yulan" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="yulan" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="yulan" type="b2602c69:ProjectViewProjectNode" />
@@ -796,17 +595,18 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542985482582" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543077538134" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.25041598" />
     <property name="settings.editor.selected.configurable" value="File.Encoding" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.yulan.filter" />
       <recent name="com.yulan.utils" />
       <recent name="" />
     </key>
@@ -828,7 +628,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Tomcat Server.Unnamed">
+  <component name="RunManager" selected="JUnit.WebcontractwfmemberTest">
     <configuration name="UserTest" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
       <module name="yulan" />
       <option name="PACKAGE_NAME" value="" />
@@ -853,6 +653,14 @@
       <module name="yulan" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="UserTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WebcontractwfmemberTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="yulan" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="WebcontractwfmemberTest" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -937,9 +745,11 @@
       <item itemvalue="Android JUnit.UserTest" />
       <item itemvalue="JUnit.UserTest" />
       <item itemvalue="Android JUnit.Web_userTest.test1" />
+      <item itemvalue="JUnit.WebcontractwfmemberTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.WebcontractwfmemberTest" />
         <item itemvalue="Android JUnit.Web_userTest.test1" />
         <item itemvalue="Android JUnit.UserTest" />
         <item itemvalue="JUnit.UserTest" />
@@ -966,20 +776,15 @@
       <workItem from="1542958966504" duration="6446000" />
       <workItem from="1542976932966" duration="341000" />
       <workItem from="1542977293795" duration="180000" />
-      <workItem from="1542977642213" duration="7153000" />
+      <workItem from="1542977642213" duration="7663000" />
+      <workItem from="1543025166398" duration="3032000" />
+      <workItem from="1543029921851" duration="2924000" />
+      <workItem from="1543044914014" duration="11071000" />
+      <workItem from="1543068360193" duration="6043000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="UserTest - 2018.11.23 at 10h 36m 04s.xml">
-      <configuration name="UserTest" configurationId="AndroidJUnit" />
-    </history-entry>
-    <history-entry file="UserTest - 2018.11.23 at 10h 59m 39s.xml">
-      <configuration name="UserTest" configurationId="AndroidJUnit" />
-    </history-entry>
-    <history-entry file="UserTest - 2018.11.23 at 11h 00m 18s.xml">
-      <configuration name="UserTest" configurationId="AndroidJUnit" />
-    </history-entry>
     <history-entry file="UserTest - 2018.11.23 at 17h 20m 06s.xml">
       <configuration name="UserTest" configurationId="AndroidJUnit" />
     </history-entry>
@@ -1001,11 +806,20 @@
     <history-entry file="Web_userTest_test1 - 2018.11.23 at 21h 48m 50s.xml">
       <configuration name="Web_userTest.test1" configurationId="AndroidJUnit" />
     </history-entry>
+    <history-entry file="WebcontractwfmemberTest - 2018.11.25 at 00h 02m 08s.xml">
+      <configuration name="WebcontractwfmemberTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="WebcontractwfmemberTest - 2018.11.25 at 00h 02m 11s.xml">
+      <configuration name="WebcontractwfmemberTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="WebcontractwfmemberTest - 2018.11.25 at 00h 22m 06s.xml">
+      <configuration name="WebcontractwfmemberTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31413000" />
+    <option name="totallyTimeSpent" value="54993000" />
   </component>
-  <component name="TodoView" selected-index="3">
+  <component name="TodoView">
     <todo-panel id="selected-file">
       <is-autoscroll-to-source value="true" />
     </todo-panel>
@@ -1018,7 +832,7 @@
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.308311" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2855228" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -1028,15 +842,15 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32907802" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49865952" visible="true" weight="0.19007093" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49865952" weight="0.20425531" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49798927" weight="0.12624113" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49798927" weight="0.24539007" />
       <window_info anchor="bottom" id="Spring" order="7" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5013405" side_tool="true" weight="0.23120567" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.035460994" />
+      <window_info anchor="bottom" id="Messages" order="10" visible="true" weight="0.035460994" />
       <window_info anchor="bottom" id="Java Enterprise" order="11" />
       <window_info anchor="bottom" id="Database Changes" order="12" />
       <window_info anchor="bottom" id="Version Control" order="13" show_stripe_button="false" />
@@ -1064,107 +878,18 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/resource/mappers/AdminMapper.xml" />
-    <entry file="file://$PROJECT_DIR$/src/main/resource/log4j.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resource/mybatis-config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="17" lean-forward="true" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resource/spring-mvc.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="969">
-          <caret line="51" column="10" selection-start-line="51" selection-start-column="10" selection-end-line="51" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/page/js/rAF.js" />
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/page/login.html" />
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="97" selection-start-line="8" selection-start-column="97" selection-end-line="8" selection-end-column="97" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/7e5fb7d3-9ffc-462b-a421-3ce12d4c43fc/console.sql">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7020">
-          <caret line="390" column="17" selection-start-line="390" selection-start-column="17" selection-end-line="390" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/page/js/rAF.js">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/page/login.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/page/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1260">
-          <caret line="70" column="95" selection-start-line="70" selection-start-column="95" selection-end-line="70" selection-end-column="95" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resource/applicationContext.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1710">
-          <caret line="95" column="79" selection-start-line="95" selection-start-column="79" selection-end-line="95" selection-end-column="79" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/yulan/utils/MD5.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
           <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/yulan/pojo/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/yulan/dao/UserDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resource/jdbc.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="1" column="48" lean-forward="true" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resource/mappers/AddressMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="12" column="9" lean-forward="true" selection-end-line="12" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/UserTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret lean-forward="true" selection-end-line="20" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1175,133 +900,302 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yulan/pojo/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resource/mappers/AddressMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="12" column="9" lean-forward="true" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resource/spring-mvc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="918">
+          <caret line="51" column="10" selection-start-line="51" selection-start-column="10" selection-end-line="51" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resource/mybatis-config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resource/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resource/jdbc.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" column="48" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resource/applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1710">
+          <caret line="95" column="79" selection-start-line="95" selection-start-column="79" selection-end-line="95" selection-end-column="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yulan/utils/Response.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="576">
+          <caret line="40" column="37" selection-start-line="40" selection-start-column="37" selection-end-line="40" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yulan/dao/UserDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/page/js/url.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" column="42" selection-start-line="11" selection-start-column="42" selection-end-line="11" selection-end-column="42" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/page/address-add.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/page/sys-link.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="619">
+          <caret line="118" column="23" selection-end-line="118" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/page/banner-show.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="69" column="44" lean-forward="true" selection-start-line="69" selection-start-column="44" selection-end-line="69" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/Web_userTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="19" column="66" selection-start-line="19" selection-start-column="66" selection-end-line="19" selection-end-column="66" />
+        <state relative-caret-position="306">
+          <caret line="17" column="70" selection-start-line="16" selection-start-column="7" selection-end-line="17" selection-end-column="70" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yulan/service/Web_userService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="53" selection-start-line="5" selection-start-column="53" selection-end-line="5" selection-end-column="53" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/yulan/pojo/Web_user.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1135">
-          <caret line="60" column="23" selection-start-line="60" selection-start-column="23" selection-end-line="60" selection-end-column="23" />
-          <folding>
-            <element signature="e#488#489#0" expanded="true" />
-            <element signature="e#518#519#0" expanded="true" />
-            <element signature="e#564#565#0" expanded="true" />
-            <element signature="e#602#603#0" expanded="true" />
-            <element signature="e#632#633#0" expanded="true" />
-            <element signature="e#658#659#0" expanded="true" />
-            <element signature="e#696#697#0" expanded="true" />
-            <element signature="e#726#727#0" expanded="true" />
-            <element signature="e#758#759#0" expanded="true" />
-            <element signature="e#786#787#0" expanded="true" />
-            <element signature="e#828#829#0" expanded="true" />
-            <element signature="e#862#863#0" expanded="true" />
-            <element signature="e#893#894#0" expanded="true" />
-            <element signature="e#920#921#0" expanded="true" />
-            <element signature="e#960#961#0" expanded="true" />
-            <element signature="e#992#993#0" expanded="true" />
-            <element signature="e#1019#1020#0" expanded="true" />
-            <element signature="e#1044#1045#0" expanded="true" />
-            <element signature="e#1078#1079#0" expanded="true" />
-            <element signature="e#1106#1107#0" expanded="true" />
-            <element signature="e#1139#1140#0" expanded="true" />
-            <element signature="e#1168#1169#0" expanded="true" />
-            <element signature="e#1212#1213#0" expanded="true" />
-            <element signature="e#1248#1249#0" expanded="true" />
-            <element signature="e#1283#1284#0" expanded="true" />
-            <element signature="e#1316#1317#0" expanded="true" />
-            <element signature="e#1366#1367#0" expanded="true" />
-            <element signature="e#1410#1411#0" expanded="true" />
-            <element signature="e#1447#1448#0" expanded="true" />
-            <element signature="e#1480#1481#0" expanded="true" />
-            <element signature="e#1532#1533#0" expanded="true" />
-            <element signature="e#1576#1577#0" expanded="true" />
-            <element signature="e#1608#1609#0" expanded="true" />
-            <element signature="e#1636#1637#0" expanded="true" />
-            <element signature="e#1678#1679#0" expanded="true" />
-            <element signature="e#1712#1713#0" expanded="true" />
-            <element signature="e#1748#1749#0" expanded="true" />
-            <element signature="e#1780#1781#0" expanded="true" />
-            <element signature="e#1830#1831#0" expanded="true" />
-            <element signature="e#1872#1873#0" expanded="true" />
-            <element signature="e#1907#1908#0" expanded="true" />
-            <element signature="e#1937#1938#0" expanded="true" />
-            <element signature="e#1984#1985#0" expanded="true" />
-            <element signature="e#2022#2023#0" expanded="true" />
-            <element signature="e#2059#2060#0" expanded="true" />
-            <element signature="e#2092#2093#0" expanded="true" />
-            <element signature="e#2144#2145#0" expanded="true" />
-            <element signature="e#2188#2189#0" expanded="true" />
-            <element signature="e#171#172#0" expanded="true" />
-            <element signature="e#203#204#0" expanded="true" />
-            <element signature="e#238#239#0" expanded="true" />
-            <element signature="e#269#270#0" expanded="true" />
-            <element signature="e#304#305#0" expanded="true" />
-            <element signature="e#335#336#0" expanded="true" />
-            <element signature="e#385#386#0" expanded="true" />
-            <element signature="e#427#428#0" expanded="true" />
-            <element signature="e#475#476#0" expanded="true" />
-            <element signature="e#515#516#0" expanded="true" />
-            <element signature="e#563#564#0" expanded="true" />
-            <element signature="e#603#604#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="90">
+          <caret line="5" column="28" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/yulan/service/Web_userService.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/page/login.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/yulan/dao/Web_userDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="88" selection-start-line="9" selection-start-column="88" selection-end-line="9" selection-end-column="88" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/yulan/service/Web_userService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/yulan/service/impl/Web_userServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="1188">
+          <caret line="66" column="39" selection-start-line="66" selection-start-column="39" selection-end-line="66" selection-end-column="39" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/yulan/controller/Web_userController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" column="25" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
+        <state relative-caret-position="432">
+          <caret line="38" column="28" selection-start-line="38" selection-start-column="23" selection-end-line="38" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yulan/utils/Token.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6534">
+          <caret line="363" column="17" selection-start-line="363" selection-start-column="17" selection-end-line="363" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/page/welcome.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="18" column="24" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/page/test.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="4" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/page/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="25" column="56" selection-start-line="25" selection-start-column="56" selection-end-line="25" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yulan/filter/AccessFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="25" column="119" selection-start-line="25" selection-start-column="119" selection-end-line="25" selection-end-column="119" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="419">
+          <caret line="94" selection-start-line="94" selection-end-line="94" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resource/mappers/Web_userMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="12" column="9" lean-forward="true" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
+        <state>
+          <caret selection-end-line="16" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yulan/pojo/Webcontractwfmember.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="24" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="24" />
+          <folding>
+            <element signature="e#515#516#0" expanded="true" />
+            <element signature="e#544#545#0" expanded="true" />
+            <element signature="e#588#589#0" expanded="true" />
+            <element signature="e#624#625#0" expanded="true" />
+            <element signature="e#653#654#0" expanded="true" />
+            <element signature="e#681#682#0" expanded="true" />
+            <element signature="e#720#721#0" expanded="true" />
+            <element signature="e#754#755#0" expanded="true" />
+            <element signature="e#789#790#0" expanded="true" />
+            <element signature="e#820#821#0" expanded="true" />
+            <element signature="e#868#869#0" expanded="true" />
+            <element signature="e#908#909#0" expanded="true" />
+            <element signature="e#947#948#0" expanded="true" />
+            <element signature="e#982#983#0" expanded="true" />
+            <element signature="e#1038#1039#0" expanded="true" />
+            <element signature="e#1086#1087#0" expanded="true" />
+            <element signature="e#1118#1119#0" expanded="true" />
+            <element signature="e#1149#1150#0" expanded="true" />
+            <element signature="e#1194#1195#0" expanded="true" />
+            <element signature="e#1234#1235#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/UserTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="19" column="5" lean-forward="true" selection-start-line="15" selection-start-column="4" selection-end-line="19" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yulan/service/impl/Web_userServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="16" column="53" selection-start-line="16" selection-start-column="53" selection-end-line="16" selection-end-column="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yulan/dao/Web_userDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="16" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yulan/service/WebcontractwfmemberService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" column="76" selection-start-line="6" selection-start-column="76" selection-end-line="6" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yulan/dao/WebcontractwfmemberDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" column="40" selection-start-line="11" selection-start-column="40" selection-end-line="11" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resource/mappers/WebcontractwfmemberMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="15" column="31" lean-forward="true" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yulan/service/impl/webcontractwfmemberServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="18" column="60" lean-forward="true" selection-start-line="18" selection-start-column="60" selection-end-line="18" selection-end-column="60" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yulan/controller/WebcontractwfmemberController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="31" column="26" lean-forward="true" selection-start-line="31" selection-start-column="26" selection-end-line="31" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/WebcontractwfmemberTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="20" column="11" lean-forward="true" selection-start-line="15" selection-start-column="10" selection-end-line="20" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1315,7 +1209,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.25041598" />
                 <option value="0.5" />
               </list>
             </option>
@@ -1328,7 +1222,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.25041598" />
               </list>
             </option>
           </splitter-proportions>
@@ -1363,7 +1257,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.25041598" />
               </list>
             </option>
           </splitter-proportions>
@@ -1387,7 +1281,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.37759337" />
+                <option value="0.25041598" />
               </list>
             </option>
           </splitter-proportions>

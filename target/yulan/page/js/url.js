@@ -9,7 +9,7 @@
 // var remoteURL="http://localhost:80/yicheng";
 
 //本地服务器
-var remoteURL="http://localhost:8080/yicheng";
+var remoteURL="http://localhost:8080/yulan";
 var remoteImageURL = "http://localhost:80/upload";
 
 //局域网服务器

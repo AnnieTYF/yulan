@@ -14,7 +14,7 @@ public class Web_user {
     private String userId;
     private Date modifyDate;
     private String macAddress;
-    private String tyope;
+    private String type;
     private String passwordX;
     private Integer stopped;
 
@@ -69,7 +69,7 @@ public class Web_user {
         this.userId = userId;
     }
 
-    public Web_user(String loginName, String password, String realName, String company, String tel, String email, String memo, Date ts, String userId, Date modifyDate, String macAddress, String tyope, String passwordX, Integer stopped, String creatAdmin) {
+    public Web_user(String loginName, String password, String realName, String company, String tel, String email, String memo, Date ts, String userId, Date modifyDate, String macAddress, String type, String passwordX, Integer stopped, String creatAdmin) {
         this.loginName = loginName;
         this.password = password;
         this.realName = realName;
@@ -81,7 +81,7 @@ public class Web_user {
         this.userId = userId;
         this.modifyDate = modifyDate;
         this.macAddress = macAddress;
-        this.tyope = tyope;
+        this.type = type;
         this.passwordX = passwordX;
         this.stopped = stopped;
         this.creatAdmin = creatAdmin;
@@ -103,12 +103,12 @@ public class Web_user {
         this.macAddress = macAddress;
     }
 
-    public String getTyope() {
-        return tyope;
+    public String getType() {
+        return type;
     }
 
-    public void setTyope(String tyope) {
-        this.tyope = tyope;
+    public void setType(String type) {
+        this.type = type;
     }
 
     public String getPasswordX() {

@@ -18,13 +18,13 @@
         <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
         <script src="js/url.js"></script>
 
-        <!--<script>
+        <script>
             if(sessionStorage.getItem("token")==null)
                 window.location.href="./login.html";
             window.onload=function () {
                 if(sessionStorage.getItem("token")==null)
                     window.location.href="./login.html";
-                $.ajax({
+               /* $.ajax({
                     type: "POST",
                     url:  remoteURL+"/Consult/countUnDealing.do",
                     data: {applyMethod:0},
@@ -32,9 +32,9 @@
                     success: function(res){
                         initBadge(res);
                     }
-                });
+                });*/
             }
-        </script>-->
+        </script>
     </head>
     <body>
         <div class="layui-layout layui-layout-admin">
@@ -58,7 +58,7 @@
                             <i class="layui-icon" style="top: 1px;">&#xe63a;</i>
                         </a>
                         </li> -->
-                      <li class="layui-nav-item x-index"><a href="/">前台首页</a></li>
+
                     </ul>
                 </div>
             </div>

@@ -19,7 +19,7 @@
 				<div id="large-header" class="large-header">
 					<canvas id="demo-canvas"></canvas>
 					<div class="logo_box">
-						<h3>欢迎你</h3>
+						<h3>玉兰b2b</h3>
 						<form action="#" name="f" method="post" onsubmit="return false;">
 							<div class="input_outer">
 								<span class="u_user"></span>
@@ -54,22 +54,32 @@
             warn("请输入用户名");
             return ;
 		}
-		if(password==""){
+		/*if(password==""){
             warn("请输入密码");
             return ;
-		}
+		}*/
         $.ajax({
             type: "POST",
-            url:  remoteURL+"/admin/login.do",
-            data: {userName:userName,password:password},
+            url:  remoteURL+"/web_user/login.do",
+            data: {loginName:userName,password:password},
             dataType: "json",
             success: function(data){
-                if(data.code==0) {
+                console.log(data.code);
+                switch (data.code) {
+
+                    case 0:	warn(data.msg);break;
+					case 1: window.location.href="./index.html"; sessionStorage.setItem('token', data.token);break;//管理员
+					case 2:
+					case 3:
+					case 4: window.location.href="./test.html";sessionStorage.setItem('token', data.token);break;
+
+                }
+                /*if(data.code==0) {
                     sessionStorage.setItem('token', data.token);
                     window.location.href="./index.html";
 				} else {
                     warn(data.msg);
-				}
+				}*/
             }
         });
     }
