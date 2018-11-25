@@ -1,4 +1,4 @@
-package com.yulan.dao;
+package com.yulan.pojo;
 
 import java.sql.Date;
 
