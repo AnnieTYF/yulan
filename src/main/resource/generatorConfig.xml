@@ -26,7 +26,7 @@
 
         <!-- targetProject:生成PO类的位置，重要！！ -->
         <javaModelGenerator targetPackage="com.yulan.pojo"
-                            targetProject=".\src">
+                            targetProject=".\src\main\java">
             <!-- enableSubPackages:是否让schema作为包的后缀 -->
             <property name="enableSubPackages" value="false" />
             <!-- 从数据库返回的值被清理前后的空格 -->
@@ -34,17 +34,17 @@
         </javaModelGenerator>
         <!-- targetProject:mapper映射文件生成的位置，重要！！ -->
         <sqlMapGenerator targetPackage="mappers"
-                         targetProject=".\src">
+                         targetProject=".\src\resource">
             <property name="enableSubPackages" value="false" />
         </sqlMapGenerator>
         <!-- targetPackage：mapper接口生成的位置，重要！！ -->
         <javaClientGenerator type="XMLMAPPER"
                              targetPackage="com.yulan.dao"
-                             targetProject=".\src">
+                             targetProject=".\src\main\java">
             <property name="enableSubPackages" value="false" />
         </javaClientGenerator>
         <!-- 指定数据库表，要生成哪些表，就写哪些表，要和数据库中对应，不能写错！ -->
-        <table tableName="CUSTOMER" domainObjectName="Customer"></table>
+        <table tableName="CUSTOMERINFOCARD" domainObjectName="CustomerInfoCard"></table>
     </context>
 </generatorConfiguration>
 
