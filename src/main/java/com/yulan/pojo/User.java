@@ -1,5 +1,6 @@
 package com.yulan.pojo;
 
+
 public class User {
 
     private String customerId;
