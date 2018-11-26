@@ -19,7 +19,7 @@ public class Customer {
     private String customerZT;
     private String o2oFlag;
     private String areaDistrict;
-    private Integer balanceReceive;
+    private Double balanceReceive;
     private String creditCode;
     private String currencyID;
     private Date dateCre;
@@ -33,7 +33,7 @@ public class Customer {
     private String notes;
     private String officeTel;
     private String postAddress;
-    private Integer quotaSale;
+    private Double quotaSale;
     private String salesman;
     private String scale;
     private String taxNO;
@@ -44,13 +44,13 @@ public class Customer {
     private String deliveryAddress;
     private String customerClassify;
     private String followCode;
-    private Integer invoiceReceiveStart;
+    private Double invoiceReceiveStart;
     private Date dateChangeStatus;
     private String operaterChangeStatus;
     private String reasonChangeStatus;
-    private Integer balanceReceiveZT;
-    private Integer receiveMonthStart;
-    private Integer receiveMonthStartZT;
+    private Double balanceReceiveZT;
+    private Double receiveMonthStart;
+    private Double receiveMonthStartZT;
     private String areaDistrict2;
     private String creator;
     private String updater;
@@ -73,13 +73,13 @@ public class Customer {
     private String customerBelong2;
     private String manager1;
     private String invoice;
-    private Integer receiveMonthStartSal;
-    private Integer receiveMonthStartZTSal;
+    private Double receiveMonthStartSal;
+    private Double receiveMonthStartZTSal;
     private String handset2;
     private String transFlag;
     private Date passDate;
     private String signFlag;
-    private Integer moneyRebate;
+    private Double moneyRebate;
     private String juridicPersonHandsetD;
     private String qqD;
     private String faxWLD;
@@ -224,11 +224,11 @@ public class Customer {
         this.areaDistrict = areaDistrict;
     }
 
-    public Integer getBalanceReceive() {
+    public Double getBalanceReceive() {
         return balanceReceive;
     }
 
-    public void setBalanceReceive(Integer balanceReceive) {
+    public void setBalanceReceive(Double balanceReceive) {
         this.balanceReceive = balanceReceive;
     }
 
@@ -336,11 +336,11 @@ public class Customer {
         this.postAddress = postAddress;
     }
 
-    public Integer getQuotaSale() {
+    public Double getQuotaSale() {
         return quotaSale;
     }
 
-    public void setQuotaSale(Integer quotaSale) {
+    public void setQuotaSale(Double quotaSale) {
         this.quotaSale = quotaSale;
     }
 
@@ -424,11 +424,11 @@ public class Customer {
         this.followCode = followCode;
     }
 
-    public Integer getInvoiceReceiveStart() {
+    public Double getInvoiceReceiveStart() {
         return invoiceReceiveStart;
     }
 
-    public void setInvoiceReceiveStart(Integer invoiceReceiveStart) {
+    public void setInvoiceReceiveStart(Double invoiceReceiveStart) {
         this.invoiceReceiveStart = invoiceReceiveStart;
     }
 
@@ -456,27 +456,27 @@ public class Customer {
         this.reasonChangeStatus = reasonChangeStatus;
     }
 
-    public Integer getBalanceReceiveZT() {
+    public Double getBalanceReceiveZT() {
         return balanceReceiveZT;
     }
 
-    public void setBalanceReceiveZT(Integer balanceReceiveZT) {
+    public void setBalanceReceiveZT(Double balanceReceiveZT) {
         this.balanceReceiveZT = balanceReceiveZT;
     }
 
-    public Integer getReceiveMonthStart() {
+    public Double getReceiveMonthStart() {
         return receiveMonthStart;
     }
 
-    public void setReceiveMonthStart(Integer receiveMonthStart) {
+    public void setReceiveMonthStart(Double receiveMonthStart) {
         this.receiveMonthStart = receiveMonthStart;
     }
 
-    public Integer getReceiveMonthStartZT() {
+    public Double getReceiveMonthStartZT() {
         return receiveMonthStartZT;
     }
 
-    public void setReceiveMonthStartZT(Integer receiveMonthStartZT) {
+    public void setReceiveMonthStartZT(Double receiveMonthStartZT) {
         this.receiveMonthStartZT = receiveMonthStartZT;
     }
 
@@ -656,19 +656,19 @@ public class Customer {
         this.invoice = invoice;
     }
 
-    public Integer getReceiveMonthStartSal() {
+    public Double getReceiveMonthStartSal() {
         return receiveMonthStartSal;
     }
 
-    public void setReceiveMonthStartSal(Integer receiveMonthStartSal) {
+    public void setReceiveMonthStartSal(Double receiveMonthStartSal) {
         this.receiveMonthStartSal = receiveMonthStartSal;
     }
 
-    public Integer getReceiveMonthStartZTSal() {
+    public Double getReceiveMonthStartZTSal() {
         return receiveMonthStartZTSal;
     }
 
-    public void setReceiveMonthStartZTSal(Integer receiveMonthStartZTSal) {
+    public void setReceiveMonthStartZTSal(Double receiveMonthStartZTSal) {
         this.receiveMonthStartZTSal = receiveMonthStartZTSal;
     }
 
@@ -704,11 +704,11 @@ public class Customer {
         this.signFlag = signFlag;
     }
 
-    public Integer getMoneyRebate() {
+    public Double getMoneyRebate() {
         return moneyRebate;
     }
 
-    public void setMoneyRebate(Integer moneyRebate) {
+    public void setMoneyRebate(Double moneyRebate) {
         this.moneyRebate = moneyRebate;
     }
 
