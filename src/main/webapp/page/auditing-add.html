@@ -15,20 +15,58 @@
     <script src="./js/url.js" charset="utf-8"></script>
     <script src="./layui/layui.js" charset="utf-8"></script>
 </head>
+<script>
+    $.ajax({
+        type: "POST",
+        url:  remoteURL + "/webcontractwfmember/getAllroles.do",
+        data: {},
+        dataType: "json",
+        success: function(res){
+            $("#roleId").html("");
+            $("#roleId").append("<option value=''>请先选择模块</option>");
+            for (var i = 0; i < res.length; i++) {
+                $("#roleId").append("<option value='"+res[i].name+"'>"+res[i].id+"</option>");
+            }
+            layui.use('form',function () {
+                var form = layui.form;
+                form.render();
+            });
+        }
+    });
+</script>
 <body>
 <fieldset class="layui-elem-field layui-field-title" style="margin-top: 20px;">
-    <legend>添加课程</legend>
+    <legend>新增权限账号</legend>
 </fieldset>
 
 <form class="layui-form">
-    <div class="layui-form-item">
+    <div class="layui-form-item" >
         <div class="layui-inline">
-            <label class="layui-form-label" style="width:100px">课程名</label>
-            <div class="layui-input-inline">
-                <input id="name" type="text" name="name" autocomplete="off" class="layui-input" lay-verify="name">
+            <label class="layui-form-label">权限类别</label>
+            <div class="layui-input-inline" style="z-index: 10;">
+                <select id="roleId" name="roleId" lay-verify="roleId" lay-filter="roleId" lay-search="" style="z–index:10">
+                </select>
             </div>
         </div>
     </div>
+
+    <div class="layui-form-item">
+        <div class="layui-inline">
+            <label class="layui-form-label" style="width:100px">权限账号</label>
+            <div class="layui-input-inline">
+                <input id="wfUserId" type="text" name="wfUserId" autocomplete="off" class="layui-input" lay-verify="wfUserId">
+            </div>
+        </div>
+    </div>
+    <div class="layui-inline"> <!-- 注意：这一层元素并不是必须的 -->
+        <div class="layui-form-item" style="text-align: center">
+            <label class="layui-form-label" >使用年份</label>
+            <div class="layui-input-inline" style="z-index: 10;">
+                <input type="text" class="layui-input" id="cYear" name="cYear">
+            </div>
+        </div>
+    </div>
+
 
     <div class="layui-form-item">
         <div class="layui-input-block">
@@ -44,17 +82,27 @@
     layui.use(['form', 'layedit', 'laydate'], function(){
         var form = layui.form
             ,layer = layui.layer;
-
+        form.render();
         form.verify({
-            name: function(value){
+            wfUserId: function(value){
                 if(value.length <= 0){
-                    return '请输入课程名';
+
+                    return '请输入权限账号';
                 } else if(value.length >= 30) {
-                    return "课程名长度不能超过30个字符";
+                    return "权限账号长度不能超过12个字符";
                 }
-            }
+            },
+            roleId:function (value) {
+                if (value==""){
+                    return "请选择权限类别"
+                }
+
+            },
+
 
         });
+
+
 
         form.on('submit(onup)', function(data) {
 
@@ -62,7 +110,7 @@
             var token = sessionStorage.getItem('token');
             $.ajax({
                 type: "POST",
-                url:  remoteURL+"/Classes/addClasses.do",
+                url:  remoteURL+"/webcontractwfmember/add.do",
                 contentType:"application/json;charset=utf-8",
                 data: JSON.stringify(data.field),
                 dataType: "json",
@@ -73,12 +121,12 @@
                 },
                 success: function(data){
                     console.log(data);
-                    if(data.code==1) {
+                    if(data.code==0) {
                         var table=parent.layui.table;
-                        table.reload('class-list', {
-                            url:remoteURL+"/Classes/getClasses.do"
+                        table.reload('webcontractwfmember-list', {
+                            url:remoteURL+"/webcontractwfmember/getWebcontractwfmembers.do"
                             ,where: {
-                                name:$("#flag").attr("name")
+
                             }
                         });
                         layer.alert("添加成功", {icon: 6},function () {
@@ -100,7 +148,27 @@
             });
             return false;
         });
+
+    });
+</script>
+<script>
+    layui.use(['laydate','element','layer','table'], function(){
+        var laydate = layui.laydate;
+        var table=layui.table;
+        //执行一个laydate实例
+        laydate.render({
+            elem: '#cYear' //指定元素
+            ,type: 'year'
+            ,isInitValue: false
+            ,change: function(value, date, endDate){
+
+
+
+
+            }
+        });
     });
 </script>
 </body>
+
 </html>

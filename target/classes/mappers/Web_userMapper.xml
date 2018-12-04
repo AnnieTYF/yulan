@@ -14,4 +14,8 @@
         from WEB_USER where LOGINNAME = #{loginName}
     </select>
 
+    <select id="check" resultType="String" parameterType="String">
+        select password from web_user where loginName=#{loginName}
+    </select>
+
 </mapper>
