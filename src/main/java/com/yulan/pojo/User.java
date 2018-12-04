@@ -5,6 +5,7 @@ public class User {
 
     private String customerId;
     private String customerName;
+    private String district;
 
     public String getCustomerId() {
         return customerId;
@@ -22,11 +23,20 @@ public class User {
         this.customerName = customerName;
     }
 
+    public String getDistrict() {
+        return district;
+    }
+
+    public void setDistrict(String district) {
+        this.district = district;
+    }
+
     @Override
     public String toString() {
         return "User{" +
                 "customerId='" + customerId + '\'' +
                 ", customerName='" + customerName + '\'' +
+                ", district='" + district + '\'' +
                 '}';
     }
 }

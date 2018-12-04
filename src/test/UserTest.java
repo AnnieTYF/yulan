@@ -18,4 +18,5 @@ public class UserTest {
         System.out.println(userDao.getUser("CIN001"));
         System.out.println(MD5.toMD5("yulan1234"));
     }
+
 }
