@@ -20,7 +20,8 @@ public class CustomerInfo {
     @RequestMapping(value = "getCustomerInfo")
     @ResponseBody
     public CustomerInfoCard getCustomerInfo(@RequestParam("CID") String cID)throws Exception{
-        System.out.println(customerInfoService.getCustomerInfo(cID));
+     //  System.out.println("23333" + customerInfoService.getCustomerInfo(cID));
+        System.out.println(cID);
         return customerInfoService.getCustomerInfo(cID);
     }
 }

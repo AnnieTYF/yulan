@@ -1,8 +1,10 @@
 package com.yulan.utils;
 
 import com.google.common.collect.Maps;
+import org.apache.commons.beanutils.ConvertUtils;
 import org.springframework.cglib.beans.BeanMap;
 
+import java.lang.reflect.InvocationTargetException;
 import java.util.Map;
 
 public class MapUtils {
@@ -32,9 +34,20 @@ public class MapUtils {
      * @return 目标类object
      * @throws Exception
      */
-    public static <T> T mapToBean(Map<String, Object> map,T bean) {
-        BeanMap beanMap = BeanMap.create(bean);
-        beanMap.putAll(map);
+    public static <T> T mapToBean(Map<String, Object> map, Class<T> class1) {
+        T bean = null;
+        try {
+            bean = class1.newInstance();
+            ConvertUtils.register(new org.apache.commons.beanutils.converters.DateConverter(null), java.util.Date.class);
+            BeanUtilEx.populate(bean,map);
+         //   BeanUtils.populate(bean, map);
+        } catch (InstantiationException e) {
+            e.printStackTrace();
+        } catch (IllegalAccessException e) {
+            e.printStackTrace();
+        } catch (InvocationTargetException e) {
+            e.printStackTrace();
+        }
         return bean;
     }
 

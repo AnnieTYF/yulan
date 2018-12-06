@@ -34,8 +34,10 @@ public class CustomerInfoServiceImpl implements CustomerInfoService {
                 String origin = stringUtil.getUtf8(String.valueOf(entry.getValue()));
                 entry.setValue(origin);
             }
- //           System.out.println("Key = " + entry.getKey() + ", Value = " + entry.getValue());
+         System.out.println("Key = " + entry.getKey() + ", Value = " + entry.getValue());
         }
-        return mapUtils.mapToBean(map ,customerInfoCard);
+
+       mapUtils.mapToBean(map,CustomerInfoCard.class);
+        return mapUtils.mapToBean(map,CustomerInfoCard.class);
     }
 }
