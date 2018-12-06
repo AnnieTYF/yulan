@@ -59,11 +59,16 @@ public class StringUtil {
 	}
 
     public static String setUtf8(String string) throws UnsupportedEncodingException {
-        System.out.println(getEncoding(string));
-        System.out.println(string);
-        String utf8=new String(string.getBytes("GBK"),getEncoding(string));
-        System.out.println(utf8);
-        System.out.println();
-        return utf8;
+
+        if(string == null || string.length() <= 0){
+            return null;
+        }else {
+            System.out.println(getEncoding(string));
+            System.out.println(string);
+            String utf8 = new String(string.getBytes("GBK"), getEncoding(string));
+            System.out.println(utf8);
+            System.out.println();
+            return utf8;
+        }
     }
 }

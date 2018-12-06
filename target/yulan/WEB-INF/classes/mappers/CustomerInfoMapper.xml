@@ -6,7 +6,7 @@
     </resultMap>
 
     <select id="getCustomerInfo" parameterType="java.util.Map" resultType="CustomerInfoCard">
-        select * from CUSTOMERINFOCARD where CID = #{CID}
+        select * from ( select * from CUSTOMERINFOCARD t where t.cid=#{CID} ORDER BY t.contractyear desc )WHERE ROWNUM =1
     </select>
 
 </mapper>
