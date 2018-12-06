@@ -841,4 +841,103 @@ public class CustomerInfoCard {
     public void setReciptTargetMB(String reciptTargetMB) {
         this.reciptTargetMB = reciptTargetMB;
     }
+
+    @Override
+    public String toString() {
+        return "CustomerInfoCard{" +
+                "groupID='" + groupID + '\'' +
+                ", deleted=" + deleted +
+                ", erpcopyed=" + erpcopyed +
+                ", contractYear=" + contractYear +
+                ", CID='" + CID + '\'' +
+                ", cName='" + cName + '\'' +
+                ", market='" + market + '\'' +
+                ", marketName='" + marketName + '\'' +
+                ", subMarket='" + subMarket + '\'' +
+                ", subMarketName='" + subMarketName + '\'' +
+                ", marketManager='" + marketManager + '\'' +
+                ", marketManagerName='" + marketManagerName + '\'' +
+                ", subMarketManager='" + subMarketManager + '\'' +
+                ", subMarketManagerName='" + subMarketManagerName + '\'' +
+                ", managerPosition='" + managerPosition + '\'' +
+                ", xDistrict='" + xDistrict + '\'' +
+                ", xAreaDistrict2='" + xAreaDistrict2 + '\'' +
+                ", xAreaDistrict3='" + xAreaDistrict3 + '\'' +
+                ", districtText='" + districtText + '\'' +
+                ", areaDistrict2Text='" + areaDistrict2Text + '\'' +
+                ", areaDistrict3Text='" + areaDistrict3Text + '\'' +
+                ", xJuridicPerson='" + xJuridicPerson + '\'' +
+                ", juridicPersonHandset='" + juridicPersonHandset + '\'' +
+                ", xOfficeTel='" + xOfficeTel + '\'' +
+                ", xHandset='" + xHandset + '\'' +
+                ", xEmail='" + xEmail + '\'' +
+                ", xFax='" + xFax + '\'' +
+                ", qq='" + qq + '\'' +
+                ", xPostAddress='" + xPostAddress + '\'' +
+                ", xZipCode='" + xZipCode + '\'' +
+                ", xOfficeTel1='" + xOfficeTel1 + '\'' +
+                ", xHandset2='" + xHandset2 + '\'' +
+                ", xDeliveryAddress='" + xDeliveryAddress + '\'' +
+                ", faxWL='" + faxWL + '\'' +
+                ", zipCodeWL='" + zipCodeWL + '\'' +
+                ", txAgentName='" + txAgentName + '\'' +
+                ", wlAgentName='" + wlAgentName + '\'' +
+                ", preferedBrand='" + preferedBrand + '\'' +
+                ", currentProduct='" + currentProduct + '\'' +
+                ", shopArea=" + shopArea +
+                ", invoiceType='" + invoiceType + '\'' +
+                ", isGeneralTaxPayer='" + isGeneralTaxPayer + '\'' +
+                ", account1Name='" + account1Name + '\'' +
+                ", account1Bank='" + account1Bank + '\'' +
+                ", account1='" + account1 + '\'' +
+                ", account2Name='" + account2Name + '\'' +
+                ", account2Bank='" + account2Bank + '\'' +
+                ", account2='" + account2 + '\'' +
+                ", account3Name='" + account3Name + '\'' +
+                ", account3Bank='" + account3Bank + '\'' +
+                ", account3='" + account3 + '\'' +
+                ", file1IDCard='" + file1IDCard + '\'' +
+                ", file1OP='" + file1OP + '\'' +
+                ", file2BusinessLicense='" + file2BusinessLicense + '\'' +
+                ", file2OP='" + file2OP + '\'' +
+                ", file3OrgCode='" + file3OrgCode + '\'' +
+                ", file3OP='" + file3OP + '\'' +
+                ", file4GTQC='" + file4GTQC + '\'' +
+                ", file4OP='" + file4OP + '\'' +
+                ", state='" + state + '\'' +
+                ", memo='" + memo + '\'' +
+                ", file5IDCardBG='" + file5IDCardBG + '\'' +
+                ", file5OP='" + file5OP + '\'' +
+                ", businessType='" + businessType + '\'' +
+                ", account1Location='" + account1Location + '\'' +
+                ", account2Location='" + account2Location + '\'' +
+                ", file1IDCardNO='" + file1IDCardNO + '\'' +
+                ", file2BusinessLicenseNO='" + file2BusinessLicenseNO + '\'' +
+                ", file2BusinessLicenseEnd='" + file2BusinessLicenseEnd + '\'' +
+                ", file3OrgCodeNO='" + file3OrgCodeNO + '\'' +
+                ", file4GTQCNO='" + file4GTQCNO + '\'' +
+                ", account1Memo='" + account1Memo + '\'' +
+                ", accoumt2Memo='" + accoumt2Memo + '\'' +
+                ", flag='" + flag + '\'' +
+                ", file2BusinessLicenseNOEnd=" + file2BusinessLicenseNOEnd +
+                ", hasPublicAccount='" + hasPublicAccount + '\'' +
+                ", updateFlag='" + updateFlag + '\'' +
+                ", sys2017StateChangeOld='" + sys2017StateChangeOld + '\'' +
+                ", sys2017StateChangeLog='" + sys2017StateChangeLog + '\'' +
+                ", sys2017StateChangeTs=" + sys2017StateChangeTs +
+                ", invAddress='" + invAddress + '\'' +
+                ", invTelephone='" + invTelephone + '\'' +
+                ", invBankName='" + invBankName + '\'' +
+                ", invBankAccount='" + invBankAccount + '\'' +
+                ", invRequirement='" + invRequirement + '\'' +
+                ", invRequirementTs=" + invRequirementTs +
+                ", invRequirementList='" + invRequirementList + '\'' +
+                ", invNotNeedTs=" + invNotNeedTs +
+                ", invNotNeedIP='" + invNotNeedIP + '\'' +
+                ", customerEntityTypex='" + customerEntityTypex + '\'' +
+                ", legalChecked=" + legalChecked +
+                ", cNameNew='" + cNameNew + '\'' +
+                ", reciptTargetMB='" + reciptTargetMB + '\'' +
+                '}';
+    }
 }

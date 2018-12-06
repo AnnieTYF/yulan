@@ -4,10 +4,11 @@
     <resultMap id="UserMap" type="User" >
         <id column="CUSTOMER_CODE" property="customerId" />
         <result column="CUSTOMER_NAME" property="customerName" />
+        <result column="DISTRICT" property="district" />
     </resultMap>
 
     <select id="getUser" parameterType="java.util.Map" resultMap="UserMap">
-        select CUSTOMER_CODE,CUSTOMER_NAME from CUSTOMER where CUSTOMER_CODE = #{userId}
+        select CUSTOMER_CODE,CUSTOMER_NAME,DISTRICT from CUSTOMER where CUSTOMER_CODE = #{userId}
     </select>
 
 </mapper>
