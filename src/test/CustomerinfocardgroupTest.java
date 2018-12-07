@@ -1,3 +1,4 @@
+/*
 import com.yulan.dao.CustomerinfocardgroupDao;
 import com.yulan.pojo.Customerinfocardgroup;
 import com.yulan.utils.StringUtil;
@@ -25,3 +26,4 @@ public class CustomerinfocardgroupTest {
         }
     }
 }
+*/
