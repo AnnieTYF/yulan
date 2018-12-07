@@ -7,61 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e49d8f3b-fac9-412c-952d-2f996440b542" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yulan/controller/Area_ownerController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yulan/controller/CustomerinfocardgroupController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yulan/dao/Area_ownerDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yulan/dao/CustomerinfocardgroupDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yulan/pojo/Area_owner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yulan/pojo/Area_user.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yulan/pojo/Customerinfocardgroup.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yulan/pojo/Webcontractwfrole.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yulan/service/Area_ownerService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yulan/service/CustomerinfocardgroupService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yulan/service/impl/Area_ownerServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yulan/service/impl/CustomerinfocardgroupServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yulan/utils/PasswordUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yulan/utils/StringUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resource/mappers/Area_owner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resource/mappers/Customerinfocardgroup.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/datacard.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/CustomerinfocardgroupTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/PasswordTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/yulan/controller/WebcontractwfmemberController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yulan/controller/WebcontractwfmemberController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/yulan/dao/Web_userDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yulan/dao/Web_userDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/yulan/dao/WebcontractwfmemberDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yulan/dao/WebcontractwfmemberDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/yulan/pojo/Webcontractwfmember.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yulan/pojo/Webcontractwfmember.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/yulan/service/WebcontractwfmemberService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yulan/service/WebcontractwfmemberService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/yulan/service/impl/webcontractwfmemberServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yulan/service/impl/webcontractwfmemberServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resource/mappers/Web_userMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resource/mappers/Web_userMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resource/mappers/WebcontractwfmemberMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resource/mappers/WebcontractwfmemberMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/page/admin-edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/page/auditing-edit.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/page/banner-list.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/page/Area_owner-list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/page/banner-pc-list.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/page/customerinfocardgroup-list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/page/banner-show.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/page/in-auditing.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/page/class-add.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/page/auditing-add.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/page/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/page/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/WebcontractwfmemberTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/WebcontractwfmemberTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yulan/dao/Web_userDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yulan/dao/Web_userDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yulan/pojo/Webcontractwfmember.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yulan/pojo/Webcontractwfmember.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mappers/Web_userMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mappers/Web_userMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mappers/WebcontractwfmemberMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mappers/WebcontractwfmemberMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/WebcontractwfmemberTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/WebcontractwfmemberTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/WEB-INF/classes/com/yulan/controller/WebcontractwfmemberController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/yulan/WEB-INF/classes/com/yulan/controller/WebcontractwfmemberController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/WEB-INF/classes/com/yulan/dao/Web_userDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/yulan/WEB-INF/classes/com/yulan/dao/Web_userDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/WEB-INF/classes/com/yulan/dao/WebcontractwfmemberDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/yulan/WEB-INF/classes/com/yulan/dao/WebcontractwfmemberDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/WEB-INF/classes/com/yulan/pojo/Webcontractwfmember.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/yulan/WEB-INF/classes/com/yulan/pojo/Webcontractwfmember.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/WEB-INF/classes/com/yulan/service/WebcontractwfmemberService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/yulan/WEB-INF/classes/com/yulan/service/WebcontractwfmemberService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/WEB-INF/classes/com/yulan/service/impl/webcontractwfmemberServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/yulan/WEB-INF/classes/com/yulan/service/impl/webcontractwfmemberServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/WEB-INF/classes/mappers/Web_userMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/yulan/WEB-INF/classes/mappers/Web_userMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/WEB-INF/classes/mappers/WebcontractwfmemberMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/yulan/WEB-INF/classes/mappers/WebcontractwfmemberMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/admin-edit.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/banner-list.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/banner-pc-list.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/banner-show.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/class-add.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/yulan/page/index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -204,31 +150,55 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resource/mappers/Customerinfocardgroup.xml">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/page/in-auditing.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="50" column="59" selection-start-line="50" selection-start-column="59" selection-end-line="50" selection-end-column="59" />
+            <state relative-caret-position="3654">
+              <caret line="203" column="32" selection-start-line="203" selection-start-column="32" selection-end-line="203" selection-end-column="32" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/yulan/dao/CustomerinfocardgroupDao.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/yulan/pojo/Webcontractwfmember.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="281">
-              <caret line="25" column="68" selection-start-line="25" selection-start-column="68" selection-end-line="25" selection-end-column="68" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="162">
+              <caret line="9" column="48" selection-start-line="9" selection-start-column="48" selection-end-line="9" selection-end-column="48" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resource/jdbc.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="36">
+              <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/page/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="4428">
+              <caret line="246" column="54" selection-start-line="246" selection-start-column="54" selection-end-line="246" selection-end-column="54" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/yulan/service/impl/CustomerinfocardgroupServiceImpl.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/yulan/pojo/CustomerInfoCard.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="97">
-              <caret line="10" column="27" lean-forward="true" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
+            <state relative-caret-position="18">
+              <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/UserTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="18" column="51" selection-start-line="18" selection-start-column="51" selection-end-line="18" selection-end-column="51" />
             </state>
           </provider>
         </entry>
@@ -348,10 +318,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="350" />
-    <option name="y" value="95" />
-    <option name="width" value="820" />
-    <option name="height" value="505" />
+    <option name="x" value="-10" />
+    <option name="y" value="-10" />
+    <option name="width" value="1940" />
+    <option name="height" value="1050" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -394,102 +364,10 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="yulan" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="yulan" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yulan" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="yulan" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="yulan" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yulan" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="yulan" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="yulan" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yulan" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="yulan" type="462c0819:PsiDirectoryNode" />
-              <item name="pojo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="yulan" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yulan" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="yulan" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="yulan" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yulan" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="yulan" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="yulan" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yulan" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="yulan" type="462c0819:PsiDirectoryNode" />
-              <item name="utils" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="yulan" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yulan" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resource" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="yulan" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yulan" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resource" type="462c0819:PsiDirectoryNode" />
-              <item name="mappers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="yulan" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yulan" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="yulan" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yulan" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="page" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="yulan" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yulan" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope">
         <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
           <expand>
@@ -540,6 +418,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -815,7 +694,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="210872000" />
+    <option name="totallyTimeSpent" value="211150000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -828,9 +707,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4989429" visible="true" weight="0.2761394" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4989429" visible="true" weight="0.23592493" />
       <window_info id="Structure" order="1" sideWeight="0.5010571" side_tool="true" weight="0.2989276" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -980,8 +858,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/yulan/pojo/Webcontractwfmember.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="12" column="28" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="28" />
+        <state relative-caret-position="162">
+          <caret line="9" column="48" selection-start-line="9" selection-start-column="48" selection-end-line="9" selection-end-column="48" />
         </state>
       </provider>
     </entry>
@@ -1029,8 +907,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/UserTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="18" column="36" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
+        <state relative-caret-position="306">
+          <caret line="18" column="51" selection-start-line="18" selection-start-column="51" selection-end-line="18" selection-end-column="51" />
         </state>
       </provider>
     </entry>
@@ -1060,8 +938,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resource/jdbc.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="1" column="51" selection-start-line="1" selection-start-column="51" selection-end-line="1" selection-end-column="51" />
+        <state relative-caret-position="36">
+          <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -1077,8 +955,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/page/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="236" column="89" selection-start-line="236" selection-start-column="89" selection-end-line="236" selection-end-column="89" />
+        <state relative-caret-position="4428">
+          <caret line="246" column="54" selection-start-line="246" selection-start-column="54" selection-end-line="246" selection-end-column="54" />
         </state>
       </provider>
     </entry>
@@ -1086,10 +964,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="36">
           <caret line="2" column="6" selection-end-line="220" selection-end-column="7" />
-          <folding>
-            <element signature="n#style#0;n#p#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1180,12 +1054,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/page/in-auditing.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="196" column="13" lean-forward="true" selection-start-line="186" selection-start-column="3" selection-end-line="196" selection-end-column="13" />
-          <folding>
-            <element signature="n#style#0;n#p#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#0;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="3654">
+          <caret line="203" column="32" selection-start-line="203" selection-start-column="32" selection-end-line="203" selection-end-column="32" />
         </state>
       </provider>
     </entry>
@@ -1193,10 +1063,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-6">
           <caret line="74" column="43" selection-start-line="74" selection-start-column="43" selection-end-line="74" selection-end-column="43" />
-          <folding>
-            <element signature="n#style#0;n#p#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
