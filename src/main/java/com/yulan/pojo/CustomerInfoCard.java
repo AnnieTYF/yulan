@@ -11,7 +11,7 @@ public class CustomerInfoCard {
     private String CID;
     private String cName;
     private String market;
-    private String marketName;
+    private String marketName;//市场
     private String subMarket;
     private String subMarketName;
     private String marketManager;

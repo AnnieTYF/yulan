@@ -14,8 +14,7 @@ public class Web_userTest {
 
     @Test
     public void test1() {
-       /* System.out.println(web_userDao.test("admin").getRealName());
-        System.out.println(web_userDao.test("admin").getPassword());*/
+      System.out.println(web_userDao.login("admin","0").getLoginName());
 
     }
 }
