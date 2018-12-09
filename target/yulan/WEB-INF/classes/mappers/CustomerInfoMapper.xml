@@ -12,19 +12,31 @@
     <select id="getInfobyStateandmarketName" resultType="HashMap">
         select
         *
-
         from(
-        select rownum rm, a.*from(select  count(*) nums ,state, marketName,SUBMARKETMANAGERNAME from CUSTOMERINFOCARD group by state , marketName,SUBMARKETMANAGERNAME) a
+        select rownum rm, a.*from(select  count(*) nums ,state, marketName,SUBMARKETMANAGERNAME
+        from CUSTOMERINFOCARD c where 1=1
+        <if test="year!=null">
+            and c.contractyear=#{year}
+        </if>
+         group by state , marketName,SUBMARKETMANAGERNAME) a
         ) tm where rm &gt;= #{start} and rm &lt;= #{number }
 
     </select>
 
-    <select id="getInfoBySate" resultType="HashMap">
-        select count(*) nums ,state from CUSTOMERINFOCARD t group by state
+    <select id="getInfoBySate" resultType="HashMap" parameterType="String">
+        select count(*) nums ,state from CUSTOMERINFOCARD c where 1=1
+        <if test="year!=null">
+           and c.contractyear=#{year}
+        </if>
+        group by state
     </select>
 
-    <select id="count" resultType="int">
-        select count (*) from (select * from CUSTOMERINFOCARD group by state , marketName,SUBMARKETMANAGERNAME)
+    <select id="count" resultType="int" parameterType="String">
+        select count (*) from (select * from CUSTOMERINFOCARD c where 1=1
+        <if test="year!=null">
+            and c.contractyear=#{year}
+        </if>
+        group by state , marketName,SUBMARKETMANAGERNAME)
     </select>
 
 </mapper>

@@ -26,7 +26,12 @@
 </div>
 
 <div class="x-body">
-    <button class="layui-btn layui-btn-normal" onclick="info()">资料卡总汇</button> <button class="layui-btn layui-btn-normal">协议书总汇</button>
+    <div class="layui-input-inline" style="z-index: 10;">
+        <input type="text" class="layui-input" id="test1" placeholder="请选择年份">
+    </div>
+    <button class="layui-btn layui-btn-normal" onclick="info()">资料卡总汇</button> <button class="layui-btn layui-btn-normal"onclick="YLc()">协议书总汇</button>
+
+
     <div id='consume_y_bar' style="width:1200px;height:300px;margin-left:20px;"> </div>
     <table class="layui-hide" id="article-list" lay-filter="bar" ></table>
 </div>
@@ -35,15 +40,17 @@
     layui.use(['element','layer','table'], function(){
         var table=layui.table;
         var layer=layui.layer;
+        var $=layui.$;
         // var element=layui.element;
         var token = sessionStorage.getItem("token");
-
+        var year =$("#test1").val();
         table.render({
             elem: '#article-list'
             ,url:remoteURL+"/customerInfo/getAllSta.do"
             ,page:true
             ,where:{
-                token:token
+                token:token,
+                year:year
             }
             ,cols: [[
                 {field:'MARKETNAME', title: '大区'}
@@ -68,6 +75,24 @@
                             break;
                         case "BIILDEPCHECKING":
                             return "订单部审核";
+                            break;
+                        case "ASM_CHECKING":
+                            return "销售中心经理审核中";
+                            break;
+                        case "CSA_CHECK":
+                            return "销售副总批准中";
+                            break;
+                        case "CUSTOMERAFFIRM":
+                            return "客户查看确认中";
+                            break;
+                        case "DEP_MARKET_CHECK":
+                            return "市场部审核中";
+                            break;
+                        case "SALEMANFILLING":
+                            return "业务员填写中";
+                            break;
+                        case "SALEMANMODIFYING":
+                            return "业务员修改中";
                             break;
                         default:break;
 
@@ -116,15 +141,16 @@
 	 * @legend_name:图例名
 	*/
     function dayComment(url,chartId, legend_name) {
+        var year =$("#test1").val();
         $.ajax({//Ajax请求你要展现的数据
             url :remoteURL+url,
             type : 'post',
             cache : false,
             dataType : 'json',
             async:false,	//改为同步
-            data : { },	//查看方式
+            data : {year:year },	//查看方式
             success : function(data) {
-                chartTool.registerFunnelChart( chartId,"2019网签资料卡执行汇总",  legend_name, data.y, data.x);
+                chartTool.registerFunnelChart( chartId,data.textname,  legend_name, data.y, data.x);
             },
             error : function() {
                 alert('服务器异常！')
@@ -211,16 +237,20 @@
         return data;
     }*/
 
-    dayComment('/customerInfo/showStateEchart.do', 'consume_y_bar', '资料卡统计用户数');
+    dayComment('/customerInfo/showStateEchart.do', 'consume_y_bar', '资料卡统计数');
 </script>
 <script>
     function info() {
-        dayComment('/customerInfo/showStateEchart.do', 'consume_y_bar', '资料卡统计用户数');
+        var year =$("#test1").val();
+
+        dayComment('/customerInfo/showStateEchart.do', 'consume_y_bar', '资料卡统计数');
         layui.use(['element','layer','table'], function(){
             var table=layui.table;
             table.reload('article-list',{
                 url: remoteURL+"/customerInfo/getAllSta.do"
-
+                ,where: {
+                    year:year
+                }
                 ,page: {
                     curr: 1 //重新从第 1 页开始
                 }
@@ -229,6 +259,46 @@
             })
         })
     }
+</script>
+<script>
+    function YLc() {
+        var year =$("#test1").val();
+        dayComment('/YLcontractentry/showEchart.do', 'consume_y_bar', '协议网签执行统计数');
+        layui.use(['element','layer','table'], function(){
+            var table=layui.table;
+            table.reload('article-list',{
+                url: remoteURL+"/YLcontractentry/getAllSta.do"
+                ,where: {
+                    year:year
+                }
+                ,page: {
+                    curr: 1 //重新从第 1 页开始
+                }
+
+
+            })
+        })
+    }
+</script>
+<script>
+    layui.use(['laydate','element','layer','table'], function(){
+        var laydate = layui.laydate;
+        var table=layui.table;
+        //执行一个laydate实例
+        laydate.render({
+            elem: '#test1' //指定元素
+            ,type: 'year'
+            ,isInitValue: false
+            ,change: function(value, date, endDate){
+
+                console.log(value); //得到日期生成的值，如：2017-08-18
+                console.log(date); //得到日期时间对象：{year: 2017, month: 8, date: 18, hours: 0, minutes: 0, seconds: 0}
+                console.log(endDate); //得结束的日期时间对象，开启范围选择（range: true）才会返回。对象成员同上。
+
+
+            }
+        });
+    });
 </script>
 
 </html>

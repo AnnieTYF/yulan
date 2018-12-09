@@ -10,10 +10,10 @@ public interface CustomerInfoDao {
 
     CustomerInfoCard getCustomerInfo(@Param("CID") String cID);
 
-    List<Map<String,Object>> getInfobyStateandmarketName(@Param("start")Integer start, @Param("number") Integer number);
+    List<Map<String,Object>> getInfobyStateandmarketName(@Param("start")Integer start, @Param("number") Integer number,@Param("year")String year);
 
-    List<Map> getInfoBySate();
+    List<Map> getInfoBySate(@Param("year")String year);
 
-    int count();
+    int count(@Param("year")String year);
 
 }
