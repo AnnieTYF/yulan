@@ -25,19 +25,24 @@ public class CustomerInfoServiceImpl implements CustomerInfoService {
 
     @Override
     public CustomerInfoCard getCustomerInfo(String cID) throws IOException {
-        customerInfoCard = customerInfoDao.getCustomerInfo(cID);
-        Map<String, Object> map = new HashMap<String, Object>();
-        map = mapUtils.beanToMap(customerInfoCard);
+        if(customerInfoDao.getCustomerInfo(cID) == null){
+            return null;
+        }else{
+            customerInfoCard = customerInfoDao.getCustomerInfo(cID);
+            Map<String, Object> map = new HashMap<String, Object>();
+            map = mapUtils.beanToMap(customerInfoCard);
 
-        for (Map.Entry<String,Object> entry : map.entrySet()) {
-            if(entry.getValue() instanceof String){
-                String origin = stringUtil.getUtf8(String.valueOf(entry.getValue()));
-                entry.setValue(origin);
+            for (Map.Entry<String,Object> entry : map.entrySet()) {
+                if(entry.getValue() instanceof String){
+                    String origin = stringUtil.getUtf8(String.valueOf(entry.getValue()));
+                    entry.setValue(origin);
+                }
+                System.out.println("Key = " + entry.getKey() + ", Value = " + entry.getValue());
             }
-         System.out.println("Key = " + entry.getKey() + ", Value = " + entry.getValue());
+
+            mapUtils.mapToBean(map,CustomerInfoCard.class);
+            return mapUtils.mapToBean(map,CustomerInfoCard.class);
         }
 
-       mapUtils.mapToBean(map,CustomerInfoCard.class);
-        return mapUtils.mapToBean(map,CustomerInfoCard.class);
     }
 }

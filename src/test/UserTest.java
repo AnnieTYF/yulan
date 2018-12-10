@@ -42,7 +42,8 @@ public class UserTest {
         }
 
         System.out.println("23333"+mapUtils.mapToBean(map ,customerInfoCard));*/
-        System.out.println(customerInfoService.getCustomerInfo("C15056"));
+  //      System.out.println(customerInfoService.getCustomerInfo("123"));
+        System.out.println(customerInfoDao.getCustomerInfo("123"));
  //       System.out.println(customerInfoDao.getCustomerInfo( "C15056"));
         //System.out.println(MD5.toMD5("yulan1234"));
  //       System.out.println(customerInfoCard);
