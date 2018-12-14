@@ -45,4 +45,10 @@ public class CustomerInfoServiceImpl implements CustomerInfoService {
         }
 
     }
+
+    @Override
+    public boolean updateCustomerInfo(CustomerInfoCard customerInfoCard) {
+//        System.out.println(customerInfoDao.updateCustomerInfo(customerInfoCard));
+        return customerInfoDao.updateCustomerInfo(customerInfoCard);
+    }
 }

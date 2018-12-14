@@ -26,9 +26,16 @@ public class UserTest {
 
     private StringUtil stringUtil;
 
+
     @Test
     public void test1() throws Exception{
-        customerInfoCard = customerInfoService.getCustomerInfo("C15056");
+        CustomerInfoCard customerInfoCard= new CustomerInfoCard();
+        /*if (customerInfoDao.updateCustomerInfo()){
+            System.out.println("ok");
+        }*/
+
+
+//        customerInfoCard = customerInfoService.getCustomerInfo("C15056");
         /*Map<String, Object> map = new HashMap<String, Object>();
         map = mapUtils.beanToMap(customerInfoCard);
 
@@ -43,7 +50,7 @@ public class UserTest {
 
         System.out.println("23333"+mapUtils.mapToBean(map ,customerInfoCard));*/
   //      System.out.println(customerInfoService.getCustomerInfo("123"));
-        System.out.println(customerInfoDao.getCustomerInfo("123"));
+        System.out.println(customerInfoDao.getCustomerInfo("C15093"));
  //       System.out.println(customerInfoDao.getCustomerInfo( "C15056"));
         //System.out.println(MD5.toMD5("yulan1234"));
  //       System.out.println(customerInfoCard);

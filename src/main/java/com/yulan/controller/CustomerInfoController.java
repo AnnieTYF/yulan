@@ -1,5 +1,6 @@
 package com.yulan.controller;
 
+import com.yulan.pojo.CustomerInfoCard;
 import com.yulan.service.CustomerInfoService;
 import com.yulan.utils.Response;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -20,6 +21,7 @@ public class CustomerInfoController {
 
     /*
     *这里的CID应该是客户的loginName
+    * 读取客户资料卡
      */
     @RequestMapping(value = "getCustomerInfo")
     @ResponseBody
@@ -32,6 +34,23 @@ public class CustomerInfoController {
             return response.getResponseMap(0,"SUCCESS" ,customerInfoService.getCustomerInfo(cID));
 
         }
-
     }
+
+    /*
+    更新客户资料卡
+     */
+    @RequestMapping(value = "updateCustomerInfo")
+    @ResponseBody
+    public Map updateCustomerInfo(@RequestBody CustomerInfoCard customerInfoCard){
+        System.out.println(customerInfoCard);
+        if(customerInfoService.updateCustomerInfo(customerInfoCard)){
+            return Response.getResponseMap(0,"更新成功",null);
+        }else{
+            return Response.getResponseMap(1,"更新失败",null);
+        }
+    }
+
+    /*
+    上传照片
+     */
 }
