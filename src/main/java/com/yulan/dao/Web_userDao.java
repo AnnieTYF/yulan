@@ -7,4 +7,7 @@ public interface Web_userDao {
 
     //登陆
     Web_user login(@Param("loginName")String loginName,@Param("password")String password);
+
+    //检查账号密码
+    String check(String loginName);
 }

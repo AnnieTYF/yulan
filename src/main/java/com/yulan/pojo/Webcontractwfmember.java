@@ -5,7 +5,44 @@ public class Webcontractwfmember {
     private int cYear;
     private String wfUserId;
     private String bindUserName;
+    private String bindUserId;
     private int disabled;
+    private Webcontractwfrole webcontractwfrole;
+
+    public Webcontractwfmember(String roleId, int cYear, String wfUserId, String bindUserName, String bindUserId, int disabled, Webcontractwfrole webcontractwfrole) {
+        this.roleId = roleId;
+        this.cYear = cYear;
+        this.wfUserId = wfUserId;
+        this.bindUserName = bindUserName;
+        this.bindUserId = bindUserId;
+        this.disabled = disabled;
+        this.webcontractwfrole = webcontractwfrole;
+    }
+
+    public Webcontractwfrole getWebcontractwfrole() {
+        return webcontractwfrole;
+    }
+
+    public void setWebcontractwfrole(Webcontractwfrole webcontractwfrole) {
+        this.webcontractwfrole = webcontractwfrole;
+    }
+
+    public String getBindUserId() {
+        return bindUserId;
+    }
+
+    public void setBindUserId(String bindUserId) {
+        this.bindUserId = bindUserId;
+    }
+
+    public Webcontractwfmember(String roleId, int cYear, String wfUserId, String bindUserName, String bindUserId, int disabled) {
+        this.roleId = roleId;
+        this.cYear = cYear;
+        this.wfUserId = wfUserId;
+        this.bindUserName = bindUserName;
+        this.bindUserId = bindUserId;
+        this.disabled = disabled;
+    }
 
     public Webcontractwfmember(String roleId, int cYear, String wfUserId, String bindUserName, int disabled) {
         this.roleId = roleId;
