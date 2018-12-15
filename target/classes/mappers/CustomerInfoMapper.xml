@@ -144,13 +144,21 @@
         ACCOUNT2_BANK = #{account2Bank,jdbcType=VARCHAR},
         ACCOUNT2 = #{account2,jdbcType=VARCHAR},
         ACCOUNT2_LOCATION = #{account2Location,jdbcType=VARCHAR},
-        CUSTOMERENTITYTYPEX = #{customerentitytypex,jdbcType=CHAR}
+        CUSTOMERENTITYTYPEX = #{customerentitytypex,jdbcType=CHAR},
+        FILE_1_IDCARD = #{file1Idcard,jdbcType=VARCHAR},
+        FILE_1_OP = #{file1Op,jdbcType=VARCHAR},
+        FILE_2_BUSINESSLICENSE = #{file2Businesslicense,jdbcType=VARCHAR},
+        FILE_2_OP = #{file2Op,jdbcType=VARCHAR},
+        FILE_4_GTQC = #{file4Gtqc,jdbcType=VARCHAR},
+        FILE_4_OP = #{file4Op,jdbcType=VARCHAR},
+        FILE_5_IDCARD_BG = #{file5IdcardBg,jdbcType=VARCHAR},
+        FILE_5_OP = #{file5Op,jdbcType=VARCHAR}
         where CID = #{cid} AND CONTRACTYEAR = (select CONTRACTYEAR from ( select * from CUSTOMERINFOCARD t where t.cid=#{cid} ORDER BY t.contractyear desc )WHERE ROWNUM =1)
   </update>
 
     <insert id="insertYLcontract" parameterType="YLcontract_v2015_paa">
       insert into YLCONTRACT_V2015_PAA (CCYEAR, CCID, NAME,
-      ACCOUNT_BANK, ACCOUT, ACCOUNT_LOCATION,IDCARD_NO)
+      ACCOUNT_BANK, ACCOUT, ACCOUNT_LOCATION,IDCARD_NO,AUTHFILE_IAMGE,IDCARD_IAMGE1,IDCARD_IAMGE2)
      values (
      #{ccyear,jdbcType=DECIMAL},
      #{ccid,jdbcType=VARCHAR},
@@ -158,7 +166,10 @@
      #{accountBank,jdbcType=VARCHAR},
      #{accout,jdbcType=VARCHAR},
      #{accountLocation,jdbcType=VARCHAR},
-     #{idcardNo,jdbcType=VARCHAR}
+     #{idcardNo,jdbcType=VARCHAR},
+     #{authfileIamge,jdbcType=VARCHAR},
+     #{idcardIamge1,jdbcType=VARCHAR},
+     #{idcardIamge2,jdbcType=VARCHAR}
     )
   </insert>
 
@@ -174,15 +185,15 @@
     <update id="updateCustomerImg" parameterType="java.util.Map" >
         update CUSTOMERINFOCARD
         set
-        FILE_1_IDCARD = #{record.file1Idcard,jdbcType=VARCHAR},
-        FILE_1_OP = #{record.file1Op,jdbcType=VARCHAR},
-        FILE_2_BUSINESSLICENSE = #{record.file2Businesslicense,jdbcType=VARCHAR},
-        FILE_2_OP = #{record.file2Op,jdbcType=VARCHAR},
-        FILE_4_GTQC = #{record.file4Gtqc,jdbcType=VARCHAR},
-        FILE_4_OP = #{record.file4Op,jdbcType=VARCHAR},
-        FILE_5_IDCARD_BG = #{record.file5IdcardBg,jdbcType=VARCHAR},
-        FILE_5_OP = #{record.file5Op,jdbcType=VARCHAR},
-        where CID = #{record.cid,jdbcType=VARCHAR}
+        FILE_1_IDCARD = #{file1Idcard,jdbcType=VARCHAR},
+        FILE_1_OP = #{file1Op,jdbcType=VARCHAR},
+        FILE_2_BUSINESSLICENSE = #{file2Businesslicense,jdbcType=VARCHAR},
+        FILE_2_OP = #{file2Op,jdbcType=VARCHAR},
+        FILE_4_GTQC = #{file4Gtqc,jdbcType=VARCHAR},
+        FILE_4_OP = #{file4Op,jdbcType=VARCHAR},
+        FILE_5_IDCARD_BG = #{file5IdcardBg,jdbcType=VARCHAR},
+        FILE_5_OP = #{file5Op,jdbcType=VARCHAR},
+        where CID = #{cid,jdbcType=VARCHAR}
   </update>
 
 </mapper>

@@ -3,14 +3,17 @@ package com.yulan.controller;
 import com.yulan.pojo.CustomerInfoCard;
 import com.yulan.pojo.YLcontract_v2015_paa;
 import com.yulan.service.CustomerInfoService;
+import com.yulan.utils.FileUpload;
 import com.yulan.utils.Response;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
+import org.springframework.web.multipart.MultipartFile;
 
 import java.io.IOException;
+import java.util.HashMap;
 import java.util.Map;
 
 @Controller
@@ -20,6 +23,27 @@ public class CustomerInfoController {
     private CustomerInfoService customerInfoService;
 
     private Response response;
+
+    private static final String CUSTOMER_DIRECTORY = "/customer-image";
+
+    @RequestMapping("upload")
+    @ResponseBody
+    public Map uploadImg(MultipartFile file){
+        Map<String,Object> value = FileUpload.copyCustomerImg(file);
+        String name = (String) value.get("fileName");
+        String msg = value.get("code").equals("SUCCESS")?"":"上传失败";
+        int code = value.get("code").equals("SUCCESS")?0:1;
+
+        Map<String,Object> data = new HashMap<>(2);
+        data.put("path",CUSTOMER_DIRECTORY + "/" + name);
+        data.put("type",value.get("fileType"));
+
+        Map<String,Object> result = new HashMap<>(3);
+        result.put("code",code);
+        result.put("msg",msg);
+        result.put("data",data);
+        return  result;
+    }
 
     /**
      * 里的CID应该是客户的loginName
@@ -75,6 +99,12 @@ public class CustomerInfoController {
         }
     }
 
+    /**
+     * 创建委托授权书
+     * @param yLcontract_v2015_paa
+     * @return
+     * @throws IOException
+     */
     @RequestMapping(value = "createYLcontract")
     @ResponseBody
     public Map createYLcontract(@RequestBody YLcontract_v2015_paa yLcontract_v2015_paa)throws IOException{
