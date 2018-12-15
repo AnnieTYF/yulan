@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
 <mapper namespace="com.yulan.dao.CustomerInfoDao">
-    <resultMap id="BaseResultMap" type="com.yulan.pojo.CustomerInfoCard" >
+    <resultMap id="CustomerInfoCardMap" type="com.yulan.pojo.CustomerInfoCard" >
         <result column="GROUPID" property="groupid" jdbcType="VARCHAR" />
         <result column="DELETED" property="deleted" jdbcType="DECIMAL" />
         <result column="ERPCOPYED" property="erpcopyed" jdbcType="DECIMAL" />
@@ -97,8 +97,25 @@
         <result column="RECIPE_TARGET_MB" property="recipeTargetMb" jdbcType="VARCHAR" />
     </resultMap>
 
+    <resultMap id="YLcontractMap" type="com.yulan.pojo.YLcontract_v2015_paa" >
+        <result column="CCYEAR" property="ccyear" jdbcType="DECIMAL" />
+        <result column="CCID" property="ccid" jdbcType="VARCHAR" />
+        <result column="NAME" property="name" jdbcType="VARCHAR" />
+        <result column="ACCOUNT_BANK" property="accountBank" jdbcType="VARCHAR" />
+        <result column="ACCOUT" property="accout" jdbcType="VARCHAR" />
+        <result column="ACCOUNT_LOCATION" property="accountLocation" jdbcType="VARCHAR" />
+        <result column="AUTHFILE_IAMGE" property="authfileIamge" jdbcType="VARCHAR" />
+        <result column="IDCARD_IAMGE1" property="idcardIamge1" jdbcType="VARCHAR" />
+        <result column="IDCARD_IAMGE2" property="idcardIamge2" jdbcType="VARCHAR" />
+        <result column="IDCARD_NO" property="idcardNo" jdbcType="VARCHAR" />
+    </resultMap>
+
     <select id="getCustomerInfo" parameterType="java.util.Map" resultType="CustomerInfoCard">
         select * from ( select * from CUSTOMERINFOCARD t where t.cid=#{CID} ORDER BY t.contractyear desc )WHERE ROWNUM =1
+    </select>
+
+    <select id="getYLcontract" parameterType="java.util.Map" resultType="YLcontract_v2015_paa">
+        select * from ( select * from YLCONTRACT_V2015_PAA t where t.ccid=#{CCID} ORDER BY t.ccyear desc )WHERE ROWNUM =1
     </select>
 
     <update id="updateCustomerInfo" parameterType="CustomerInfoCard">
@@ -130,6 +147,29 @@
         CUSTOMERENTITYTYPEX = #{customerentitytypex,jdbcType=CHAR}
         where CID = #{cid} AND CONTRACTYEAR = (select CONTRACTYEAR from ( select * from CUSTOMERINFOCARD t where t.cid=#{cid} ORDER BY t.contractyear desc )WHERE ROWNUM =1)
   </update>
+
+    <insert id="insertYLcontract" parameterType="YLcontract_v2015_paa">
+      insert into YLCONTRACT_V2015_PAA (CCYEAR, CCID, NAME,
+      ACCOUNT_BANK, ACCOUT, ACCOUNT_LOCATION,IDCARD_NO)
+     values (
+     #{ccyear,jdbcType=DECIMAL},
+     #{ccid,jdbcType=VARCHAR},
+     #{name,jdbcType=VARCHAR},
+     #{accountBank,jdbcType=VARCHAR},
+     #{accout,jdbcType=VARCHAR},
+     #{accountLocation,jdbcType=VARCHAR},
+     #{idcardNo,jdbcType=VARCHAR}
+    )
+  </insert>
+
+    <update id="updateYLcontractImg" parameterType="java.util.Map">
+        update YLCONTRACT_V2015_PAA
+        set
+        AUTHFILE_IAMGE = #{authfileIamge,jdbcType=VARCHAR},
+        IDCARD_IAMGE1 = #{idcardIamge1,jdbcType=VARCHAR},
+        IDCARD_IAMGE2 = #{idcardIamge2,jdbcType=VARCHAR}
+        where CCID = #{ccid}
+      </update>
 
     <update id="updateCustomerImg" parameterType="java.util.Map" >
         update CUSTOMERINFOCARD

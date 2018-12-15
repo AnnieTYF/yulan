@@ -1,6 +1,7 @@
 import com.yulan.dao.CustomerInfoDao;
 import com.yulan.dao.UserDao;
 import com.yulan.pojo.CustomerInfoCard;
+import com.yulan.pojo.YLcontract_v2015_paa;
 import com.yulan.service.CustomerInfoService;
 import com.yulan.utils.MapUtils;
 import com.yulan.utils.StringUtil;
@@ -26,6 +27,7 @@ public class UserTest {
 
     private StringUtil stringUtil;
 
+    private YLcontract_v2015_paa yLcontract_v2015_paa;
 
     @Test
     public void test1() throws Exception{
@@ -50,10 +52,14 @@ public class UserTest {
 
         System.out.println("23333"+mapUtils.mapToBean(map ,customerInfoCard));*/
   //      System.out.println(customerInfoService.getCustomerInfo("123"));
-        System.out.println(customerInfoDao.getCustomerInfo("C15093"));
+  //      System.out.println(customerInfoDao.getCustomerInfo("C15093"));
  //       System.out.println(customerInfoDao.getCustomerInfo( "C15056"));
         //System.out.println(MD5.toMD5("yulan1234"));
  //       System.out.println(customerInfoCard);
+        System.out.println(customerInfoService.getYLcontract("123"));
+        //System.out.println(customerInfoDao.getYLcontract("C06030"));*/
+ //    yLcontract_v2015_paa = new YLcontract_v2015_paa(2020,"123","张三","邮政储蓄银行");
+  //    System.out.println(customerInfoService.createYLcontract(yLcontract_v2015_paa));
     }
 
 }
