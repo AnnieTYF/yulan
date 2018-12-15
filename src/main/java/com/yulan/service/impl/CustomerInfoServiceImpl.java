@@ -47,8 +47,21 @@ public class CustomerInfoServiceImpl implements CustomerInfoService {
     }
 
     @Override
-    public boolean updateCustomerInfo(CustomerInfoCard customerInfoCard) {
-//        System.out.println(customerInfoDao.updateCustomerInfo(customerInfoCard));
+    public boolean updateCustomerInfo(CustomerInfoCard customerInfoCard) throws IOException{
+        Map<String, Object> map = new HashMap<String, Object>();
+        map = mapUtils.beanToMap(customerInfoCard);
+
+        for (Map.Entry<String,Object> entry : map.entrySet()) {
+            if(entry.getValue() instanceof String){
+                String origin = stringUtil.setUtf8(String.valueOf(entry.getValue()));
+                entry.setValue(origin);
+                System.out.println("Key = " + entry.getKey() + ", Value = " + entry.getValue());
+            }
+
+        }
+
+        customerInfoCard = mapUtils.mapToBean(map,CustomerInfoCard.class);
+
         return customerInfoDao.updateCustomerInfo(customerInfoCard);
     }
 }

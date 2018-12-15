@@ -11,5 +11,5 @@ public interface CustomerInfoService {
 
  //   boolean customer(String cID);
     // 更新客户资料卡
-    boolean updateCustomerInfo(CustomerInfoCard customerInfoCard);
+    boolean updateCustomerInfo(CustomerInfoCard customerInfoCard)throws IOException;
 }

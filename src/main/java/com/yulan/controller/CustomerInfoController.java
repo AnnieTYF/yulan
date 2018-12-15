@@ -41,7 +41,7 @@ public class CustomerInfoController {
      */
     @RequestMapping(value = "updateCustomerInfo")
     @ResponseBody
-    public Map updateCustomerInfo(@RequestBody CustomerInfoCard customerInfoCard){
+    public Map updateCustomerInfo(@RequestBody CustomerInfoCard customerInfoCard)throws Exception{
         System.out.println(customerInfoCard);
         if(customerInfoService.updateCustomerInfo(customerInfoCard)){
             return Response.getResponseMap(0,"更新成功",null);

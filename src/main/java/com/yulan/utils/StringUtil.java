@@ -65,7 +65,7 @@ public class StringUtil {
         }else {
             System.out.println(getEncoding(string));
             System.out.println(string);
-            String utf8 = new String(string.getBytes("GBK"), getEncoding(string));
+            String utf8 = new String(string.getBytes("GBK"), "ISO-8859-1");
             System.out.println(utf8);
             System.out.println();
             return utf8;

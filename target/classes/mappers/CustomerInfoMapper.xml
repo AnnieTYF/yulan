@@ -104,11 +104,11 @@
     <update id="updateCustomerInfo" parameterType="CustomerInfoCard">
         update CUSTOMERINFOCARD
         set
-        PREFEREDBRAND = #{preferedbrand},
-        CURRENT_PRODUCT = #{currentProduct},
-        INVOICE_TYPE = #{invoiceType},
+        PREFEREDBRAND = #{preferedbrand,jdbcType=VARCHAR},
+        CURRENT_PRODUCT = #{currentProduct,jdbcType=VARCHAR},
+        INVOICE_TYPE = #{invoiceType,jdbcType=VARCHAR},
         SHOP_AREA = #{shopArea},
-        JURIDIC_PERSON_HANDSET = #{juridicPersonHandset},
+        JURIDIC_PERSON_HANDSET = #{juridicPersonHandset,jdbcType=VARCHAR},
         RECIPE_TARGET_MB = #{recipeTargetMb,jdbcType=VARCHAR},
         INV_ADDRESS = #{invAddress,jdbcType=VARCHAR},
         INV_TELEPHONE = #{invTelephone,jdbcType=VARCHAR},
