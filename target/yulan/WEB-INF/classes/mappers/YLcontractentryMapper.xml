@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.yulan.dao.YLcontractentryDao">
+
+    <select id="getYLcBySate" resultType="HashMap">
+        select count(*) nums ,state from ylcontractentry y where 1=1
+        <if test="year!=null">
+           and y.cyear=#{year}
+        </if>
+         group by state
+    </select>
+
+    <select id="getYLcbyStateandCID" resultType="HashMap">
+        select
+        *
+
+        from(
+        select rownum rm, a.* from(select  count(*) nums ,state,CID from ylcontractentry y where 1=1
+        <if test="year!=null">
+          and  y.cyear=#{year}
+        </if>
+        group by state, CID) a
+        ) tm where rm &gt;= #{start} and rm &lt;= #{number }
+
+    </select>
+
+    <select id="count" resultType="int">
+        select count (*) from (select * from ylcontractentry y where 1=1
+        <if test="year!=null">
+          and  y.cyear=#{year}
+        </if>
+         group by state ,CID)
+    </select>
+
+    <select id="getArea_code" resultType="String">
+        select Area_code from customer where customer_code=#{CID}
+    </select>
+
+    <select id="getAreaName" resultType="String">
+        select Area_name from Area_code where area_code=#{area_code,jdbcType=VARCHAR}
+    </select>
+
+
+
+
+    <select id="getCenter_mangerId" resultType="String">
+        select center_manager from Area_owner where area_code=#{area_code,jdbcType=VARCHAR}  group by center_manager
+    </select>
+
+    <select id="getName" resultType="String">
+        select t.name from HES_EMPLOYEE t where employee_no=#{owner,jdbcType=VARCHAR}
+    </select>
+
+
+</mapper>

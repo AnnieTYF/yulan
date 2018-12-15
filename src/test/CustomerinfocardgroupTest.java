@@ -20,7 +20,7 @@ public class CustomerinfocardgroupTest {
     @Test
     public void test1() throws UnsupportedEncodingException {
 
-        List<Customerinfocardgroup> list=customerinfocardgroupDao.getCustomerinfocardgroups(1,10, StringUtil.setUtf8("2017年网络协议客户分组"),0);
+        List<Customerinfocardgroup> list=customerinfocardgroupDao.getCustomerinfocardgroups(1,10, StringUtil.setUtf8("2017年"),0);
         for (Customerinfocardgroup c:list){
             System.out.println(c.getDescp());
         }
