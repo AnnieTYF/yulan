@@ -7,530 +7,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e49d8f3b-fac9-412c-952d-2f996440b542" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resource/generatorConfig.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resource/mappers/YLcontractentryMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resource/mappers/YLcontractentryMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resource/mybatis-generator-core-1.3.7-javadoc.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resource/mybatis-generator-core-1.3.7-sources.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resource/mybatis-generator-core-1.3.7.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/Oracle_10g_10.2.0.4_JDBC_ojdbc14.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/mysql-connector-java-5.1.29.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/ojdbc6.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/applicationContext.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yulan/controller/Area_ownerController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yulan/controller/CustomerInfoController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yulan/controller/CustomerinfocardgroupController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yulan/controller/Web_userController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yulan/controller/WebcontractwfmemberController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yulan/controller/YLcontractentryController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yulan/dao/Area_ownerDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yulan/dao/CustomerDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yulan/dao/CustomerInfoDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yulan/dao/CustomerinfocardgroupDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yulan/dao/UserDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yulan/dao/Web_userDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yulan/dao/WebcontractwfmemberDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yulan/dao/YLcontractentryDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yulan/pojo/Area_owner.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yulan/pojo/Area_user.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yulan/pojo/Customer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yulan/pojo/CustomerInfoCard.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yulan/pojo/Customerinfocardgroup.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yulan/pojo/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yulan/pojo/Web_user.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yulan/pojo/Webcontractwfmember.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yulan/pojo/Webcontractwfrole.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yulan/pojo/YLcontract_v2015.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yulan/pojo/YLcontract_v2015_paa.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yulan/pojo/YLcontractentry.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yulan/service/Area_ownerService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yulan/service/CustomerInfoService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yulan/service/CustomerinfocardgroupService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yulan/service/Web_userService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yulan/service/WebcontractwfmemberService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yulan/service/YLcontractentryService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yulan/service/impl/Area_ownerServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yulan/service/impl/CustomerInfoServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yulan/service/impl/CustomerinfocardgroupServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yulan/service/impl/Web_userServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yulan/service/impl/YLcontractentryServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yulan/service/impl/webcontractwfmemberServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yulan/utils/MD5.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yulan/utils/MapUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yulan/utils/PasswordUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yulan/utils/Response.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yulan/utils/StringUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yulan/utils/Token.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/generatorConfig.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/jdbc.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/log4j.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mappers/AddressMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mappers/Area_owner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mappers/CustomerInfoMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mappers/Customerinfocardgroup.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mappers/Web_userMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mappers/WebcontractwfmemberMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mappers/YLcontractentryMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mybatis-config.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mybatis-generator-core-1.3.7-javadoc.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mybatis-generator-core-1.3.7-sources.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mybatis-generator-core-1.3.7.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/spring-mvc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/CustomerInfocardTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/CustomerinfocardgroupTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/PasswordTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/UserTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Web_userTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/WebcontractwfmemberTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/YLcontractentryDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/Oracle_10g_10.2.0.4_JDBC_ojdbc14.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/WEB-INF/classes/applicationContext.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/WEB-INF/classes/com/yulan/controller/Area_ownerController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/WEB-INF/classes/com/yulan/controller/CustomerInfoController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/WEB-INF/classes/com/yulan/controller/CustomerinfocardgroupController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/WEB-INF/classes/com/yulan/controller/Web_userController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/WEB-INF/classes/com/yulan/controller/WebcontractwfmemberController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/WEB-INF/classes/com/yulan/controller/YLcontractentryController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/WEB-INF/classes/com/yulan/dao/Area_ownerDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/WEB-INF/classes/com/yulan/dao/CustomerDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/WEB-INF/classes/com/yulan/dao/CustomerInfoDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/WEB-INF/classes/com/yulan/dao/CustomerinfocardgroupDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/WEB-INF/classes/com/yulan/dao/UserDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/WEB-INF/classes/com/yulan/dao/Web_userDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/WEB-INF/classes/com/yulan/dao/WebcontractwfmemberDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/WEB-INF/classes/com/yulan/dao/YLcontractentryDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/WEB-INF/classes/com/yulan/pojo/Area_owner.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/WEB-INF/classes/com/yulan/pojo/Area_user.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/WEB-INF/classes/com/yulan/pojo/Customer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/WEB-INF/classes/com/yulan/pojo/CustomerInfoCard.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/WEB-INF/classes/com/yulan/pojo/CustomerInfoCardGroup.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/WEB-INF/classes/com/yulan/pojo/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/WEB-INF/classes/com/yulan/pojo/Web_user.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/WEB-INF/classes/com/yulan/pojo/Webcontractwfmember.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/WEB-INF/classes/com/yulan/pojo/Webcontractwfrole.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/WEB-INF/classes/com/yulan/pojo/YLcontract_v2015.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/WEB-INF/classes/com/yulan/pojo/YLcontract_v2015_paa.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/WEB-INF/classes/com/yulan/pojo/YLcontractentry.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/WEB-INF/classes/com/yulan/service/Area_ownerService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/WEB-INF/classes/com/yulan/service/CustomerInfoService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/WEB-INF/classes/com/yulan/service/CustomerinfocardgroupService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/WEB-INF/classes/com/yulan/service/Web_userService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/WEB-INF/classes/com/yulan/service/WebcontractwfmemberService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/WEB-INF/classes/com/yulan/service/YLcontractentryService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/WEB-INF/classes/com/yulan/service/impl/Area_ownerServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/WEB-INF/classes/com/yulan/service/impl/CustomerInfoServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/WEB-INF/classes/com/yulan/service/impl/CustomerinfocardgroupServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/WEB-INF/classes/com/yulan/service/impl/Web_userServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/WEB-INF/classes/com/yulan/service/impl/YLcontractentryServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/WEB-INF/classes/com/yulan/service/impl/webcontractwfmemberServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/WEB-INF/classes/com/yulan/utils/MD5.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/WEB-INF/classes/com/yulan/utils/MapUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/WEB-INF/classes/com/yulan/utils/PasswordUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/WEB-INF/classes/com/yulan/utils/Response.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/WEB-INF/classes/com/yulan/utils/StringUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/WEB-INF/classes/com/yulan/utils/Token.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/WEB-INF/classes/generatorConfig.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/WEB-INF/classes/jdbc.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/WEB-INF/classes/log4j.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/WEB-INF/classes/mappers/AddressMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/WEB-INF/classes/mappers/Area_owner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/WEB-INF/classes/mappers/CustomerInfoMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/WEB-INF/classes/mappers/Customerinfocardgroup.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/WEB-INF/classes/mappers/Web_userMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/WEB-INF/classes/mappers/WebcontractwfmemberMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/WEB-INF/classes/mappers/YLcontractentryMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/WEB-INF/classes/mybatis-config.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/WEB-INF/classes/mybatis-generator-core-1.3.7-javadoc.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/WEB-INF/classes/mybatis-generator-core-1.3.7-sources.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/WEB-INF/classes/mybatis-generator-core-1.3.7.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/WEB-INF/classes/spring-mvc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/WEB-INF/lib/aliyun-sdk-oss-2.8.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/WEB-INF/lib/aspectjweaver-1.9.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/WEB-INF/lib/c3p0-0.9.5.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/WEB-INF/lib/classmate-1.3.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/WEB-INF/lib/commons-beanutils-1.7.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/WEB-INF/lib/commons-codec-1.11.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/WEB-INF/lib/commons-collections-3.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/WEB-INF/lib/commons-collections4-4.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/WEB-INF/lib/commons-fileupload-1.3.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/WEB-INF/lib/commons-io-2.4.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/WEB-INF/lib/commons-lang-2.5.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/WEB-INF/lib/commons-lang3-3.7.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/WEB-INF/lib/commons-logging-1.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/WEB-INF/lib/cors-filter-2.5.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/WEB-INF/lib/druid-1.0.14.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/WEB-INF/lib/ezmorph-1.0.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/WEB-INF/lib/fastjson-1.1.46.sec01.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/WEB-INF/lib/guava-18.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/WEB-INF/lib/httpclient-4.4.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/WEB-INF/lib/httpcore-4.4.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/WEB-INF/lib/jackson-annotations-2.9.4.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/WEB-INF/lib/jackson-core-2.9.4.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/WEB-INF/lib/jackson-databind-2.9.4.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/WEB-INF/lib/java-property-utils-1.9.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/WEB-INF/lib/jaxb-api-2.3.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/WEB-INF/lib/jdom-1.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/WEB-INF/lib/jjwt-0.9.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/WEB-INF/lib/json-20171018.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/WEB-INF/lib/json-lib-2.4-jdk15.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/WEB-INF/lib/jsoup-1.8.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/WEB-INF/lib/jstl-1.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/WEB-INF/lib/log4j-1.2.17.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/WEB-INF/lib/logback-core-1.2.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/WEB-INF/lib/lucene-analyzers-common-7.3.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/WEB-INF/lib/lucene-analyzers-smartcn-7.3.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/WEB-INF/lib/lucene-core-5.3.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/WEB-INF/lib/lucene-highlighter-7.3.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/WEB-INF/lib/lucene-join-7.3.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/WEB-INF/lib/lucene-memory-7.3.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/WEB-INF/lib/lucene-queries-7.3.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/WEB-INF/lib/lucene-queryparser-7.3.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/WEB-INF/lib/lucene-sandbox-7.3.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/WEB-INF/lib/mapstruct-1.0.0.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/WEB-INF/lib/mchange-commons-java-0.2.11.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/WEB-INF/lib/mybatis-3.4.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/WEB-INF/lib/mybatis-generator-core-1.3.6.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/WEB-INF/lib/mybatis-spring-1.3.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/WEB-INF/lib/mysql-connector-java-5.1.29.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/WEB-INF/lib/ojdbc6-11.2.0.4.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/WEB-INF/lib/servlet-api-2.5.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/WEB-INF/lib/shiro-cache-1.4.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/WEB-INF/lib/shiro-config-core-1.4.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/WEB-INF/lib/shiro-config-ogdl-1.4.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/WEB-INF/lib/shiro-core-1.4.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/WEB-INF/lib/shiro-crypto-cipher-1.4.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/WEB-INF/lib/shiro-crypto-core-1.4.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/WEB-INF/lib/shiro-crypto-hash-1.4.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/WEB-INF/lib/shiro-event-1.4.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/WEB-INF/lib/shiro-lang-1.4.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/WEB-INF/lib/shiro-spring-1.4.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/WEB-INF/lib/shiro-web-1.4.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/WEB-INF/lib/slf4j-api-1.7.25.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/WEB-INF/lib/slf4j-log4j12-1.7.18.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/WEB-INF/lib/spring-aop-5.0.0.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/WEB-INF/lib/spring-beans-5.0.0.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/WEB-INF/lib/spring-context-5.0.0.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/WEB-INF/lib/spring-context-support-5.0.0.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/WEB-INF/lib/spring-core-5.0.0.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/WEB-INF/lib/spring-expression-5.0.0.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/WEB-INF/lib/spring-jcl-5.0.0.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/WEB-INF/lib/spring-jdbc-5.0.0.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/WEB-INF/lib/spring-oxm-5.0.0.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/WEB-INF/lib/spring-plugin-core-1.2.0.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/WEB-INF/lib/spring-plugin-metadata-1.2.0.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/WEB-INF/lib/spring-test-5.0.0.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/WEB-INF/lib/spring-tx-5.0.0.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/WEB-INF/lib/spring-web-5.0.0.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/WEB-INF/lib/spring-webmvc-5.0.0.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/WEB-INF/lib/springfox-core-2.6.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/WEB-INF/lib/springfox-schema-2.6.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/WEB-INF/lib/springfox-spi-2.6.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/WEB-INF/lib/springfox-spring-web-2.6.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/WEB-INF/lib/springfox-swagger-common-2.6.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/WEB-INF/lib/springfox-swagger-ui-2.6.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/WEB-INF/lib/springfox-swagger2-2.6.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/WEB-INF/lib/swagger-annotations-1.5.10.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/WEB-INF/lib/swagger-models-1.5.10.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/index.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/mysql-connector-java-5.1.29.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/ojdbc6.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/Area_owner-list.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/address-add.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/address-edit.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/address-list.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/admin-add.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/admin-list.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/article-add.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/article-edit.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/article-show.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/articleType-add.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/articleType-edit.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/articleType-list.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/auditing-add.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/auditing-edit.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/banner-add.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/banner-edit.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/banner-pc-add.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/class-edit.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/class-list.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/consult-add.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/consult-college-list.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/consult-edit.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/consult-first-list.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/consult-guangzhou-residence-ask-list.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/consult-guangzhou-residence-simple-list.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/consult-list.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/consult-residence-list.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/consult-statistics.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/consult-work-list.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/consult-work-simple-list.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/css/component.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/css/demo.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/css/normalize.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/css/x-admin.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/customerinfocardgroup-list.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/datacard.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/images/banner.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/images/icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/images/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/img/demo-1-bg.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/img/login_ico.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/in-auditing.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/info-ylc-list.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/js/EasePack.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/js/TweenLite.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/js/demo-1.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/js/echarts.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/js/function.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/js/html5.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/js/jquery-3.1.1.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/js/jquery.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/js/rAF.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/js/url.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/js/x-admin.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/js/x-layui.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/layui/css/layui.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/layui/css/layui.mobile.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/layui/css/modules/code.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/layui/css/modules/laydate/default/laydate.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/layui/css/modules/layer/default/icon-ext.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/layui/css/modules/layer/default/icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/layui/css/modules/layer/default/layer.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/layui/css/modules/layer/default/loading-0.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/layui/css/modules/layer/default/loading-1.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/layui/css/modules/layer/default/loading-2.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/layui/font/iconfont.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/layui/font/iconfont.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/layui/font/iconfont.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/layui/font/iconfont.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/layui/images/face/0.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/layui/images/face/1.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/layui/images/face/10.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/layui/images/face/11.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/layui/images/face/12.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/layui/images/face/13.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/layui/images/face/14.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/layui/images/face/15.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/layui/images/face/16.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/layui/images/face/17.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/layui/images/face/18.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/layui/images/face/19.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/layui/images/face/2.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/layui/images/face/20.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/layui/images/face/21.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/layui/images/face/22.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/layui/images/face/23.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/layui/images/face/24.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/layui/images/face/25.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/layui/images/face/26.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/layui/images/face/27.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/layui/images/face/28.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/layui/images/face/29.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/layui/images/face/3.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/layui/images/face/30.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/layui/images/face/31.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/layui/images/face/32.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/layui/images/face/33.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/layui/images/face/34.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/layui/images/face/35.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/layui/images/face/36.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/layui/images/face/37.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/layui/images/face/38.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/layui/images/face/39.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/layui/images/face/4.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/layui/images/face/40.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/layui/images/face/41.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/layui/images/face/42.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/layui/images/face/43.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/layui/images/face/44.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/layui/images/face/45.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/layui/images/face/46.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/layui/images/face/47.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/layui/images/face/48.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/layui/images/face/49.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/layui/images/face/5.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/layui/images/face/50.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/layui/images/face/51.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/layui/images/face/52.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/layui/images/face/53.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/layui/images/face/54.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/layui/images/face/55.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/layui/images/face/56.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/layui/images/face/57.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/layui/images/face/58.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/layui/images/face/59.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/layui/images/face/6.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/layui/images/face/60.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/layui/images/face/61.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/layui/images/face/62.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/layui/images/face/63.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/layui/images/face/64.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/layui/images/face/65.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/layui/images/face/66.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/layui/images/face/67.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/layui/images/face/68.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/layui/images/face/69.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/layui/images/face/7.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/layui/images/face/70.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/layui/images/face/71.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/layui/images/face/8.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/layui/images/face/9.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/layui/lay/modules/carousel.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/layui/lay/modules/code.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/layui/lay/modules/element.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/layui/lay/modules/flow.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/layui/lay/modules/form.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/layui/lay/modules/jquery.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/layui/lay/modules/laydate.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/layui/lay/modules/layedit.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/layui/lay/modules/layer.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/layui/lay/modules/laypage.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/layui/lay/modules/laytpl.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/layui/lay/modules/mobile.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/layui/lay/modules/rate.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/layui/lay/modules/table.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/layui/lay/modules/tree.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/layui/lay/modules/upload.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/layui/lay/modules/util.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/layui/layui.all.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/layui/layui.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/layui/小笔记.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/lib/bootstrap/css/bootstrap-theme.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/lib/bootstrap/css/bootstrap-theme.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/lib/bootstrap/css/bootstrap-theme.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/lib/bootstrap/css/bootstrap.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/lib/bootstrap/css/bootstrap.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/lib/bootstrap/css/bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/lib/bootstrap/fonts/glyphicons-halflings-regular.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/lib/bootstrap/fonts/glyphicons-halflings-regular.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/lib/bootstrap/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/lib/bootstrap/fonts/glyphicons-halflings-regular.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/lib/bootstrap/js/bootstrap.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/lib/bootstrap/js/bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/lib/bootstrap/js/npm.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/lib/layui/css/layui.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/lib/layui/css/modules/code.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/lib/layui/css/modules/laydate/icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/lib/layui/css/modules/laydate/laydate.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/lib/layui/css/modules/layer/default/icon-ext.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/lib/layui/css/modules/layer/default/icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/lib/layui/css/modules/layer/default/layer.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/lib/layui/css/modules/layer/default/loading-0.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/lib/layui/css/modules/layer/default/loading-1.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/lib/layui/css/modules/layer/default/loading-2.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/lib/layui/font/iconfont.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/lib/layui/font/iconfont.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/lib/layui/font/iconfont.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/lib/layui/font/iconfont.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/lib/layui/images/face/0.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/lib/layui/images/face/1.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/lib/layui/images/face/10.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/lib/layui/images/face/11.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/lib/layui/images/face/12.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/lib/layui/images/face/13.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/lib/layui/images/face/14.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/lib/layui/images/face/15.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/lib/layui/images/face/16.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/lib/layui/images/face/17.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/lib/layui/images/face/18.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/lib/layui/images/face/19.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/lib/layui/images/face/2.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/lib/layui/images/face/20.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/lib/layui/images/face/21.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/lib/layui/images/face/22.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/lib/layui/images/face/23.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/lib/layui/images/face/24.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/lib/layui/images/face/25.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/lib/layui/images/face/26.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/lib/layui/images/face/27.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/lib/layui/images/face/28.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/lib/layui/images/face/29.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/lib/layui/images/face/3.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/lib/layui/images/face/30.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/lib/layui/images/face/31.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/lib/layui/images/face/32.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/lib/layui/images/face/33.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/lib/layui/images/face/34.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/lib/layui/images/face/35.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/lib/layui/images/face/36.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/lib/layui/images/face/37.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/lib/layui/images/face/38.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/lib/layui/images/face/39.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/lib/layui/images/face/4.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/lib/layui/images/face/40.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/lib/layui/images/face/41.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/lib/layui/images/face/42.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/lib/layui/images/face/43.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/lib/layui/images/face/44.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/lib/layui/images/face/45.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/lib/layui/images/face/46.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/lib/layui/images/face/47.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/lib/layui/images/face/48.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/lib/layui/images/face/49.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/lib/layui/images/face/5.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/lib/layui/images/face/50.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/lib/layui/images/face/51.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/lib/layui/images/face/52.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/lib/layui/images/face/53.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/lib/layui/images/face/54.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/lib/layui/images/face/55.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/lib/layui/images/face/56.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/lib/layui/images/face/57.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/lib/layui/images/face/58.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/lib/layui/images/face/59.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/lib/layui/images/face/6.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/lib/layui/images/face/60.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/lib/layui/images/face/61.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/lib/layui/images/face/62.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/lib/layui/images/face/63.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/lib/layui/images/face/64.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/lib/layui/images/face/65.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/lib/layui/images/face/66.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/lib/layui/images/face/67.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/lib/layui/images/face/68.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/lib/layui/images/face/69.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/lib/layui/images/face/7.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/lib/layui/images/face/70.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/lib/layui/images/face/71.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/lib/layui/images/face/8.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/lib/layui/images/face/9.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/lib/layui/lay/dest/layui.all.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/lib/layui/lay/lib/jquery.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/lib/layui/lay/modules/code.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/lib/layui/lay/modules/element.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/lib/layui/lay/modules/flow.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/lib/layui/lay/modules/form.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/lib/layui/lay/modules/laydate.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/lib/layui/lay/modules/layedit.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/lib/layui/lay/modules/layer.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/lib/layui/lay/modules/laypage.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/lib/layui/lay/modules/laytpl.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/lib/layui/lay/modules/tree.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/lib/layui/lay/modules/upload.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/lib/layui/lay/modules/util.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/lib/layui/layui.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/login.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/manager.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/sys-data.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/sys-link.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/sys-log.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/sys-qq.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/sys-set.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/sys-shield.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/teacher-add.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/teacher-edit.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/teacher-list.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/test.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/upimg.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/upload.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yulan/page/welcome.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yulan/utils/StringUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yulan/utils/StringUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resource/jdbc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resource/jdbc.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/CustomerInfocardTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/CustomerinfocardgroupTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/PasswordTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/UserTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/UserTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/Web_userTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/WebcontractwfmemberTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/YLcontractentryDao.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -561,12 +49,24 @@
     <favorites_list name="yulan" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/yulan/utils/StringUtil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="112">
-              <caret line="420" column="24" selection-start-line="420" selection-start-column="24" selection-end-line="420" selection-end-column="24" />
+            <state relative-caret-position="147">
+              <caret line="85" column="34" selection-start-line="85" selection-start-column="34" selection-end-line="85" selection-end-column="34" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/UserTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="220">
+              <caret line="18" column="81" selection-start-line="18" selection-start-column="81" selection-end-line="18" selection-end-column="81" />
             </state>
           </provider>
         </entry>
@@ -595,7 +95,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/yulan/pojo/Webcontractwfmember.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/page/auditing-edit.html" />
         <option value="$PROJECT_DIR$/src/test/WebcontractwfmemberTest.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/page/in-auditing.html" />
@@ -614,7 +113,6 @@
         <option value="$PROJECT_DIR$/src/main/resource/mappers/Area_owner.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/yulan/dao/Web_userDao.java" />
         <option value="$PROJECT_DIR$/src/main/resource/mappers/Web_userMapper.xml" />
-        <option value="$PROJECT_DIR$/src/test/UserTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/yulan/utils/PasswordUtil.java" />
         <option value="$PROJECT_DIR$/src/test/PasswordTest.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/page/datacard.html" />
@@ -623,7 +121,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/yulan/service/WebcontractwfmemberService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/yulan/pojo/Customerinfocardgroup.java" />
         <option value="$PROJECT_DIR$/src/test/CustomerinfocardgroupTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/yulan/utils/StringUtil.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/yulan/service/CustomerinfocardgroupService.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/page/customerinfocardgroup-list.html" />
         <option value="$PROJECT_DIR$/src/main/resource/mappers/Customerinfocardgroup.xml" />
@@ -646,6 +143,9 @@
         <option value="$PROJECT_DIR$/src/main/resource/mappers/YLcontractentryMapper.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/yulan/controller/CustomerinfocardgroupController.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/resource/jdbc.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/com/yulan/utils/StringUtil.java" />
+        <option value="$PROJECT_DIR$/src/test/UserTest.java" />
       </list>
     </option>
   </component>
@@ -698,58 +198,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="yulan" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yulan" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="yulan" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yulan" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="yulan" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yulan" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="yulan" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yulan" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="yulan" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yulan" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="yulan" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="yulan" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yulan" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resource" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="yulan" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yulan" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope">
         <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
           <expand>
@@ -800,6 +248,59 @@
           <select />
         </subPane>
       </pane>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="yulan" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yulan" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yulan" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yulan" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yulan" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yulan" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yulan" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yulan" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yulan" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yulan" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="yulan" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yulan" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yulan" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="yulan" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yulan" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yulan" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -811,7 +312,7 @@
     <property name="SearchEverywhereHistoryKey" value="string&#9;PSI&#9;JAVA://com.yulan.utils.StringUtil" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544921850535" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544928266180" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/webapp/Oracle_10g_10.2.0.4_JDBC_ojdbc14.jar!/" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -846,7 +347,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Tomcat Server.tomcat">
+  <component name="RunManager" selected="JUnit.UserTest.test1">
     <configuration name="CustomerinfocardgroupTest.test1" type="AndroidJUnit" temporary="true" nameIsGenerated="true">
       <module name="yulan" />
       <option name="PACKAGE_NAME" value="" />
@@ -880,10 +381,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WebcontractwfmemberTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="UserTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="yulan" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="WebcontractwfmemberTest" />
+      <option name="MAIN_CLASS_NAME" value="UserTest" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -978,17 +481,17 @@
       <item itemvalue="Android JUnit.PasswordTest.test1" />
       <item itemvalue="Android JUnit.CustomerinfocardgroupTest.test1" />
       <item itemvalue="Android JUnit.YLcontractentryDao.test1" />
-      <item itemvalue="JUnit.WebcontractwfmemberTest" />
       <item itemvalue="JUnit.YLcontractentryDao.test2" />
       <item itemvalue="Tomcat Server.tomcat" />
+      <item itemvalue="JUnit.UserTest.test1" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.UserTest.test1" />
         <item itemvalue="JUnit.YLcontractentryDao.test2" />
         <item itemvalue="Android JUnit.YLcontractentryDao.test1" />
         <item itemvalue="Android JUnit.CustomerinfocardgroupTest.test1" />
         <item itemvalue="Android JUnit.PasswordTest.test1" />
-        <item itemvalue="JUnit.WebcontractwfmemberTest" />
       </list>
     </recent_temporary>
   </component>
@@ -1053,44 +556,45 @@
       <workItem from="1544882996416" duration="420000" />
       <workItem from="1544883458848" duration="1729000" />
       <workItem from="1544885251710" duration="1393000" />
-      <workItem from="1544921555088" duration="227000" />
+      <workItem from="1544921555088" duration="1618000" />
+      <workItem from="1544925932021" duration="2327000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="YLcontractentryDao_test1 - 2018.12.09 at 16h 22m 50s.xml">
-      <configuration name="YLcontractentryDao.test1" configurationId="AndroidJUnit" />
+    <history-entry file="UserTest_test1 - 2018.12.16 at 10h 20m 50s.xml">
+      <configuration name="UserTest.test1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="YLcontractentryDao_test1 - 2018.12.09 at 16h 23m 16s.xml">
-      <configuration name="YLcontractentryDao.test1" configurationId="AndroidJUnit" />
+    <history-entry file="UserTest_test1 - 2018.12.16 at 10h 22m 44s.xml">
+      <configuration name="UserTest.test1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="YLcontractentryDao_test1 - 2018.12.09 at 16h 34m 10s.xml">
-      <configuration name="YLcontractentryDao.test1" configurationId="AndroidJUnit" />
+    <history-entry file="UserTest_test1 - 2018.12.16 at 10h 27m 20s.xml">
+      <configuration name="UserTest.test1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="YLcontractentryDao_test1 - 2018.12.09 at 17h 04m 46s.xml">
-      <configuration name="YLcontractentryDao.test1" configurationId="AndroidJUnit" />
+    <history-entry file="UserTest_test1 - 2018.12.16 at 10h 28m 15s.xml">
+      <configuration name="UserTest.test1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="YLcontractentryDao_test1 - 2018.12.09 at 17h 11m 35s.xml">
-      <configuration name="YLcontractentryDao.test1" configurationId="AndroidJUnit" />
+    <history-entry file="UserTest_test1 - 2018.12.16 at 10h 28m 45s.xml">
+      <configuration name="UserTest.test1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="YLcontractentryDao_test2 - 2018.12.09 at 17h 59m 49s.xml">
-      <configuration name="YLcontractentryDao.test2" configurationId="JUnit" />
+    <history-entry file="UserTest_test1 - 2018.12.16 at 10h 36m 32s.xml">
+      <configuration name="UserTest.test1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="YLcontractentryDao_test2 - 2018.12.09 at 18h 01m 46s.xml">
-      <configuration name="YLcontractentryDao.test2" configurationId="JUnit" />
+    <history-entry file="UserTest_test1 - 2018.12.16 at 10h 39m 14s.xml">
+      <configuration name="UserTest.test1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="YLcontractentryDao_test2 - 2018.12.09 at 18h 02m 42s.xml">
-      <configuration name="YLcontractentryDao.test2" configurationId="JUnit" />
+    <history-entry file="UserTest_test1 - 2018.12.16 at 10h 42m 44s.xml">
+      <configuration name="UserTest.test1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="YLcontractentryDao_test2 - 2018.12.09 at 18h 03m 49s.xml">
-      <configuration name="YLcontractentryDao.test2" configurationId="JUnit" />
+    <history-entry file="UserTest_test1 - 2018.12.16 at 10h 43m 49s.xml">
+      <configuration name="UserTest.test1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="YLcontractentryDao_test2 - 2018.12.09 at 18h 05m 53s.xml">
-      <configuration name="YLcontractentryDao.test2" configurationId="JUnit" />
+    <history-entry file="UserTest_test1 - 2018.12.16 at 10h 44m 12s.xml">
+      <configuration name="UserTest.test1" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="241345000" />
+    <option name="totallyTimeSpent" value="245056000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1103,8 +607,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1358" y="-8" width="1382" height="784" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4989429" visible="true" weight="0.23863636" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4989429" visible="true" weight="0.24242425" />
       <window_info id="Structure" order="1" sideWeight="0.5010571" side_tool="true" weight="0.2989276" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -1114,8 +619,8 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Thumbnails" order="0" weight="0.32907802" />
       <window_info anchor="bottom" id="Message" order="1" />
-      <window_info anchor="bottom" id="Find" order="2" weight="0.32907802" />
-      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.49865952" visible="true" weight="0.25796178" />
+      <window_info anchor="bottom" id="Find" order="2" weight="0.3282313" />
+      <window_info active="true" anchor="bottom" id="Run" order="3" sideWeight="0.49865952" visible="true" weight="0.2754777" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.6028369" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
@@ -1125,7 +630,7 @@
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5013405" side_tool="true" weight="0.23120567" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.035460994" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" />
-      <window_info anchor="bottom" id="Database Changes" order="13" />
+      <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="14" show_stripe_button="false" />
       <window_info anchor="bottom" id="Application Servers" order="15" sideWeight="0.49932975" weight="0.05815603" />
       <window_info anchor="bottom" id="Docker" order="16" show_stripe_button="false" />
@@ -1149,13 +654,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/yulan/utils/PasswordUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="15" column="32" lean-forward="true" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/page/Area_owner-list.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="36">
@@ -1163,13 +661,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/PasswordTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="18" column="61" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/PasswordTest.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/yulan/dao/WebcontractwfmemberDao.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
@@ -1184,13 +676,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/CustomerinfocardgroupTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="21" column="135" selection-start-line="21" selection-start-column="135" selection-end-line="21" selection-end-column="135" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/CustomerinfocardgroupTest.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/yulan/controller/WebcontractwfmemberController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="370">
@@ -1296,20 +782,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/yulan/utils/StringUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="647">
-          <caret line="61" column="73" selection-start-line="61" selection-start-column="73" selection-end-line="61" selection-end-column="73" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/Web_userTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="15" column="25" lean-forward="true" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/Web_userTest.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/yulan/dao/Area_ownerDao.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
@@ -1324,13 +797,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/WebcontractwfmemberTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="10" selection-start-line="10" selection-end-line="11" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/WebcontractwfmemberTest.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/yulan/service/impl/webcontractwfmemberServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-40">
@@ -1403,18 +870,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/YLcontractentryDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="25" column="1" lean-forward="true" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#604#605#0" expanded="true" />
-            <element signature="e#692#693#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/YLcontractentryDao.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/yulan/dao/CustomerInfoDao.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -1493,17 +949,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resource/jdbc.properties">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="2" column="53" lean-forward="true" selection-start-line="2" selection-start-column="53" selection-end-line="2" selection-end-column="53" />
+        <state relative-caret-position="32">
+          <caret line="416" column="5" selection-start-line="416" selection-start-column="5" selection-end-line="416" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/resource/jdbc.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="420" column="24" selection-start-line="420" selection-start-column="24" selection-end-line="420" selection-end-column="24" />
+        <state relative-caret-position="80">
+          <caret line="4" column="21" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yulan/utils/StringUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="85" column="34" selection-start-line="85" selection-start-column="34" selection-end-line="85" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/UserTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="18" column="81" selection-start-line="18" selection-start-column="81" selection-end-line="18" selection-end-column="81" />
         </state>
       </provider>
     </entry>

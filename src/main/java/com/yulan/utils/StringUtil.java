@@ -1,6 +1,11 @@
 package com.yulan.utils;
 
+import com.sun.istack.internal.NotNull;
+
 import java.io.UnsupportedEncodingException;
+import java.util.List;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 /**
  * 乱码转换
@@ -64,4 +69,27 @@ public class StringUtil {
         System.out.println();
         return utf8;
     }
+
+	/**
+	 * 替换文本
+	 * @param text 模板
+	 * @param beReplaced 被取代的点
+	 * @param replaces 取代的数据
+	 * @return 取代后的文本
+	 */
+    public static String replace(@NotNull String text,@NotNull String beReplaced,@NotNull List<Object> replaces) {
+		Pattern pattern = Pattern.compile(beReplaced);
+		Matcher matcher = pattern.matcher(text);
+		String result = new StringBuffer(text).toString();
+		int i=0;
+		while (matcher.find()) {
+			if(replaces.size()<i+1) {
+				break;
+			}
+			String replace = replaces.get(i).toString();
+			result = result.replaceFirst(beReplaced,replace);
+			i++;
+		}
+		return result;
+	}
 }
