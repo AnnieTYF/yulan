@@ -8,6 +8,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.io.IOException;
+import java.util.Map;
 
 @Service
 public class YLcontractentryServiceImpl implements YLcontractentryService {
@@ -35,5 +36,11 @@ public class YLcontractentryServiceImpl implements YLcontractentryService {
     public boolean createYLcontract_v2015(YLcontract_v2015 yLcontract_v2015) throws IOException {
         yLcontract_v2015.setPreferedbrand(stringUtil.setUtf8(yLcontract_v2015.getPreferedbrand()));
         return yLcontractentryDao.createYLcontract_v2015(yLcontract_v2015);
+    }
+
+    @Override
+    public String getYLcontractHTML(Map<String, Object> data) {
+
+        return null;
     }
 }

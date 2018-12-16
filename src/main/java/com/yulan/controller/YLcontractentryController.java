@@ -57,4 +57,11 @@ public class YLcontractentryController {
         }
     }
 
+    @RequestMapping(value = "getYLcontractHTML")
+    @ResponseBody
+    public Map getYLcontractHTML(@RequestBody Map<String,Object> data){
+
+        return null;
+    }
+
 }

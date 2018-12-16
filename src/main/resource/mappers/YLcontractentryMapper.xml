@@ -28,6 +28,12 @@
         <result column="REWORDPERCENT2" property="rewordpercent2" jdbcType="DECIMAL" />
     </resultMap>
 
+    <resultMap id="YLcontractHTMLMAP" type="com.yulan.pojo.YLcontractentryShow">
+        <id column="ID" property="ID" />
+        <result column="NAME" property="name" jdbcType="LONGVARBINARY"/>
+        <result column="TEST" property="test" jdbcType="LONGVARBINARY"/>
+    </resultMap>
+
     <select id="getYLcontract_v2015" parameterType="java.util.Map" resultType="YLcontract_v2015">
         select * from ( select * from YLCONTRACT_V2015 t where t.ccid=#{CCID} ORDER BY t.ccyear desc )WHERE ROWNUM =1
     </select>
@@ -50,5 +56,9 @@
       #{preferedbrand,jdbcType=VARCHAR}, #{privateAccountAuthed,jdbcType=VARCHAR}, #{rewordpercent2,jdbcType=DECIMAL}
       )
   </insert>
+
+    <select id="getYLcontractHTML" parameterType="java.lang.Integer" resultMap="YLcontractHTMLMAP">
+        select TEST from YLCONTRACTENTRY_SHOW WHERE ID =#{ID}
+    </select>
 
 </mapper>

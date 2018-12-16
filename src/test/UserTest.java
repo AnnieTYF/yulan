@@ -64,7 +64,8 @@ public class UserTest {
         //System.out.println(customerInfoDao.getYLcontract("C06030"));*/
  //    yLcontract_v2015_paa = new YLcontract_v2015_paa(2020,"123","张三","邮政储蓄银行");
   //    System.out.println(customerInfoService.createYLcontract(yLcontract_v2015_paa));
-        System.out.println(yLcontractentryDao.getYLcontract_v2015("C12020"));
+    //    System.out.println(yLcontractentryDao.getYLcontract_v2015("C12020"));
+        System.out.println(yLcontractentryDao.getYLcontractHTML(1));
     }
 
 }
