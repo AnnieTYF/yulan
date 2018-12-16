@@ -19,4 +19,8 @@ public interface YLcontractentryDao {
     String getName(String owner);//HES_EMPLOYEE
 
     int count(@Param("year")String year);
+
+    List<Map<String,Object>> getAllStates();
+
+    String getState(@Param("CID")String CID,@Param("year")Integer year);
 }

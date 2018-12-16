@@ -5,8 +5,8 @@
         <result column="roleId" property="roleId" />
         <result column="cYear" property="cYear" />
         <result column="wfUserId" property="wfUserId" />
-        <result column="bindUserName" property="bindUserName" />
-        <result column="disabled" property="disabled" />
+        <result column="bindUserName" property="bindUserName"/>
+        <result column="disabled" property="disabled"/>
     </resultMap>
     <select id="getAllwebcontractwfmemberbyyear"  resultMap="WebcontractwfmemberMap">
         select * from(
@@ -35,7 +35,6 @@
     <resultMap id="roleList" type="java.util.HashMap" >
         <result column="id" property="name" />
         <result column="descp" property="id" />
-
     </resultMap>
     <select id="getAllroles" parameterType="java.util.Map" resultMap="roleList">
         select id,descp from WEBCONTRACTWFROLE

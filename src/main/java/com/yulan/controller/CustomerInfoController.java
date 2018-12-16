@@ -9,6 +9,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 import java.io.UnsupportedEncodingException;
+import java.util.List;
 import java.util.Map;
 
 @Controller
@@ -60,6 +61,12 @@ public class CustomerInfoController {
         map.put("msg","");
         return map;
 
+    }
+
+    @RequestMapping("getAllSates")
+    @ResponseBody
+    public List<Map<String,Object>> getAllStates(){
+        return customerInfoService.getAllStates();
     }
 
 

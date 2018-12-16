@@ -110,6 +110,26 @@
             ]]
             ,limits:['10']
         });
+        var $ = layui.$, active = {
+            reload: function(){
+                var nameReload=$('#nameReload').val();
+                //执行重载
+                table.reload('customerinfocardgroup-list', {
+                    url:remoteURL+"/customerinfocardgroup/getcustomerinfocardgroups.do"
+                    ,page: {
+                        curr: 1 //重新从第 1 页开始
+                    }
+                    ,where: {
+                        descp:nameReload
+                    }
+                });
+            }
+        };
+        //#select
+        $('#select').on('click', function(){
+            var type = $(this).data('type');
+            active[type] ? active[type].call(this) : '';
+        });
 
         table.on('tool(bar)', function(obj){ //注：tool是工具条事件名，test是table原始容器的属性 lay-filter="对应的值"
             var data = obj.data; //获得当前行数据

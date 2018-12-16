@@ -4,6 +4,7 @@ import com.yulan.pojo.CustomerInfoCard;
 import com.yulan.service.CustomerInfoService;
 import com.yulan.utils.MapUtils;
 import com.yulan.utils.StringUtil;
+import com.yulan.utils.TimeUtil;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -28,7 +29,7 @@ public class UserTest {
 
     @Test
     public void test1() throws Exception{
-        customerInfoCard = customerInfoService.getCustomerInfo("C15056");
+        System.out.println(TimeUtil.getTime());
         /*Map<String, Object> map = new HashMap<String, Object>();
         map = mapUtils.beanToMap(customerInfoCard);
 

@@ -103,4 +103,63 @@ public class YLcontractentryServiceImpl implements YLcontractentryService {
 
         return map;
     }
+
+    @Override
+    public List<Map<String, Object>> getAllStates() {
+        List<Map<String,Object>> list=yLcontractentryDao.getAllStates();
+        List<Map<String,Object>> states=new ArrayList<>();
+        for (Map m:list){
+            Map<String,Object> map=new HashMap<>();
+            map.put("id",m.get("STATE"));
+            switch (m.get("STATE").toString()){
+                case "ONCREATE":
+                    map.put("name","初始状态");
+
+                    break;
+                case "CUSTOMERPORCESSING":
+             
+                    map.put("name","客户填写中");
+                    break;
+                case "CUSTOMERPORCESSING2":
+
+                    map.put("name","客户修改中");
+                    break;
+                case "BUSINESSCHECKING":
+
+                    map.put("name","业务员审核中");
+                    break;
+                case "APPROVED":
+
+                    map.put("name","已通过");
+                    break;
+                case "BIILDEPCHECKING":
+
+                    map.put("name","订单部审核");
+                    break;
+                case "CUSTOMERAFFIRM":
+
+                    map.put("name","客户查看确认中");
+                    break;
+                case "CSA_CHECK":
+
+                    map.put("name","销售副总批准中");
+                    break;
+                case "DEP_MARKET_CHECK":
+
+                    map.put("name","市场部审核中");
+                    break;
+                case "SALEMANFILLING":
+
+                    map.put("name","业务员填写中");
+                    break;
+                case "ASM_CHECKING":
+
+                    map.put("name","销售中心经理审核中");
+                    break;
+                default:break;
+            }
+            states.add(map);
+        }
+        return states;
+    }
 }

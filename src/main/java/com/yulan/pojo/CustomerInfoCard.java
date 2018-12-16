@@ -2,148 +2,131 @@ package com.yulan.pojo;
 
 import java.sql.Date;
 
+
 public class CustomerInfoCard {
 
-    private String groupID;
-    private Integer deleted;
-    private Integer erpcopyed;
-    private Integer contractYear;
-    private String CID;
-    private String cName;
+
+    private String groupid;
+
+    private Short deleted;
+
+    private Short erpcopyed;
+
+    private Short contractyear;
+
+    private String cid;
+
+    private String cname;
+
     private String market;
-    private String marketName;//市场
-    private String subMarket;
-    private String subMarketName;
-    private String marketManager;
-    private String marketManagerName;
-    private String subMarketManager;
-    private String subMarketManagerName;
-    private String managerPosition;
+
+    private String marketname;
+
+    private String submarket;
+
+    private String submarketname;
+
+    private String marketmanager;
+
+    private String marketmanagername;
+
+    private String submarketmanager;
+
+    private String submarketmanagername;
+
+    private String managerposition;
+
     private String xDistrict;
+
     private String xAreaDistrict2;
+
     private String xAreaDistrict3;
+
     private String districtText;
+
     private String areaDistrict2Text;
+
     private String areaDistrict3Text;
+
     private String xJuridicPerson;
+
     private String juridicPersonHandset;
+
     private String xOfficeTel;
+
     private String xHandset;
+
     private String xEmail;
+
     private String xFax;
+
     private String qq;
+
     private String xPostAddress;
+
     private String xZipCode;
+
     private String xOfficeTel1;
+
     private String xHandset2;
-    private String xDeliveryAddress;
-    private String faxWL;
-    private String zipCodeWL;
+
+    private String xDeliveryAdress;
+
+    private String faxWl;
+
+    private String zipCodeWl;
+
     private String txAgentName;
-    private String wlAgentName;
-    private String preferedBrand;
-    private String currentProduct;
-    private Integer shopArea;
-    private String invoiceType;
-    private String isGeneralTaxPayer;
-    private String account1Name;
-    private String account1Bank;
-    private String account1;
-    private String account2Name;
-    private String account2Bank;
-    private String account2;
-    private String account3Name;
-    private String account3Bank;
-    private String account3;
-    private String file1IDCard;
-    private String file1OP;
-    private String file2BusinessLicense;
-    private String file2OP;
-    private String file3OrgCode;
-    private String file3OP;
-    private String file4GTQC;
-    private String file4OP;
-    private String state;
-    private String memo;
-    private String file5IDCardBG;
-    private String file5OP;
-    private String businessType;
-    private String account1Location;
-    private String account2Location;
-    private String file1IDCardNO;
-    private String file2BusinessLicenseNO;
-    private String file2BusinessLicenseEnd;
-    private String file3OrgCodeNO;
-    private String file4GTQCNO;
-    private String account1Memo;
-    private String accoumt2Memo;
-    private String flag;
-    private Integer file2BusinessLicenseNOEnd;
-    private String hasPublicAccount;
-    private String updateFlag;
-    private String sys2017StateChangeOld;
-    private String sys2017StateChangeLog;
-    private Date sys2017StateChangeTs;
-    private String invAddress;
-    private String invTelephone;
-    private String invBankName;
-    private String invBankAccount;
-    private String invRequirement;
-    private Date invRequirementTs;
-    private String invRequirementList;
-    private Date invNotNeedTs;
-    private String invNotNeedIP;
-    private String customerEntityTypex;
-    private Integer legalChecked;
-    private String cNameNew;
-    private String reciptTargetMB;
 
-    public String getGroupID() {
-        return groupID;
+    public CustomerInfoCard() {
     }
 
-    public void setGroupID(String groupID) {
-        this.groupID = groupID;
+    public String getGroupid() {
+        return groupid;
     }
 
-    public Integer getDeleted() {
+    public void setGroupid(String groupid) {
+        this.groupid = groupid;
+    }
+
+    public Short getDeleted() {
         return deleted;
     }
 
-    public void setDeleted(Integer deleted) {
+    public void setDeleted(Short deleted) {
         this.deleted = deleted;
     }
 
-    public Integer getErpcopyed() {
+    public Short getErpcopyed() {
         return erpcopyed;
     }
 
-    public void setErpcopyed(Integer erpcopyed) {
+    public void setErpcopyed(Short erpcopyed) {
         this.erpcopyed = erpcopyed;
     }
 
-    public Integer getContractYear() {
-        return contractYear;
+    public Short getContractyear() {
+        return contractyear;
     }
 
-    public void setContractYear(Integer contractYear) {
-        this.contractYear = contractYear;
+    public void setContractyear(Short contractyear) {
+        this.contractyear = contractyear;
     }
 
-    public String getCID() {
-        return CID;
+    public String getCid() {
+        return cid;
     }
 
-    public void setCID(String CID) {
-        this.CID = CID;
+    public void setCid(String cid) {
+        this.cid = cid;
     }
 
-    public String getcName() {
-        return cName;
+    public String getCname() {
+        return cname;
     }
 
-    public void setcName(String cName) {
-        this.cName = cName;
+    public void setCname(String cname) {
+        this.cname = cname;
     }
 
     public String getMarket() {
@@ -154,68 +137,68 @@ public class CustomerInfoCard {
         this.market = market;
     }
 
-    public String getMarketName() {
-        return marketName;
+    public String getMarketname() {
+        return marketname;
     }
 
-    public void setMarketName(String marketName) {
-        this.marketName = marketName;
+    public void setMarketname(String marketname) {
+        this.marketname = marketname;
     }
 
-    public String getSubMarket() {
-        return subMarket;
+    public String getSubmarket() {
+        return submarket;
     }
 
-    public void setSubMarket(String subMarket) {
-        this.subMarket = subMarket;
+    public void setSubmarket(String submarket) {
+        this.submarket = submarket;
     }
 
-    public String getSubMarketName() {
-        return subMarketName;
+    public String getSubmarketname() {
+        return submarketname;
     }
 
-    public void setSubMarketName(String subMarketName) {
-        this.subMarketName = subMarketName;
+    public void setSubmarketname(String submarketname) {
+        this.submarketname = submarketname;
     }
 
-    public String getMarketManager() {
-        return marketManager;
+    public String getMarketmanager() {
+        return marketmanager;
     }
 
-    public void setMarketManager(String marketManager) {
-        this.marketManager = marketManager;
+    public void setMarketmanager(String marketmanager) {
+        this.marketmanager = marketmanager;
     }
 
-    public String getMarketManagerName() {
-        return marketManagerName;
+    public String getMarketmanagername() {
+        return marketmanagername;
     }
 
-    public void setMarketManagerName(String marketManagerName) {
-        this.marketManagerName = marketManagerName;
+    public void setMarketmanagername(String marketmanagername) {
+        this.marketmanagername = marketmanagername;
     }
 
-    public String getSubMarketManager() {
-        return subMarketManager;
+    public String getSubmarketmanager() {
+        return submarketmanager;
     }
 
-    public void setSubMarketManager(String subMarketManager) {
-        this.subMarketManager = subMarketManager;
+    public void setSubmarketmanager(String submarketmanager) {
+        this.submarketmanager = submarketmanager;
     }
 
-    public String getSubMarketManagerName() {
-        return subMarketManagerName;
+    public String getSubmarketmanagername() {
+        return submarketmanagername;
     }
 
-    public void setSubMarketManagerName(String subMarketManagerName) {
-        this.subMarketManagerName = subMarketManagerName;
+    public void setSubmarketmanagername(String submarketmanagername) {
+        this.submarketmanagername = submarketmanagername;
     }
 
-    public String getManagerPosition() {
-        return managerPosition;
+    public String getManagerposition() {
+        return managerposition;
     }
 
-    public void setManagerPosition(String managerPosition) {
-        this.managerPosition = managerPosition;
+    public void setManagerposition(String managerposition) {
+        this.managerposition = managerposition;
     }
 
     public String getxDistrict() {
@@ -354,28 +337,28 @@ public class CustomerInfoCard {
         this.xHandset2 = xHandset2;
     }
 
-    public String getxDeliveryAddress() {
-        return xDeliveryAddress;
+    public String getxDeliveryAdress() {
+        return xDeliveryAdress;
     }
 
-    public void setxDeliveryAddress(String xDeliveryAddress) {
-        this.xDeliveryAddress = xDeliveryAddress;
+    public void setxDeliveryAdress(String xDeliveryAdress) {
+        this.xDeliveryAdress = xDeliveryAdress;
     }
 
-    public String getFaxWL() {
-        return faxWL;
+    public String getFaxWl() {
+        return faxWl;
     }
 
-    public void setFaxWL(String faxWL) {
-        this.faxWL = faxWL;
+    public void setFaxWl(String faxWl) {
+        this.faxWl = faxWl;
     }
 
-    public String getZipCodeWL() {
-        return zipCodeWL;
+    public String getZipCodeWl() {
+        return zipCodeWl;
     }
 
-    public void setZipCodeWL(String zipCodeWL) {
-        this.zipCodeWL = zipCodeWL;
+    public void setZipCodeWl(String zipCodeWl) {
+        this.zipCodeWl = zipCodeWl;
     }
 
     public String getTxAgentName() {
@@ -394,12 +377,12 @@ public class CustomerInfoCard {
         this.wlAgentName = wlAgentName;
     }
 
-    public String getPreferedBrand() {
-        return preferedBrand;
+    public String getPreferedbrand() {
+        return preferedbrand;
     }
 
-    public void setPreferedBrand(String preferedBrand) {
-        this.preferedBrand = preferedBrand;
+    public void setPreferedbrand(String preferedbrand) {
+        this.preferedbrand = preferedbrand;
     }
 
     public String getCurrentProduct() {
@@ -426,12 +409,12 @@ public class CustomerInfoCard {
         this.invoiceType = invoiceType;
     }
 
-    public String getIsGeneralTaxPayer() {
-        return isGeneralTaxPayer;
+    public String getIsGeneraltaxpayer() {
+        return isGeneraltaxpayer;
     }
 
-    public void setIsGeneralTaxPayer(String isGeneralTaxPayer) {
-        this.isGeneralTaxPayer = isGeneralTaxPayer;
+    public void setIsGeneraltaxpayer(String isGeneraltaxpayer) {
+        this.isGeneraltaxpayer = isGeneraltaxpayer;
     }
 
     public String getAccount1Name() {
@@ -506,68 +489,68 @@ public class CustomerInfoCard {
         this.account3 = account3;
     }
 
-    public String getFile1IDCard() {
-        return file1IDCard;
+    public String getFile1Idcard() {
+        return file1Idcard;
     }
 
-    public void setFile1IDCard(String file1IDCard) {
-        this.file1IDCard = file1IDCard;
+    public void setFile1Idcard(String file1Idcard) {
+        this.file1Idcard = file1Idcard;
     }
 
-    public String getFile1OP() {
-        return file1OP;
+    public String getFile1Op() {
+        return file1Op;
     }
 
-    public void setFile1OP(String file1OP) {
-        this.file1OP = file1OP;
+    public void setFile1Op(String file1Op) {
+        this.file1Op = file1Op;
     }
 
-    public String getFile2BusinessLicense() {
-        return file2BusinessLicense;
+    public String getFile2Businesslicense() {
+        return file2Businesslicense;
     }
 
-    public void setFile2BusinessLicense(String file2BusinessLicense) {
-        this.file2BusinessLicense = file2BusinessLicense;
+    public void setFile2Businesslicense(String file2Businesslicense) {
+        this.file2Businesslicense = file2Businesslicense;
     }
 
-    public String getFile2OP() {
-        return file2OP;
+    public String getFile2Op() {
+        return file2Op;
     }
 
-    public void setFile2OP(String file2OP) {
-        this.file2OP = file2OP;
+    public void setFile2Op(String file2Op) {
+        this.file2Op = file2Op;
     }
 
-    public String getFile3OrgCode() {
-        return file3OrgCode;
+    public String getFile3Orgcode() {
+        return file3Orgcode;
     }
 
-    public void setFile3OrgCode(String file3OrgCode) {
-        this.file3OrgCode = file3OrgCode;
+    public void setFile3Orgcode(String file3Orgcode) {
+        this.file3Orgcode = file3Orgcode;
     }
 
-    public String getFile3OP() {
-        return file3OP;
+    public String getFile3Op() {
+        return file3Op;
     }
 
-    public void setFile3OP(String file3OP) {
-        this.file3OP = file3OP;
+    public void setFile3Op(String file3Op) {
+        this.file3Op = file3Op;
     }
 
-    public String getFile4GTQC() {
-        return file4GTQC;
+    public String getFile4Gtqc() {
+        return file4Gtqc;
     }
 
-    public void setFile4GTQC(String file4GTQC) {
-        this.file4GTQC = file4GTQC;
+    public void setFile4Gtqc(String file4Gtqc) {
+        this.file4Gtqc = file4Gtqc;
     }
 
-    public String getFile4OP() {
-        return file4OP;
+    public String getFile4Op() {
+        return file4Op;
     }
 
-    public void setFile4OP(String file4OP) {
-        this.file4OP = file4OP;
+    public void setFile4Op(String file4Op) {
+        this.file4Op = file4Op;
     }
 
     public String getState() {
@@ -586,28 +569,28 @@ public class CustomerInfoCard {
         this.memo = memo;
     }
 
-    public String getFile5IDCardBG() {
-        return file5IDCardBG;
+    public String getFile5IdcardBg() {
+        return file5IdcardBg;
     }
 
-    public void setFile5IDCardBG(String file5IDCardBG) {
-        this.file5IDCardBG = file5IDCardBG;
+    public void setFile5IdcardBg(String file5IdcardBg) {
+        this.file5IdcardBg = file5IdcardBg;
     }
 
-    public String getFile5OP() {
-        return file5OP;
+    public String getFile5Op() {
+        return file5Op;
     }
 
-    public void setFile5OP(String file5OP) {
-        this.file5OP = file5OP;
+    public void setFile5Op(String file5Op) {
+        this.file5Op = file5Op;
     }
 
-    public String getBusinessType() {
-        return businessType;
+    public String getBusientType() {
+        return busientType;
     }
 
-    public void setBusinessType(String businessType) {
-        this.businessType = businessType;
+    public void setBusientType(String busientType) {
+        this.busientType = busientType;
     }
 
     public String getAccount1Location() {
@@ -626,44 +609,44 @@ public class CustomerInfoCard {
         this.account2Location = account2Location;
     }
 
-    public String getFile1IDCardNO() {
-        return file1IDCardNO;
+    public String getFile1IdcardNo() {
+        return file1IdcardNo;
     }
 
-    public void setFile1IDCardNO(String file1IDCardNO) {
-        this.file1IDCardNO = file1IDCardNO;
+    public void setFile1IdcardNo(String file1IdcardNo) {
+        this.file1IdcardNo = file1IdcardNo;
     }
 
-    public String getFile2BusinessLicenseNO() {
-        return file2BusinessLicenseNO;
+    public String getFile2BusinesslicenseNo() {
+        return file2BusinesslicenseNo;
     }
 
-    public void setFile2BusinessLicenseNO(String file2BusinessLicenseNO) {
-        this.file2BusinessLicenseNO = file2BusinessLicenseNO;
+    public void setFile2BusinesslicenseNo(String file2BusinesslicenseNo) {
+        this.file2BusinesslicenseNo = file2BusinesslicenseNo;
     }
 
-    public String getFile2BusinessLicenseEnd() {
-        return file2BusinessLicenseEnd;
+    public String getFile2BusinesslicenseEnd() {
+        return file2BusinesslicenseEnd;
     }
 
-    public void setFile2BusinessLicenseEnd(String file2BusinessLicenseEnd) {
-        this.file2BusinessLicenseEnd = file2BusinessLicenseEnd;
+    public void setFile2BusinesslicenseEnd(String file2BusinesslicenseEnd) {
+        this.file2BusinesslicenseEnd = file2BusinesslicenseEnd;
     }
 
-    public String getFile3OrgCodeNO() {
-        return file3OrgCodeNO;
+    public String getFile3OrgcodeNo() {
+        return file3OrgcodeNo;
     }
 
-    public void setFile3OrgCodeNO(String file3OrgCodeNO) {
-        this.file3OrgCodeNO = file3OrgCodeNO;
+    public void setFile3OrgcodeNo(String file3OrgcodeNo) {
+        this.file3OrgcodeNo = file3OrgcodeNo;
     }
 
-    public String getFile4GTQCNO() {
-        return file4GTQCNO;
+    public String getFile4GtqcNo() {
+        return file4GtqcNo;
     }
 
-    public void setFile4GTQCNO(String file4GTQCNO) {
-        this.file4GTQCNO = file4GTQCNO;
+    public void setFile4GtqcNo(String file4GtqcNo) {
+        this.file4GtqcNo = file4GtqcNo;
     }
 
     public String getAccount1Memo() {
@@ -674,12 +657,12 @@ public class CustomerInfoCard {
         this.account1Memo = account1Memo;
     }
 
-    public String getAccoumt2Memo() {
-        return accoumt2Memo;
+    public String getAccount2Memo() {
+        return account2Memo;
     }
 
-    public void setAccoumt2Memo(String accoumt2Memo) {
-        this.accoumt2Memo = accoumt2Memo;
+    public void setAccount2Memo(String account2Memo) {
+        this.account2Memo = account2Memo;
     }
 
     public String getFlag() {
@@ -690,12 +673,12 @@ public class CustomerInfoCard {
         this.flag = flag;
     }
 
-    public Integer getFile2BusinessLicenseNOEnd() {
-        return file2BusinessLicenseNOEnd;
+    public Short getFile2BusinesslicenseNoend() {
+        return file2BusinesslicenseNoend;
     }
 
-    public void setFile2BusinessLicenseNOEnd(Integer file2BusinessLicenseNOEnd) {
-        this.file2BusinessLicenseNOEnd = file2BusinessLicenseNOEnd;
+    public void setFile2BusinesslicenseNoend(Short file2BusinesslicenseNoend) {
+        this.file2BusinesslicenseNoend = file2BusinesslicenseNoend;
     }
 
     public String getHasPublicAccount() {
@@ -754,20 +737,20 @@ public class CustomerInfoCard {
         this.invTelephone = invTelephone;
     }
 
-    public String getInvBankName() {
-        return invBankName;
+    public String getInvBankname() {
+        return invBankname;
     }
 
-    public void setInvBankName(String invBankName) {
-        this.invBankName = invBankName;
+    public void setInvBankname(String invBankname) {
+        this.invBankname = invBankname;
     }
 
-    public String getInvBankAccount() {
-        return invBankAccount;
+    public String getInvBanmaccount() {
+        return invBanmaccount;
     }
 
-    public void setInvBankAccount(String invBankAccount) {
-        this.invBankAccount = invBankAccount;
+    public void setInvBanmaccount(String invBanmaccount) {
+        this.invBanmaccount = invBanmaccount;
     }
 
     public String getInvRequirement() {
@@ -794,55 +777,267 @@ public class CustomerInfoCard {
         this.invRequirementList = invRequirementList;
     }
 
-    public Date getInvNotNeedTs() {
-        return invNotNeedTs;
+    public Date getInvNotneedTs() {
+        return invNotneedTs;
     }
 
-    public void setInvNotNeedTs(Date invNotNeedTs) {
-        this.invNotNeedTs = invNotNeedTs;
+    public void setInvNotneedTs(Date invNotneedTs) {
+        this.invNotneedTs = invNotneedTs;
     }
 
-    public String getInvNotNeedIP() {
-        return invNotNeedIP;
+    public String getInvNotneedIp() {
+        return invNotneedIp;
     }
 
-    public void setInvNotNeedIP(String invNotNeedIP) {
-        this.invNotNeedIP = invNotNeedIP;
+    public void setInvNotneedIp(String invNotneedIp) {
+        this.invNotneedIp = invNotneedIp;
     }
 
-    public String getCustomerEntityTypex() {
-        return customerEntityTypex;
+    public String getCustomerentitytypex() {
+        return customerentitytypex;
     }
 
-    public void setCustomerEntityTypex(String customerEntityTypex) {
-        this.customerEntityTypex = customerEntityTypex;
+    public void setCustomerentitytypex(String customerentitytypex) {
+        this.customerentitytypex = customerentitytypex;
     }
 
-    public Integer getLegalChecked() {
-        return legalChecked;
+    public Short getLegalchecked() {
+        return legalchecked;
     }
 
-    public void setLegalChecked(Integer legalChecked) {
-        this.legalChecked = legalChecked;
+    public void setLegalchecked(Short legalchecked) {
+        this.legalchecked = legalchecked;
     }
 
-    public String getcNameNew() {
-        return cNameNew;
+    public String getCnameNew() {
+        return cnameNew;
     }
 
-    public void setcNameNew(String cNameNew) {
-        this.cNameNew = cNameNew;
+    public void setCnameNew(String cnameNew) {
+        this.cnameNew = cnameNew;
     }
 
-    public String getReciptTargetMB() {
-        return reciptTargetMB;
+    public String getRecipeTargetMb() {
+        return recipeTargetMb;
     }
 
-    public void setReciptTargetMB(String reciptTargetMB) {
-        this.reciptTargetMB = reciptTargetMB;
+    public void setRecipeTargetMb(String recipeTargetMb) {
+        this.recipeTargetMb = recipeTargetMb;
     }
 
-    @Override
+    public CustomerInfoCard(String groupid, Short deleted, Short erpcopyed, Short contractyear, String cid, String cname, String market, String marketname, String submarket, String submarketname, String marketmanager, String marketmanagername, String submarketmanager, String submarketmanagername, String managerposition, String xDistrict, String xAreaDistrict2, String xAreaDistrict3, String districtText, String areaDistrict2Text, String areaDistrict3Text, String xJuridicPerson, String juridicPersonHandset, String xOfficeTel, String xHandset, String xEmail, String xFax, String qq, String xPostAddress, String xZipCode, String xOfficeTel1, String xHandset2, String xDeliveryAdress, String faxWl, String zipCodeWl, String txAgentName, String wlAgentName, String preferedbrand, String currentProduct, Integer shopArea, String invoiceType, String isGeneraltaxpayer, String account1Name, String account1Bank, String account1, String account2Name, String account2Bank, String account2, String account3Name, String account3Bank, String account3, String file1Idcard, String file1Op, String file2Businesslicense, String file2Op, String file3Orgcode, String file3Op, String file4Gtqc, String file4Op, String state, String memo, String file5IdcardBg, String file5Op, String busientType, String account1Location, String account2Location, String file1IdcardNo, String file2BusinesslicenseNo, String file2BusinesslicenseEnd, String file3OrgcodeNo, String file4GtqcNo, String account1Memo, String account2Memo, String flag, Short file2BusinesslicenseNoend, String hasPublicAccount, String updateFlag, String sys2017StateChangeOld, String sys2017StateChangeLog, Date sys2017StateChangeTs, String invAddress, String invTelephone, String invBankname, String invBanmaccount, String invRequirement, Date invRequirementTs, String invRequirementList, Date invNotneedTs, String invNotneedIp, String customerentitytypex, Short legalchecked, String cnameNew, String recipeTargetMb) {
+        this.groupid = groupid;
+        this.deleted = deleted;
+        this.erpcopyed = erpcopyed;
+        this.contractyear = contractyear;
+        this.cid = cid;
+        this.cname = cname;
+        this.market = market;
+        this.marketname = marketname;
+        this.submarket = submarket;
+        this.submarketname = submarketname;
+        this.marketmanager = marketmanager;
+        this.marketmanagername = marketmanagername;
+        this.submarketmanager = submarketmanager;
+        this.submarketmanagername = submarketmanagername;
+        this.managerposition = managerposition;
+        this.xDistrict = xDistrict;
+        this.xAreaDistrict2 = xAreaDistrict2;
+        this.xAreaDistrict3 = xAreaDistrict3;
+        this.districtText = districtText;
+        this.areaDistrict2Text = areaDistrict2Text;
+        this.areaDistrict3Text = areaDistrict3Text;
+        this.xJuridicPerson = xJuridicPerson;
+        this.juridicPersonHandset = juridicPersonHandset;
+        this.xOfficeTel = xOfficeTel;
+        this.xHandset = xHandset;
+        this.xEmail = xEmail;
+        this.xFax = xFax;
+        this.qq = qq;
+        this.xPostAddress = xPostAddress;
+        this.xZipCode = xZipCode;
+        this.xOfficeTel1 = xOfficeTel1;
+        this.xHandset2 = xHandset2;
+        this.xDeliveryAdress = xDeliveryAdress;
+        this.faxWl = faxWl;
+        this.zipCodeWl = zipCodeWl;
+        this.txAgentName = txAgentName;
+        this.wlAgentName = wlAgentName;
+        this.preferedbrand = preferedbrand;
+        this.currentProduct = currentProduct;
+        this.shopArea = shopArea;
+        this.invoiceType = invoiceType;
+        this.isGeneraltaxpayer = isGeneraltaxpayer;
+        this.account1Name = account1Name;
+        this.account1Bank = account1Bank;
+        this.account1 = account1;
+        this.account2Name = account2Name;
+        this.account2Bank = account2Bank;
+        this.account2 = account2;
+        this.account3Name = account3Name;
+        this.account3Bank = account3Bank;
+        this.account3 = account3;
+        this.file1Idcard = file1Idcard;
+        this.file1Op = file1Op;
+        this.file2Businesslicense = file2Businesslicense;
+        this.file2Op = file2Op;
+        this.file3Orgcode = file3Orgcode;
+        this.file3Op = file3Op;
+        this.file4Gtqc = file4Gtqc;
+        this.file4Op = file4Op;
+        this.state = state;
+        this.memo = memo;
+        this.file5IdcardBg = file5IdcardBg;
+        this.file5Op = file5Op;
+        this.busientType = busientType;
+        this.account1Location = account1Location;
+        this.account2Location = account2Location;
+        this.file1IdcardNo = file1IdcardNo;
+        this.file2BusinesslicenseNo = file2BusinesslicenseNo;
+        this.file2BusinesslicenseEnd = file2BusinesslicenseEnd;
+        this.file3OrgcodeNo = file3OrgcodeNo;
+        this.file4GtqcNo = file4GtqcNo;
+        this.account1Memo = account1Memo;
+        this.account2Memo = account2Memo;
+        this.flag = flag;
+        this.file2BusinesslicenseNoend = file2BusinesslicenseNoend;
+        this.hasPublicAccount = hasPublicAccount;
+        this.updateFlag = updateFlag;
+        this.sys2017StateChangeOld = sys2017StateChangeOld;
+        this.sys2017StateChangeLog = sys2017StateChangeLog;
+        this.sys2017StateChangeTs = sys2017StateChangeTs;
+        this.invAddress = invAddress;
+        this.invTelephone = invTelephone;
+        this.invBankname = invBankname;
+        this.invBanmaccount = invBanmaccount;
+        this.invRequirement = invRequirement;
+        this.invRequirementTs = invRequirementTs;
+        this.invRequirementList = invRequirementList;
+        this.invNotneedTs = invNotneedTs;
+        this.invNotneedIp = invNotneedIp;
+        this.customerentitytypex = customerentitytypex;
+        this.legalchecked = legalchecked;
+        this.cnameNew = cnameNew;
+        this.recipeTargetMb = recipeTargetMb;
+    }
+
+    private String wlAgentName;
+
+    private String preferedbrand;
+
+    private String currentProduct;
+
+    private Integer shopArea;
+
+    private String invoiceType;
+
+    private String isGeneraltaxpayer;
+
+    private String account1Name;
+
+    private String account1Bank;
+
+    private String account1;
+
+    private String account2Name;
+
+    private String account2Bank;
+
+    private String account2;
+
+    private String account3Name;
+
+    private String account3Bank;
+
+    private String account3;
+
+    private String file1Idcard;
+
+    private String file1Op;
+
+    private String file2Businesslicense;
+
+    private String file2Op;
+
+    private String file3Orgcode;
+
+    private String file3Op;
+
+    private String file4Gtqc;
+
+    private String file4Op;
+
+    private String state;
+
+    private String memo;
+
+    private String file5IdcardBg;
+
+    private String file5Op;
+
+    private String busientType;
+
+    private String account1Location;
+
+    private String account2Location;
+
+    private String file1IdcardNo;
+
+    private String file2BusinesslicenseNo;
+
+    private String file2BusinesslicenseEnd;
+
+    private String file3OrgcodeNo;
+
+    private String file4GtqcNo;
+
+    private String account1Memo;
+
+    private String account2Memo;
+
+    private String flag;
+
+    private Short file2BusinesslicenseNoend;
+
+    private String hasPublicAccount;
+
+    private String updateFlag;
+
+    private String sys2017StateChangeOld;
+
+    private String sys2017StateChangeLog;
+
+    private Date sys2017StateChangeTs;
+
+    private String invAddress;
+
+    private String invTelephone;
+
+    private String invBankname;
+
+    private String invBanmaccount;
+
+    private String invRequirement;
+
+    private Date invRequirementTs;
+
+    private String invRequirementList;
+
+    private Date invNotneedTs;
+
+    private String invNotneedIp;
+
+    private String customerentitytypex;
+
+    private Short legalchecked;
+
+    private String cnameNew;
+
+    private String recipeTargetMb;
+
+
+
+   /* @Override
     public String toString() {
         return "CustomerInfoCard{" +
                 "groupID='" + groupID + '\'' +
@@ -939,5 +1134,5 @@ public class CustomerInfoCard {
                 ", cNameNew='" + cNameNew + '\'' +
                 ", reciptTargetMB='" + reciptTargetMB + '\'' +
                 '}';
-    }
+    }*/
 }

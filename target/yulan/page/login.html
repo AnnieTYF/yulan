@@ -54,26 +54,31 @@
             warn("请输入用户名");
             return ;
 		}
-		/*if(password==""){
+		if(password==""){
             warn("请输入密码");
             return ;
-		}*/
+		}
         $.ajax({
             type: "POST",
             url:  remoteURL+"/web_user/login.do",
             data: {loginName:userName,password:password},
             dataType: "json",
             success: function(data){
-                console.log(data.code);
-                switch (data.code) {
+                console.log(data);
+                if (data.code==1){
+                    warn(data.msg);
+				} else{
+                    switch (data.data.type) {
 
-                    case 0:	warn(data.msg);break;
-					case 1: window.location.href="./index.html"; sessionStorage.setItem('token', data.token);break;//管理员
-					case 2:
-					case 3:
-					case 4: window.location.href="./test.html";sessionStorage.setItem('token', data.token);break;
+                        case "ECWEB":	warn(data.msg);break;
+                        case "ADMIN": window.location.href="./index.html"; sessionStorage.setItem('token', data.token);break;//管理员
+                        case "SUPLY":
+                        case "SALEMAN":
+                        case "QUERY": window.location.href="./test.html";sessionStorage.setItem('token', data.token);break;
 
-                }
+                    }
+				}
+
                 /*if(data.code==0) {
                     sessionStorage.setItem('token', data.token);
                     window.location.href="./index.html";

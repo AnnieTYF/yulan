@@ -51,5 +51,14 @@
         select t.name from HES_EMPLOYEE t where employee_no=#{owner,jdbcType=VARCHAR}
     </select>
 
+    <select id="getAllStates" resultType="Map">
+        select state from ylcontractentry group by state
+    </select>
 
+    <select id="getState" resultType="String">
+        select state from ylcontractentry where  cYear=#{year } and CID=#{CID}
+
+
+
+    </select>
 </mapper>
