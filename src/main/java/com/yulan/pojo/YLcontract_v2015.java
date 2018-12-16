@@ -1,56 +1,80 @@
 package com.yulan.pojo;
+
 /*
 *协议任务
  */
 public class YLcontract_v2015 {
 
-    private Integer ccYear;
-    private String ccID;
-    private Double aRetatiling;
+    private Integer ccyear;
+
+    private String ccid;
+
+    private Double aRetailing;
+
     private Double bEngineering;
+
     private Double cMatching;
+
     private Double m1;
+
     private Double m2;
+
     private Double m3;
+
     private Double m4;
+
     private Double m5;
+
     private Double m6;
+
     private Double m7;
+
     private Double m8;
+
     private Double m9;
+
     private Double m10;
+
     private Double m11;
+
     private Double m12;
-    private Double stockPercent;
-    private Double rewardPercent;
-    private Double payMinimum;
+
+    private Double stockpercent;
+
+    private Double rewordpercent;
+
+    private Double payminimum;
+
     private String memo2;
-    private String preferredBrand;
+
+    private String preferedbrand;
+
     private String privateAccountAuthed;
-    private Double rewardPercent2;
 
-    public Integer getCcYear() {
-        return ccYear;
+    private Double rewordpercent2;
+
+    public Integer getCcyear() {
+        return ccyear;
     }
 
-    public void setCcYear(Integer ccYear) {
-        this.ccYear = ccYear;
+    public void setCcyear(Integer ccyear) {
+        this.ccyear = ccyear;
     }
 
-    public String getCcID() {
-        return ccID;
+    public String getCcid() {
+        return ccid;
     }
 
-    public void setCcID(String ccID) {
-        this.ccID = ccID;
+    public void setCcid(String ccid) {
+        this.ccid = ccid == null ? null : ccid.trim();
     }
 
-    public Double getaRetatiling() {
-        return aRetatiling;
+    public Double getaRetailing() {
+        return aRetailing;
     }
 
-    public void setaRetatiling(Double aRetatiling) {
-        this.aRetatiling = aRetatiling;
+    public void setaRetailing(Double aRetailing) {
+        this.aRetailing = aRetailing;
     }
 
     public Double getbEngineering() {
@@ -165,28 +189,28 @@ public class YLcontract_v2015 {
         this.m12 = m12;
     }
 
-    public Double getStockPercent() {
-        return stockPercent;
+    public Double getStockpercent() {
+        return stockpercent;
     }
 
-    public void setStockPercent(Double stockPercent) {
-        this.stockPercent = stockPercent;
+    public void setStockpercent(Double stockpercent) {
+        this.stockpercent = stockpercent;
     }
 
-    public Double getRewardPercent() {
-        return rewardPercent;
+    public Double getRewordpercent() {
+        return rewordpercent;
     }
 
-    public void setRewardPercent(Double rewardPercent) {
-        this.rewardPercent = rewardPercent;
+    public void setRewordpercent(Double rewordpercent) {
+        this.rewordpercent = rewordpercent;
     }
 
-    public Double getPayMinimum() {
-        return payMinimum;
+    public Double getPayminimum() {
+        return payminimum;
     }
 
-    public void setPayMinimum(Double payMinimum) {
-        this.payMinimum = payMinimum;
+    public void setPayminimum(Double payminimum) {
+        this.payminimum = payminimum;
     }
 
     public String getMemo2() {
@@ -194,15 +218,15 @@ public class YLcontract_v2015 {
     }
 
     public void setMemo2(String memo2) {
-        this.memo2 = memo2;
+        this.memo2 = memo2 == null ? null : memo2.trim();
     }
 
-    public String getPreferredBrand() {
-        return preferredBrand;
+    public String getPreferedbrand() {
+        return preferedbrand;
     }
 
-    public void setPreferredBrand(String preferredBrand) {
-        this.preferredBrand = preferredBrand;
+    public void setPreferedbrand(String preferedbrand) {
+        this.preferedbrand = preferedbrand == null ? null : preferedbrand.trim();
     }
 
     public String getPrivateAccountAuthed() {
@@ -210,14 +234,44 @@ public class YLcontract_v2015 {
     }
 
     public void setPrivateAccountAuthed(String privateAccountAuthed) {
-        this.privateAccountAuthed = privateAccountAuthed;
+        this.privateAccountAuthed = privateAccountAuthed == null ? null : privateAccountAuthed.trim();
     }
 
-    public Double getRewardPercent2() {
-        return rewardPercent2;
+    public Double getRewordpercent2() {
+        return rewordpercent2;
     }
 
-    public void setRewardPercent2(Double rewardPercent2) {
-        this.rewardPercent2 = rewardPercent2;
+    public void setRewordpercent2(Double rewordpercent2) {
+        this.rewordpercent2 = rewordpercent2;
+    }
+
+    @Override
+    public String toString() {
+        return "YLcontract_v2015{" +
+                "ccyear=" + ccyear +
+                ", ccid='" + ccid + '\'' +
+                ", aRetailing=" + aRetailing +
+                ", bEngineering=" + bEngineering +
+                ", cMatching=" + cMatching +
+                ", m1=" + m1 +
+                ", m2=" + m2 +
+                ", m3=" + m3 +
+                ", m4=" + m4 +
+                ", m5=" + m5 +
+                ", m6=" + m6 +
+                ", m7=" + m7 +
+                ", m8=" + m8 +
+                ", m9=" + m9 +
+                ", m10=" + m10 +
+                ", m11=" + m11 +
+                ", m12=" + m12 +
+                ", stockpercent=" + stockpercent +
+                ", rewordpercent=" + rewordpercent +
+                ", payminimum=" + payminimum +
+                ", memo2='" + memo2 + '\'' +
+                ", preferedbrand='" + preferedbrand + '\'' +
+                ", privateAccountAuthed='" + privateAccountAuthed + '\'' +
+                ", rewordpercent2=" + rewordpercent2 +
+                '}';
     }
 }

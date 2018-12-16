@@ -1,5 +1,6 @@
 import com.yulan.dao.CustomerInfoDao;
 import com.yulan.dao.UserDao;
+import com.yulan.dao.YLcontractentryDao;
 import com.yulan.pojo.CustomerInfoCard;
 import com.yulan.pojo.YLcontract_v2015_paa;
 import com.yulan.service.CustomerInfoService;
@@ -20,6 +21,8 @@ public class UserTest {
     private CustomerInfoDao customerInfoDao;
     @Autowired
     private CustomerInfoService customerInfoService;
+    @Autowired
+    private YLcontractentryDao yLcontractentryDao;
 
     private CustomerInfoCard customerInfoCard;
 
@@ -61,6 +64,7 @@ public class UserTest {
         //System.out.println(customerInfoDao.getYLcontract("C06030"));*/
  //    yLcontract_v2015_paa = new YLcontract_v2015_paa(2020,"123","张三","邮政储蓄银行");
   //    System.out.println(customerInfoService.createYLcontract(yLcontract_v2015_paa));
+        System.out.println(yLcontractentryDao.getYLcontract_v2015("C12020"));
     }
 
 }
