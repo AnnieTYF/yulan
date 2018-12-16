@@ -61,4 +61,8 @@
         select TEST from YLCONTRACTENTRY_SHOW WHERE ID =#{ID}
     </select>
 
+    <select id="getYLcontractentry" parameterType="java.util.Map" resultType="YLcontractentry">
+        select * from ( select * from YLCONTRACTENTRY t where t.cid=#{CID} ORDER BY t.cyear desc )WHERE ROWNUM =1
+    </select>
+
 </mapper>

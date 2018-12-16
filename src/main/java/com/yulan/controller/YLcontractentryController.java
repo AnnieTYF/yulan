@@ -57,11 +57,22 @@ public class YLcontractentryController {
         }
     }
 
+    /**
+     * 获得协议书的HTML
+     * @param data
+     * @return
+     */
     @RequestMapping(value = "getYLcontractHTML")
     @ResponseBody
-    public Map getYLcontractHTML(@RequestBody Map<String,Object> data){
+    public Map getYLcontractHTML(@RequestBody Map<String,Object> data)throws IOException{
+        String cid = (String)data.get("cid");
+        String yLcontractHTML = yLcontractentryService.getYLcontractHTML(cid);
+        if(yLcontractHTML.equals("") || yLcontractHTML == null){
+            return response.getResponseMap(1,"没有相关协议书" ,null);
+        }else{
+            return response.getResponseMap(0,"SUCCESS" ,yLcontractHTML);
+        }
 
-        return null;
     }
 
 }

@@ -1,6 +1,7 @@
 package com.yulan.dao;
 
 import com.yulan.pojo.YLcontract_v2015;
+import com.yulan.pojo.YLcontractentry;
 import com.yulan.pojo.YLcontractentryShow;
 import org.apache.ibatis.annotations.Param;
 
@@ -11,5 +12,7 @@ public interface YLcontractentryDao {
     boolean createYLcontract_v2015(YLcontract_v2015 yLcontract_v2015);
 
     YLcontractentryShow getYLcontractHTML(@Param("ID") Integer ID);
+
+    YLcontractentry getYLcontractentry(@Param("CID") String cid);
 
 }

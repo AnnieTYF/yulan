@@ -4,6 +4,7 @@ import com.yulan.dao.YLcontractentryDao;
 import com.yulan.pojo.CustomerInfoCard;
 import com.yulan.pojo.YLcontract_v2015_paa;
 import com.yulan.service.CustomerInfoService;
+import com.yulan.service.YLcontractentryService;
 import com.yulan.utils.MapUtils;
 import com.yulan.utils.StringUtil;
 import org.junit.Test;
@@ -31,6 +32,8 @@ public class UserTest {
     private StringUtil stringUtil;
 
     private YLcontract_v2015_paa yLcontract_v2015_paa;
+    @Autowired
+    private YLcontractentryService yLcontractentryService;
 
     @Test
     public void test1() throws Exception{
@@ -65,7 +68,8 @@ public class UserTest {
  //    yLcontract_v2015_paa = new YLcontract_v2015_paa(2020,"123","张三","邮政储蓄银行");
   //    System.out.println(customerInfoService.createYLcontract(yLcontract_v2015_paa));
     //    System.out.println(yLcontractentryDao.getYLcontract_v2015("C12020"));
-        System.out.println(yLcontractentryDao.getYLcontractHTML(1));
+ //       System.out.println(yLcontractentryDao.getYLcontractHTML(1));
+        System.out.println(yLcontractentryService.getYLcontractHTML("C15056"));
     }
 
 }

@@ -1,3 +1,4 @@
+/*
 import com.yulan.service.YLcontractentryService;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -24,3 +25,4 @@ public class YLcontractentryDao {
     }
 
 }
+*/

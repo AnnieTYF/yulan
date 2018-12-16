@@ -93,6 +93,9 @@ public class StringUtil {
 			if(replaces.size()<i+1) {
 				break;
 			}
+			if(replaces.get(i)==null) {
+				replaces.add(i,"");
+			}
 			String replace = replaces.get(i).toString();
 			result = result.replaceFirst(beReplaced,replace);
 			i++;

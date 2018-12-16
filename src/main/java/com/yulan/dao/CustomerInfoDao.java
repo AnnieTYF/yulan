@@ -4,6 +4,9 @@ import com.yulan.pojo.CustomerInfoCard;
 import com.yulan.pojo.YLcontract_v2015_paa;
 import org.apache.ibatis.annotations.Param;
 
+import java.util.List;
+import java.util.Map;
+
 public interface CustomerInfoDao {
 
     /**
@@ -37,6 +40,14 @@ public interface CustomerInfoDao {
    String getXAreaDistrictName(@Param("REGION_ID") String xAreaDistrict3);
 
    String getXDistrict(@Param("DISTRICT_ID") String xDistrict);
+
+    List<Map> getInfoBySate(@Param("year")String year);
+
+    int count(@Param("year")String year);
+
+    List<Map<String,Object>> getInfobyStateandmarketName(@Param("start")Integer start, @Param("number") Integer number,@Param("year")String year);
+
+
 
 
 }

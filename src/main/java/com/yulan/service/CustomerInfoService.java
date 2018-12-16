@@ -4,6 +4,8 @@ import com.yulan.pojo.CustomerInfoCard;
 import com.yulan.pojo.YLcontract_v2015_paa;
 
 import java.io.IOException;
+import java.io.UnsupportedEncodingException;
+import java.util.Map;
 
 public interface CustomerInfoService {
 
@@ -21,4 +23,8 @@ public interface CustomerInfoService {
     String getXAreaDistrictName(String getXAreaDistrict3Name)throws IOException;
 
     String getXDistrict(String xDistrict)throws IOException;
+
+    Map getInfobyStateandmarketName(Integer start, Integer number, String year) throws UnsupportedEncodingException;
+
+    Map<String, Object> showStateEchart(String year);
 }
