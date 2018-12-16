@@ -9,6 +9,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.multipart.MultipartFile;
 
@@ -25,18 +26,38 @@ public class CustomerInfoController {
     private Response response;
 
     private static final String CUSTOMER_DIRECTORY = "/customer-image";
+    private static final String YLcontract_Directory = "/YLcontract-image";
 
+    /**
+     * 文件上传接口，有两个值一个是上传的文件，一个是文件类型
+     * 文件类型有两种，一种是Customer , 一种是YLcontract
+     * @param file
+     * @param imgType
+     * @return
+     */
     @RequestMapping("upload")
     @ResponseBody
-    public Map uploadImg(MultipartFile file){
-        Map<String,Object> value = FileUpload.copyCustomerImg(file);
-        String name = (String) value.get("fileName");
-        String msg = value.get("code").equals("SUCCESS")?"":"上传失败";
-        int code = value.get("code").equals("SUCCESS")?0:1;
-
+    public Map uploadImg(@RequestParam("file") MultipartFile file, @RequestParam("imgType") String imgType){
+        int code = 0;
+        String msg = null;
         Map<String,Object> data = new HashMap<>(2);
-        data.put("path",CUSTOMER_DIRECTORY + "/" + name);
-        data.put("type",value.get("fileType"));
+
+        if(imgType.equals("Customer")){
+            Map<String,Object> value = FileUpload.copyCustomerImg(file);
+            String name = (String) value.get("fileName");
+            msg = value.get("code").equals("SUCCESS")?"":"上传失败";
+            code = value.get("code").equals("SUCCESS")?0:1;
+            data.put("path",CUSTOMER_DIRECTORY + "/" + name);
+            data.put("type",value.get("fileType"));
+
+        }else if(imgType.equals("YLcontract")){
+            Map<String,Object> value = FileUpload.copyYLcontractImg(file);
+            String name = (String) value.get("fileName");
+            msg = value.get("code").equals("SUCCESS")?"":"上传失败";
+            code = value.get("code").equals("SUCCESS")?0:1;
+            data.put("path",YLcontract_Directory + "/" + name);
+            data.put("type",value.get("fileType"));
+        }
 
         Map<String,Object> result = new HashMap<>(3);
         result.put("code",code);

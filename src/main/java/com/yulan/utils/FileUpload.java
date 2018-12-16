@@ -18,16 +18,17 @@ public class FileUpload {
 //    private final static String PATH = "D:/Application/apache-tomcat-main/upload";
 //    private final static String PATH = "C:/rongbin-tomcat/apache-tomcat-main/upload";
 //    private final static String PATH = "E:/服务器目录/apache-tomcat-first/upload";
+//    private final static String PATH = "D:/tomcat/apache-tomcat-8.0.0/upload";
+    //服务器路径
     private final static String PATH = "C:/servers/apache-tomcat1/upload";
-    private final static String BANNER_PATH = "/banner-image/";
-    private final static String BANNER_PC_PATH = "/banner-pc-image/";
-    private final static String UEDITOR_IMAGE_PATH = "/ueditor/image/";
     private final static String CUSTOMER_IMAGE_PATH = "/customer-image/";
+    private final static String YLCONTRACT_IMAGE_PATH = "/YLcontract-image/";
 
     public static Map<String,Object> copyFile(MultipartFile file, String path) {
         String type = file.getContentType();
-        String typeValue = type.substring(type.lastIndexOf('/')+1);
-        String fileName = System.currentTimeMillis()+"-"+file.hashCode()+"-"+(int)(100000000000000000L*Math.random())+"."+typeValue;
+  //      String typeValue = type.substring(type.lastIndexOf('/')+1);
+  //      String fileName = System.currentTimeMillis()+"-"+file.hashCode()+"-"+(int)(100000000000000000L*Math.random())+"."+typeValue;
+        String fileName = file.getOriginalFilename();
         String filePath = path+fileName;
         String code = "SUCCESS";
 
@@ -76,17 +77,12 @@ public class FileUpload {
         return result;
     }
 
-    public static Map<String,Object> copyBannerPC(MultipartFile file) {
-        Map<String,Object> result = copyFile(file,PATH + BANNER_PC_PATH);
-        result.put("relativePath" , BANNER_PATH);
+    public static Map<String,Object> copyYLcontractImg(MultipartFile file) {
+        Map<String,Object> result = copyFile(file,PATH + YLCONTRACT_IMAGE_PATH);
+        result.put("relativePath" , YLCONTRACT_IMAGE_PATH);
         return result;
     }
 
-    public static Map<String,Object> copyUeditorImage(MultipartFile file) {
-        Map<String,Object> result = copyFile(file,PATH + UEDITOR_IMAGE_PATH);
-        result.put("relativePath",UEDITOR_IMAGE_PATH + result.get("fileName"));
-        return result;
-    }
 
 
     public static void deleteFile(String deletePath, String filePath) {
@@ -100,7 +96,7 @@ public class FileUpload {
         }
     }
 
-    public static void deleteBanner(String relativePath) {
+   /* public static void deleteBanner(String relativePath) {
         deleteFile(PATH,relativePath);
     }
 
@@ -110,6 +106,6 @@ public class FileUpload {
 
     public static void deleteTeacherImg(String relativePath){
         deleteFile(PATH,relativePath);
-    }
+    }*/
 
 }
