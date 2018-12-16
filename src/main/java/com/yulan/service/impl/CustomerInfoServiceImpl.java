@@ -39,7 +39,7 @@ public class CustomerInfoServiceImpl implements CustomerInfoService {
             }
  //           System.out.println("Key = " + entry.getKey() + ", Value = " + entry.getValue());
         }
-        return mapUtils.mapToBean(map ,CustomerInfoCard.class);
+        return mapUtils.mapToBean(map ,customerInfoCard);
     }
 
     @Override
@@ -108,6 +108,44 @@ public class CustomerInfoServiceImpl implements CustomerInfoService {
         map.put("data",list2);
         map.put("count",customerInfoDao.count(year));
         return map;
+    }
+
+    @Override
+    public List<Map<String,Object>> getAllStates() {
+        List<Map<String,Object>> list=customerInfoDao.getAllStates();
+        List<Map<String,Object>> states=new ArrayList<>();
+        for (Map m:list){
+            Map<String,Object> map=new HashMap<>();
+            map.put("id",m.get("STATE"));
+            switch (m.get("STATE").toString()){
+                case "ONCREATE":
+                    map.put("name","初始状态");
+                    break;
+                case "CUSTOMERPORCESSING":
+
+                    map.put("name","客户填写中");
+                    break;
+                case "CUSTOMERPORCESSING2":
+
+                    map.put("name","客户修改中");
+                    break;
+                case "BUSINESSCHECKING":
+
+                    map.put("name","业务员审核中");
+                    break;
+                case "APPROVED":
+
+                    map.put("name","已通过");
+                    break;
+                case "BIILDEPCHECKING":
+
+                    map.put("name","订单部审核");
+                    break;
+                default:break;
+            }
+            states.add(map);
+        }
+        return states;
     }
 
 
