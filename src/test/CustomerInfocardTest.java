@@ -1,7 +1,4 @@
-/*
-import com.yulan.dao.CustomerinfocardgroupDao;
-import com.yulan.pojo.Customerinfocardgroup;
-import com.yulan.utils.StringUtil;
+import com.yulan.dao.CustomerInfoDao;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -9,21 +6,22 @@ import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
 import java.io.UnsupportedEncodingException;
-import java.util.List;
 
 @RunWith(SpringJUnit4ClassRunner.class)
 @ContextConfiguration(locations = {"classpath:applicationContext.xml"})
-public class CustomerinfocardgroupTest {
+public class CustomerInfocardTest {
     @Autowired
-    private CustomerinfocardgroupDao customerinfocardgroupDao;
+    private CustomerInfoDao customerInfoDao;
 
     @Test
     public void test1() throws UnsupportedEncodingException {
+//        List<Map<String, Object>> list=customerInfoDao.getInfobyStateandmarketName();
+//        for (Map m:list){
+//            System.out.println(m.get("STATE"));
+//
+//        }
 
-        List<Customerinfocardgroup> list=customerinfocardgroupDao.getCustomerinfocardgroups(1,10, StringUtil.setUtf8("2017年"),0);
-        for (Customerinfocardgroup c:list){
-            System.out.println(c.getDescp());
-        }
+
+
     }
 }
-*/
