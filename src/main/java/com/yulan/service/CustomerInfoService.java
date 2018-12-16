@@ -17,4 +17,8 @@ public interface CustomerInfoService {
     boolean updateCustomerInfo(CustomerInfoCard customerInfoCard)throws IOException;
 
     boolean createYLcontract(YLcontract_v2015_paa yLcontract_v2015_paa) throws IOException;
+
+    String getXAreaDistrictName(String getXAreaDistrict3Name)throws IOException;
+
+    String getXDistrict(String xDistrict)throws IOException;
 }

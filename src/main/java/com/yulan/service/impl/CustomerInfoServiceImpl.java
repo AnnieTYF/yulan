@@ -50,10 +50,8 @@ public class CustomerInfoServiceImpl implements CustomerInfoService {
     @Override
     public YLcontract_v2015_paa getYLcontract(String cCID) throws  IOException{
         if(customerInfoDao.getYLcontract(cCID)== null){
-            System.out.println("123");
             return null;
         }else{
-            System.out.println("321");
             yLcontract_v2015_paa = customerInfoDao.getYLcontract(cCID);
             Map<String, Object> map = new HashMap<String, Object>();
             map = mapUtils.beanToMap(yLcontract_v2015_paa);
@@ -103,5 +101,25 @@ public class CustomerInfoServiceImpl implements CustomerInfoService {
 
         yLcontract_v2015_paa = mapUtils.mapToBean(map,YLcontract_v2015_paa.class);
         return customerInfoDao.insertYLcontract(yLcontract_v2015_paa);
+    }
+
+    @Override
+    public String getXDistrict(String xDistrict) throws IOException {
+        if(customerInfoDao.getXDistrict(xDistrict).equals("") || customerInfoDao.getXDistrict(xDistrict) == null){
+            return null;
+        }else{
+            xDistrict = stringUtil.getUtf8(customerInfoDao.getXDistrict(xDistrict));
+            return xDistrict;
+        }
+    }
+
+    @Override
+    public String getXAreaDistrictName(String getXAreaDistrict3Name) throws IOException {
+        if(customerInfoDao.getXAreaDistrictName(getXAreaDistrict3Name).equals("") || customerInfoDao.getXAreaDistrictName(getXAreaDistrict3Name) == null){
+            return null;
+        }else{
+            getXAreaDistrict3Name = stringUtil.getUtf8(customerInfoDao.getXAreaDistrictName(getXAreaDistrict3Name));
+            return getXAreaDistrict3Name;
+        }
     }
 }

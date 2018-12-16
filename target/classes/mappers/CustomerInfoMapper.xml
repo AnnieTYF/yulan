@@ -196,4 +196,12 @@
         where CID = #{cid,jdbcType=VARCHAR}
   </update>
 
+    <select id="getXAreaDistrictName" parameterType="java.util.Map" resultType="string">
+        select REGION_NAME from AREA_REGION WHERE REGION_ID =#{REGION_ID}
+    </select>
+
+    <select id="getXDistrict" parameterType="java.util.Map" resultType="string">
+        select DISTRICT_NAME from AREA_DISTRICT WHERE DISTRICT_ID =#{DISTRICT_ID}
+    </select>
+
 </mapper>

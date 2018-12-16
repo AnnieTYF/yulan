@@ -136,7 +136,33 @@ public class CustomerInfoController {
         }
     }
 
-    /*
-    上传照片
+    /**
+     * 经销授权书接口
+     * @param data
+     * @return
+     * @throws IOException
      */
+    @RequestMapping(value = "getAuthorization")
+    @ResponseBody
+    public Map getAuthorization(@RequestBody Map<String,Object> data)throws IOException{
+        Map<String,Object> map = new HashMap<>();
+        //省
+        String xDistrict = (String)data.get("xDistrict");
+        xDistrict = customerInfoService.getXDistrict(xDistrict);
+        //市
+        String xAreaDistrict2 = (String)data.get("xAreaDistrict2");
+        xAreaDistrict2 = customerInfoService.getXAreaDistrictName(xAreaDistrict2);
+
+        //县
+        String xAreaDistrict3 = (String)data.get("xAreaDistrict3");
+        xAreaDistrict3 = customerInfoService.getXAreaDistrictName(xAreaDistrict3);
+
+        map.put("xDistrict",xDistrict);
+        map.put("xAreaDistrict2",xAreaDistrict2);
+        map.put("xAreaDistrict3",xAreaDistrict3);
+
+        return  map;
+    }
+
+
 }
