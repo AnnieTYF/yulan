@@ -39,7 +39,7 @@ public class CustomerInfoServiceImpl implements CustomerInfoService {
             }
  //           System.out.println("Key = " + entry.getKey() + ", Value = " + entry.getValue());
         }
-        return mapUtils.mapToBean(map ,customerInfoCard);
+        return mapUtils.mapToBean(map ,CustomerInfoCard.class);
     }
 
     @Override
